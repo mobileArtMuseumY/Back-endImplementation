@@ -3,6 +3,15 @@ package com.sparrow.museumofart.dao.entity;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
+/**
+ * @program: artMesuem
+ *
+ * @description: 数据库对象
+ *
+ * @author: smallsoup
+ *
+ * @create: 2018/6/24
+ **/
 public class Project {
 	
 	/**
@@ -11,54 +20,54 @@ public class Project {
 	private long id;
 	
 	/**
-	 * ��ҵid
+	 * 企业id
 	 */
-	private long business_id;
+	private long businessId;
 	
 	/**
-	 * ��ҵ����
+	 * 项目名称
 	 */
-	private String project_name;
+	private String projectName;
 	
 	/**
-	 *��Ŀ����
+	 *项目描述
 	 */
-	private String project_description;
+	private String projectDescription;
 	
 	/**
-	 * ��Ŀ״̬
+	 * 项目状态,0 1
 	 */
-	private int project_status;
+	private int isVarified;
 	
 	/**
-	 * Ԥ��
+	 *预算
 	 */
 	private BigDecimal budget;
 	
 	/**
-	 * Ͷ��ʱ��
+	 * 投标时间
 	 */
-	private Timestamp tender_period;
+	private int tenderPeriod;
 	
 	/**
-	 * Ԥ�����ʱ��
+	 * 预计完成时间
 	 */
-	private Timestamp expected_time;
+	private int expectedTime;
 	
 	/**
-	 * ʵ�����ʱ��
+	 * 实际完成时间
 	 */
-	private Timestamp finish_time;
+	private Timestamp finishTime;
 	
 	/**
-	 * ����ʱ��
+	 * 创建时间
 	 */
-	private Timestamp gmt_create;
+	private Timestamp gmtCreate;
 	
 	/**
-	 * �޸�ʱ��
+	 * 修改时间
 	 */
-	private Timestamp gmt_modified;
+	private Timestamp gmtModified;
 
 	public long getId() {
 		return id;
@@ -68,36 +77,36 @@ public class Project {
 		this.id = id;
 	}
 
-	public long getBusiness_id() {
-		return business_id;
+	public long getBusinessId() {
+		return businessId;
 	}
 
-	public void setBusiness_id(long business_id) {
-		this.business_id = business_id;
+	public void setBusinessId(long businessId) {
+		this.businessId = businessId;
 	}
 
-	public String getProject_name() {
-		return project_name;
+	public String getProjectName() {
+		return projectName;
 	}
 
-	public void setProject_name(String project_name) {
-		this.project_name = project_name;
+	public void setProjectName(String projectName) {
+		this.projectName = projectName;
 	}
 
-	public String getProject_description() {
-		return project_description;
+	public String getProjectDescription() {
+		return projectDescription;
 	}
 
-	public void setProject_description(String project_description) {
-		this.project_description = project_description;
+	public void setProjectDescription(String projectDescription) {
+		this.projectDescription = projectDescription;
 	}
 
-	public int getProject_status() {
-		return project_status;
+	public int getIsVarified() {
+		return isVarified;
 	}
 
-	public void setProject_status(int project_status) {
-		this.project_status = project_status;
+	public void setIsVarified(int isVarified) {
+		this.isVarified = isVarified;
 	}
 
 	public BigDecimal getBudget() {
@@ -108,73 +117,62 @@ public class Project {
 		this.budget = budget;
 	}
 
-	public Timestamp getTender_period() {
-		return tender_period;
+
+	public Timestamp getFinishTime() {
+		return finishTime;
 	}
 
-	public void setTender_period(Timestamp tender_period) {
-		this.tender_period = tender_period;
+	public void setFinishTime(Timestamp finishTime) {
+		this.finishTime = finishTime;
 	}
 
-	public Timestamp getExpected_time() {
-		return expected_time;
+	public int getTenderPeriod() {
+		return tenderPeriod;
 	}
 
-	public void setExpected_time(Timestamp expected_time) {
-		this.expected_time = expected_time;
+	public void setTenderPeriod(int tenderPeriod) {
+		this.tenderPeriod = tenderPeriod;
 	}
 
-	public Timestamp getFinish_time() {
-		return finish_time;
+	public int getExpectedTime() {
+		return expectedTime;
 	}
 
-	public void setFinish_time(Timestamp finish_time) {
-		this.finish_time = finish_time;
+	public void setExpectedTime(int expectedTime) {
+		this.expectedTime = expectedTime;
 	}
 
-	public Timestamp getGmt_create() {
-		return gmt_create;
+	public Timestamp getGmtCreate() {
+		return gmtCreate;
 	}
 
-	public void setGmt_create(Timestamp gmt_create) {
-		this.gmt_create = gmt_create;
+	public void setGmtCreate(Timestamp gmtCreate) {
+		this.gmtCreate = gmtCreate;
 	}
 
-	public Timestamp getGmt_modified() {
-		return gmt_modified;
+	public Timestamp getGmtModified() {
+		return gmtModified;
 	}
 
-	public void setGmt_modified(Timestamp gmt_modified) {
-		this.gmt_modified = gmt_modified;
+	public void setGmtModified(Timestamp gmtModified) {
+		this.gmtModified = gmtModified;
 	}
 
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("Project [id=");
-		builder.append(id);
-		builder.append(", business_id=");
-		builder.append(business_id);
-		builder.append(", project_name=");
-		builder.append(project_name);
-		builder.append(", project_description=");
-		builder.append(project_description);
-		builder.append(", project_status=");
-		builder.append(project_status);
-		builder.append(", budget=");
-		builder.append(budget);
-		builder.append(", tender_period=");
-		builder.append(tender_period);
-		builder.append(", expected_time=");
-		builder.append(expected_time);
-		builder.append(", finish_time=");
-		builder.append(finish_time);
-		builder.append(", gmt_create=");
-		builder.append(gmt_create);
-		builder.append(", gmt_modified=");
-		builder.append(gmt_modified);
-		builder.append("]");
-		return builder.toString();
+		final StringBuilder sb = new StringBuilder("Project{");
+		sb.append("id=").append(id);
+		sb.append(", businessId=").append(businessId);
+		sb.append(", projectName='").append(projectName).append('\'');
+		sb.append(", projectDescription='").append(projectDescription).append('\'');
+		sb.append(", isVarified=").append(isVarified);
+		sb.append(", budget=").append(budget);
+		sb.append(", tenderPeriod=").append(tenderPeriod);
+		sb.append(", expectedTime=").append(expectedTime);
+		sb.append(", finishTime=").append(finishTime);
+		sb.append(", gmtCreate=").append(gmtCreate);
+		sb.append(", gmtModified=").append(gmtModified);
+		sb.append('}');
+		return sb.toString();
 	}
-	
 }

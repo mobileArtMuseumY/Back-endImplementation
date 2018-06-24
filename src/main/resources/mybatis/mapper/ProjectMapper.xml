@@ -7,10 +7,10 @@
 
 	<insert id="addProject" parameterType="Project">
 		insert into
-		project(business_id, project_name,
-		project_description,project_status,budget,tender_period,expected_time,finish_time,gmt_create,gmt_modified)
-		values(#{business_id}, #{project_name}, #{project_description},
-		#{project_status}, #{budget},
-		#{tender_period},#{expected_time},#{finish_time},#{gmt_create},#{gmt_modified})
+		project(id, business_id, project_name,
+		project_description,is_varied,budget,tender_period,expected_time,finish_time,gmt_create,gmt_modified)
+		values(#{id}, #{businessId}, #{projectName}, #{projectDescription},
+		#{isVarified}, #{budget},
+		#{tenderPeriod},#{expectedTime},#{finishTime},#{gmtCreate},#{gmtModified})
 	</insert>
 </mapper>

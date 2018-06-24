@@ -1,43 +1,52 @@
 package com.sparrow.museumofart.controller.vo;
 
+/**
+ * @program: artMesuem
+ *
+ * @description: 前端到后端的数据接受对象
+ *
+ * @author: smallsoup
+ *
+ * @create: 2018/6/24
+ **/
 public class ProjectVo {
 
-	private String project_name;
-	
-	private String project_description;
-	
-	private String tender_period;
-	
+	private String projectName;
+
+	private String projectDescription;
+
+	private String tenderPeriod;
+
 	private String budget;
-	
-	private String expected_time;
-	
-	private String attachment_list;
-	
-	private String skill_list;
 
-	public String getProject_name() {
-		return project_name;
+	private String expectedTime;
+
+	private String attachmentList;
+
+	private String skillList;
+
+	public String getProjectName() {
+		return projectName;
 	}
 
-	public void setProject_name(String project_name) {
-		this.project_name = project_name;
+	public void setProjectName(String projectName) {
+		this.projectName = projectName;
 	}
 
-	public String getProject_description() {
-		return project_description;
+	public String getProjectDescription() {
+		return projectDescription;
 	}
 
-	public void setProject_description(String project_description) {
-		this.project_description = project_description;
+	public void setProjectDescription(String projectDescription) {
+		this.projectDescription = projectDescription;
 	}
 
-	public String getTender_period() {
-		return tender_period;
+	public String getTenderPeriod() {
+		return tenderPeriod;
 	}
 
-	public void setTender_period(String tender_period) {
-		this.tender_period = tender_period;
+	public void setTenderPeriod(String tenderPeriod) {
+		this.tenderPeriod = tenderPeriod;
 	}
 
 	public String getBudget() {
@@ -48,49 +57,41 @@ public class ProjectVo {
 		this.budget = budget;
 	}
 
-	public String getExpected_time() {
-		return expected_time;
+	public String getExpectedTime() {
+		return expectedTime;
 	}
 
-	public void setExpected_time(String expected_time) {
-		this.expected_time = expected_time;
+	public void setExpectedTime(String expectedTime) {
+		this.expectedTime = expectedTime;
 	}
 
-	public String getAttachment_list() {
-		return attachment_list;
+	public String getAttachmentList() {
+		return attachmentList;
 	}
 
-	public void setAttachment_list(String attachment_list) {
-		this.attachment_list = attachment_list;
+	public void setAttachmentList(String attachmentList) {
+		this.attachmentList = attachmentList;
 	}
 
-	public String getSkill_list() {
-		return skill_list;
+	public String getSkillList() {
+		return skillList;
 	}
 
-	public void setSkill_list(String skill_list) {
-		this.skill_list = skill_list;
+	public void setSkillList(String skillList) {
+		this.skillList = skillList;
 	}
 
 	@Override
 	public String toString() {
-		StringBuilder builder = new StringBuilder();
-		builder.append("ProjectVo [project_name=");
-		builder.append(project_name);
-		builder.append(", project_description=");
-		builder.append(project_description);
-		builder.append(", tender_period=");
-		builder.append(tender_period);
-		builder.append(", budget=");
-		builder.append(budget);
-		builder.append(", expected_time=");
-		builder.append(expected_time);
-		builder.append(", attachment_list=");
-		builder.append(attachment_list);
-		builder.append(", skill_list=");
-		builder.append(skill_list);
-		builder.append("]");
-		return builder.toString();
+		final StringBuilder sb = new StringBuilder("ProjectVo{");
+		sb.append("projectName='").append(projectName).append('\'');
+		sb.append(", projectDescription='").append(projectDescription).append('\'');
+		sb.append(", tenderPeriod='").append(tenderPeriod).append('\'');
+		sb.append(", budget='").append(budget).append('\'');
+		sb.append(", expectedTime='").append(expectedTime).append('\'');
+		sb.append(", attachmentList='").append(attachmentList).append('\'');
+		sb.append(", skillList='").append(skillList).append('\'');
+		sb.append('}');
+		return sb.toString();
 	}
-	
 }

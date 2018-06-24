@@ -7,9 +7,9 @@
     <!-- 定义数据源Bean -->
     <!-- Druid -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="url" value="jdbc:mysql://localhost:3306/museumofart" />
-        <property name="username" value="root" />
-        <property name="password" value="mysql" />
+        <property name="url" value="jdbc:mysql://120.79.147.88:8001/museum_of_art_Test" />
+        <property name="username" value="honey" />
+        <property name="password" value="honey" />
     </bean>
 
     <!-- 注册SqlSessionFactoryBean -->
