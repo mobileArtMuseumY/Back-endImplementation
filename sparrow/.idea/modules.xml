@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/artmuseum-common/artmuseum-common.iml" filepath="$PROJECT_DIR$/artmuseum-common/artmuseum-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmuseum-manage/artmuseum-manage.iml" filepath="$PROJECT_DIR$/artmuseum-manage/artmuseum-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmuseum-manage-controller/artmuseum-manage-controller.iml" filepath="$PROJECT_DIR$/artmuseum-manage-controller/artmuseum-manage-controller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmuseum-manage-dao/artmuseum-manage-dao.iml" filepath="$PROJECT_DIR$/artmuseum-manage-dao/artmuseum-manage-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmuseum-manage-pojo/artmuseum-manage-pojo.iml" filepath="$PROJECT_DIR$/artmuseum-manage-pojo/artmuseum-manage-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmuseum-manage-service/artmuseum-manage-service.iml" filepath="$PROJECT_DIR$/artmuseum-manage-service/artmuseum-manage-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmuseum-parent/artmuseum-parent.iml" filepath="$PROJECT_DIR$/artmuseum-parent/artmuseum-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mytest_one/mytest-dao/mytest-dao.iml" filepath="$PROJECT_DIR$/../mytest_one/mytest-dao/mytest-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mytest_one/mytest-model/mytest-model.iml" filepath="$PROJECT_DIR$/../mytest_one/mytest-model/mytest-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mytest_one/mytest-root.iml" filepath="$PROJECT_DIR$/../mytest_one/mytest-root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mytest_one/mytest-service/mytest-service.iml" filepath="$PROJECT_DIR$/../mytest_one/mytest-service/mytest-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../mytest_one/mytest-web/mytest-web.iml" filepath="$PROJECT_DIR$/../mytest_one/mytest-web/mytest-web.iml" />
+    </modules>
+  </component>
+</project>

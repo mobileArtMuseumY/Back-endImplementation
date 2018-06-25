@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="artmuseum-common" />
+        <module name="artmuseum-manage-controller" />
+        <module name="artmuseum-manage-dao" />
+        <module name="artmuseum-manage-pojo" />
+        <module name="artmuseum-manage-service" />
+        <module name="mytest-dao" />
+        <module name="mytest-model" />
+        <module name="mytest-service" />
+        <module name="mytest-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="artmuseum-common" target="1.7" />
+      <module name="artmuseum-manage" target="1.7" />
+      <module name="artmuseum-manage-controller" target="1.7" />
+      <module name="artmuseum-manage-dao" target="1.7" />
+      <module name="artmuseum-manage-pojo" target="1.7" />
+      <module name="artmuseum-manage-service" target="1.7" />
+      <module name="artmuseum-parent" target="1.7" />
+      <module name="artmuseum-pojo" target="1.7" />
+      <module name="mytest-dao" target="1.5" />
+      <module name="mytest-model" target="1.5" />
+      <module name="mytest-root" target="1.5" />
+      <module name="mytest-service" target="1.5" />
+      <module name="mytest-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

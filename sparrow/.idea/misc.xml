@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../mytest_one/mytest-web" />
+    <file type="web" url="file://$PROJECT_DIR$/artmuseum-manage-controller" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/artmuseum-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/artmuseum-common/pom.xml" />
+        <option value="$PROJECT_DIR$/artmuseum-manage/pom.xml" />
+        <option value="$PROJECT_DIR$/artmuseum-manage-pojo/pom.xml" />
+        <option value="$PROJECT_DIR$/artmuseum-manage-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/artmuseum-manage-service/pom.xml" />
+        <option value="$PROJECT_DIR$/artmuseum-manage-controller/pom.xml" />
+        <option value="$PROJECT_DIR$/../mytest_one/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

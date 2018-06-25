@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sparrow.artmuseum.dao.ProjectSkillMapper" >
+  <resultMap id="BaseResultMap" type="com.sparrow.artmuseum.pojo.ProjectSkill" >
+    <constructor >
+      <arg column="project_id" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="skill_id" jdbcType="BIGINT" javaType="java.lang.Long" />
+    </constructor>
+  </resultMap>
+  <insert id="insert" parameterType="com.sparrow.artmuseum.pojo.ProjectSkill" >
+    insert into project_skill (project_id, skill_id)
+    values (#{projectId,jdbcType=BIGINT}, #{skillId,jdbcType=BIGINT})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sparrow.artmuseum.pojo.ProjectSkill" >
+    insert into project_skill
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="projectId != null" >
+        project_id,
+      </if>
+      <if test="skillId != null" >
+        skill_id,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="projectId != null" >
+        #{projectId,jdbcType=BIGINT},
+      </if>
+      <if test="skillId != null" >
+        #{skillId,jdbcType=BIGINT},
+      </if>
+    </trim>
+  </insert>
+</mapper>

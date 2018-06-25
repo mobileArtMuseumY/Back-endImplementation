@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.sparrow.artmuseum.dao.ProjectMapper" >
+  <resultMap id="BaseResultMap" type="com.sparrow.artmuseum.pojo.Project" >
+    <constructor >
+      <idArg column="id" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="business_id" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="project_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="project_description" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="is_varied" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="budget" jdbcType="DECIMAL" javaType="java.lang.Long" />
+      <arg column="tender_period" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="expected_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="finish_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="gmt_create" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="gmt_modified" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, business_id, project_name, project_description, is_varied, budget, tender_period, 
+    expected_time, finish_time, gmt_create, gmt_modified
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from project
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from project
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.sparrow.artmuseum.pojo.Project" >
+    insert into project (id, business_id, project_name, 
+      project_description, is_varied, budget, 
+      tender_period, expected_time, finish_time, 
+      gmt_create, gmt_modified)
+    values (#{id,jdbcType=BIGINT}, #{businessId,jdbcType=BIGINT}, #{projectName,jdbcType=VARCHAR}, 
+      #{projectDescription,jdbcType=VARCHAR}, #{isVaried,jdbcType=TINYINT}, #{budget,jdbcType=DECIMAL}, 
+      #{tenderPeriod,jdbcType=INTEGER}, #{expectedTime,jdbcType=INTEGER}, #{finishTime,jdbcType=TIMESTAMP}, 
+      #{gmtCreate,jdbcType=TIMESTAMP}, #{gmtModified,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sparrow.artmuseum.pojo.Project" >
+    insert into project
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="businessId != null" >
+        business_id,
+      </if>
+      <if test="projectName != null" >
+        project_name,
+      </if>
+      <if test="projectDescription != null" >
+        project_description,
+      </if>
+      <if test="isVaried != null" >
+        is_varied,
+      </if>
+      <if test="budget != null" >
+        budget,
+      </if>
+      <if test="tenderPeriod != null" >
+        tender_period,
+      </if>
+      <if test="expectedTime != null" >
+        expected_time,
+      </if>
+      <if test="finishTime != null" >
+        finish_time,
+      </if>
+      <if test="gmtCreate != null" >
+        gmt_create,
+      </if>
+      <if test="gmtModified != null" >
+        gmt_modified,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="businessId != null" >
+        #{businessId,jdbcType=BIGINT},
+      </if>
+      <if test="projectName != null" >
+        #{projectName,jdbcType=VARCHAR},
+      </if>
+      <if test="projectDescription != null" >
+        #{projectDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="isVaried != null" >
+        #{isVaried,jdbcType=TINYINT},
+      </if>
+      <if test="budget != null" >
+        #{budget,jdbcType=DECIMAL},
+      </if>
+      <if test="tenderPeriod != null" >
+        #{tenderPeriod,jdbcType=INTEGER},
+      </if>
+      <if test="expectedTime != null" >
+        #{expectedTime,jdbcType=INTEGER},
+      </if>
+      <if test="finishTime != null" >
+        #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtCreate != null" >
+        #{gmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtModified != null" >
+        #{gmtModified,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sparrow.artmuseum.pojo.Project" >
+    update project
+    <set >
+      <if test="businessId != null" >
+        business_id = #{businessId,jdbcType=BIGINT},
+      </if>
+      <if test="projectName != null" >
+        project_name = #{projectName,jdbcType=VARCHAR},
+      </if>
+      <if test="projectDescription != null" >
+        project_description = #{projectDescription,jdbcType=VARCHAR},
+      </if>
+      <if test="isVaried != null" >
+        is_varied = #{isVaried,jdbcType=TINYINT},
+      </if>
+      <if test="budget != null" >
+        budget = #{budget,jdbcType=DECIMAL},
+      </if>
+      <if test="tenderPeriod != null" >
+        tender_period = #{tenderPeriod,jdbcType=INTEGER},
+      </if>
+      <if test="expectedTime != null" >
+        expected_time = #{expectedTime,jdbcType=INTEGER},
+      </if>
+      <if test="finishTime != null" >
+        finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtCreate != null" >
+        gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtModified != null" >
+        gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sparrow.artmuseum.pojo.Project" >
+    update project
+    set business_id = #{businessId,jdbcType=BIGINT},
+      project_name = #{projectName,jdbcType=VARCHAR},
+      project_description = #{projectDescription,jdbcType=VARCHAR},
+      is_varied = #{isVaried,jdbcType=TINYINT},
+      budget = #{budget,jdbcType=DECIMAL},
+      tender_period = #{tenderPeriod,jdbcType=INTEGER},
+      expected_time = #{expectedTime,jdbcType=INTEGER},
+      finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+      gmt_modified = #{gmtModified,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>
