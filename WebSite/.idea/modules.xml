@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/website-common/website-common.iml" filepath="$PROJECT_DIR$/website-common/website-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website-dao/website-dao.iml" filepath="$PROJECT_DIR$/website-dao/website-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website-parent/website-parent.iml" filepath="$PROJECT_DIR$/website-parent/website-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website-platform/website-platform.iml" filepath="$PROJECT_DIR$/website-platform/website-platform.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website-pojo/website-pojo.iml" filepath="$PROJECT_DIR$/website-pojo/website-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/website-service/website-service.iml" filepath="$PROJECT_DIR$/website-service/website-service.iml" />
+    </modules>
+  </component>
+</project>
