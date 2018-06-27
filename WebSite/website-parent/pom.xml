@@ -12,34 +12,37 @@
     <!-- 集中定义依赖版本号 -->
     <properties>
         <junit.version>4.12</junit.version>
-        <spring.version>4.2.4.RELEASE</spring.version>
-        <mybatis.version>3.2.8</mybatis.version>
-        <mybatis-generator-core.version>1.3.5</mybatis-generator-core.version>
-        <mybatis.spring.version>1.2.2</mybatis.spring.version>
+        <spring.version>5.0.6.RELEASE</spring.version>
+        <spring-test.version>4.3.17.RELEASE</spring-test.version>
+        <mybatis.version>3.4.5</mybatis.version>
+        <mybatis-generator-core.version>1.3.6</mybatis-generator-core.version>
+        <mybatis.spring.version>1.3.1</mybatis.spring.version>
         <mybatis.paginator.version>1.2.15</mybatis.paginator.version>
-        <mysql.version>5.1.32</mysql.version>
-        <slf4j.version>1.6.4</slf4j.version>
-        <jackson.version>2.4.2</jackson.version>
-        <druid.version>1.0.9</druid.version>
-        <httpclient.version>4.3.5</httpclient.version>
+        <mysql.version>6.0.6</mysql.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <log4j-core.version>2.9.1</log4j-core.version>
+        <jackson.version>2.9.5</jackson.version>
+        <druid.version>1.1.10</druid.version>
+        <httpclient.version>4.5.3</httpclient.version>
         <jstl.version>1.2</jstl.version>
-        <servlet-api.version>2.5</servlet-api.version>
-        <jsp-api.version>2.0</jsp-api.version>
-        <joda-time.version>2.5</joda-time.version>
-        <commons-lang3.version>3.3.2</commons-lang3.version>
-        <commons-io.version>1.3.2</commons-io.version>
-        <commons-net.version>3.3</commons-net.version>
-        <pagehelper.version>3.4.2-fix</pagehelper.version>
-        <jsqlparser.version>0.9.1</jsqlparser.version>
+        <servlet-api.version>4.0.0</servlet-api.version>
+        <javax.servlet-api.version>3.1.0</javax.servlet-api.version>
+        <jsp-api.version>2.2</jsp-api.version>
+        <joda-time.version>2.9.9</joda-time.version>
+        <commons-lang3.version>3.7</commons-lang3.version>
+        <commons-io.version>2.4</commons-io.version>
+        <commons-net.version>3.6</commons-net.version>
+        <pagehelper.version>5.1.2</pagehelper.version>
+        <jsqlparser.version>1.1</jsqlparser.version>
         <commons-fileupload.version>1.3.1</commons-fileupload.version>
-        <jedis.version>2.7.2</jedis.version>
-        <solrj.version>4.10.3</solrj.version>
-        <dubbo.version>2.5.3</dubbo.version>
-        <zookeeper.version>3.4.7</zookeeper.version>
-        <zkclient.version>0.1</zkclient.version>
-        <activemq.version>5.11.2</activemq.version>
+        <jedis.version>2.9.0</jedis.version>
+        <solrj.version>7.4.0</solrj.version>
+        <dubbo.version>2.6.2</dubbo.version>
+        <zookeeper.version>3.4.12</zookeeper.version>
+        <zkclient.version>0.10</zkclient.version>
+        <activemq.version>5.15.4</activemq.version>
         <freemarker.version>2.3.23</freemarker.version>
-        <quartz.version>2.2.2</quartz.version>
+        <quartz.version>2.3.0</quartz.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -88,7 +91,13 @@
                 <groupId>junit</groupId>
                 <artifactId>junit</artifactId>
                 <version>${junit.version}</version>
-                <scope>test</scope>
+                <scope>scope</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring-test.version}</version>
+                <scope>scope</scope>
             </dependency>
             <!-- 日志处理 -->
             <dependency>
@@ -96,6 +105,13 @@
                 <artifactId>slf4j-log4j12</artifactId>
                 <version>${slf4j.version}</version>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+            <dependency>
+                <groupId>org.apache.logging.log4j</groupId>
+                <artifactId>log4j-core</artifactId>
+                <version>${log4j-core.version}</version>
+            </dependency>
+
             <!-- Mybatis -->
             <dependency>
                 <groupId>org.mybatis</groupId>
@@ -182,6 +198,12 @@
                 <groupId>javax.servlet</groupId>
                 <artifactId>servlet-api</artifactId>
                 <version>${servlet-api.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>javax.servlet</groupId>
+                <artifactId>javax.servlet-api</artifactId>
+                <version>${javax.servlet-api.version}</version>
                 <scope>provided</scope>
             </dependency>
             <dependency>

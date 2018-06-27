@@ -41,10 +41,10 @@ public class ProjectService implements ProjectServiceIn {
         //插入project_skill表数据
 
         ProjectSkill projectSkil=new ProjectSkill();
-/*数组的实现~
+//数组的实现~
         projectSkil.setProjectId(newProject.getId());
-        projectSkil.setSkillId()
-        */
+        projectSkil.setSkillId(Long.valueOf(project.getSkillList().charAt(1)));
+
         final int insert2 = projectSkillMapper.insert(projectSkil);
         if (insert1 == 0&&insert2==0) {
             return ServerResponse.createByFailure("发布项目失败");

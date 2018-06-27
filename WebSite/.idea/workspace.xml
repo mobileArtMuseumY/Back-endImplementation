@@ -38,12 +38,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+            <state relative-caret-position="116">
+              <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -51,74 +51,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectControllerTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/test/com/website/controller/ProjectControllerTest.java">
+      <file leaf-file-name="applicationContext-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-service.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1120">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
+            <state relative-caret-position="379">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mbgTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/creatmbg/mbgTest.java">
+      <file leaf-file-name="applicationContext-trans.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-trans.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1320">
+              <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectSkill.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectSkill.java">
+      <file leaf-file-name="applicationContext-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/applicationContext-dao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="66">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProjectServiceIn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/inter/ProjectServiceIn.java">
+      <file leaf-file-name="SqlMapConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/SqlMapConfig.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="5" selection-start-line="5" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Project.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-297">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ProjectVo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/vo/ProjectVo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-591">
-              <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
+            <state relative-caret-position="-55">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -126,8 +90,40 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website-platform/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="271">
-              <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
+            <state relative-caret-position="289">
+              <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4">
+              <caret line="102" selection-start-line="102" selection-end-line="106" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectControllerTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/test/com/website/controller/ProjectControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13">
+              <caret line="66" selection-start-line="66" selection-end-line="66" />
             </state>
           </provider>
         </entry>
@@ -148,6 +144,16 @@
       <find>p</find>
       <find>maven</find>
       <find>beans</find>
+      <find>jackson</find>
+      <find>jsp</find>
+      <find>acti</find>
+      <find>a</find>
+      <find>servle</find>
+      <find>ju</find>
+      <find>jun</find>
+      <find>javax.servlet-api</find>
+      <find>serv</find>
+      <find>log</find>
     </findStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -161,7 +167,6 @@
         <option value="$PROJECT_DIR$/website-platform/src/main/resources/spring/springmvc.xml" />
         <option value="$PROJECT_DIR$/website-platform/target/website-platform/WEB-INF/classes/conf/db.properties" />
         <option value="$PROJECT_DIR$/website-platform/src/main/resources/conf/db.properties" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/resources/applicationContext-dao.xml" />
         <option value="$PROJECT_DIR$/website-common/pom.xml" />
         <option value="$PROJECT_DIR$/website-dao/src/main/resources/db.properties" />
         <option value="$PROJECT_DIR$/website-service/src/main/resources/mybatis-generate-configure" />
@@ -169,7 +174,6 @@
         <option value="$PROJECT_DIR$/website-service/generatorConfiguration.xml" />
         <option value="$PROJECT_DIR$/website-pojo/src/main/java/Project.java" />
         <option value="$PROJECT_DIR$/website-pojo/src/main/java/util/Project.java" />
-        <option value="$PROJECT_DIR$/website-parent/pom.xml" />
         <option value="$PROJECT_DIR$/website-pojo/src/main/java/beans/ProjectMapper.java" />
         <option value="$PROJECT_DIR$/website-pojo/src/main/java/beans/ProjectAttachmentMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/pom.xml" />
@@ -181,7 +185,6 @@
         <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectMapper.xml" />
         <option value="$PROJECT_DIR$/website-service/src/test/publishProject.kt" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/publishProject.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/resources/applicationContext-service.xml" />
         <option value="$PROJECT_DIR$/website-service/src/main/resources/applicationContext-trans.xml" />
         <option value="$PROJECT_DIR$/website-service/src/test/java/publishProject.kt" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/MessageUtil.java" />
@@ -191,16 +194,21 @@
         <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/IDUtils.java" />
         <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/ResponseCode.java" />
         <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/ServerResponse.java" />
-        <option value="$PROJECT_DIR$/website-service/pom.xml" />
-        <option value="$PROJECT_DIR$/website-pojo/src/main/java/com/website/vo/ProjectVo.java" />
-        <option value="$PROJECT_DIR$/website-platform/pom.xml" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/inter/ProjectService.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectService.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/java/test/com/website/controller/ProjectControllerTest.java" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/mbgTest.java" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/mbgTest.java" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/creatmbg/mbgTest.java" />
+        <option value="$PROJECT_DIR$/website-pojo/src/main/java/com/website/vo/ProjectVo.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectService.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/test/com/website/controller/ProjectControllerTest.java" />
+        <option value="$PROJECT_DIR$/website-service/pom.xml" />
+        <option value="$PROJECT_DIR$/website-service/src/main/resources/applicationContext-service.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/resources/applicationContext-dao.xml" />
+        <option value="$PROJECT_DIR$/website-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/website-platform/pom.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -274,9 +282,9 @@
     <servers />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="width" value="993" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1348" />
+    <option name="width" value="579" />
     <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
@@ -284,6 +292,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,8 +325,7 @@
               <item name="website-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
@@ -325,6 +335,29 @@
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
@@ -366,20 +399,97 @@
             </path>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-service" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="inter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +497,7 @@
     <property name="android.sdk.path" value="C:/Soft/Android/AndroidSDK" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testssm" />
+    <property name="last_opened_file_path" value="D:/ssm/testlast/testssm" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -396,23 +506,23 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\ssm\testlast\WebSite\website-dao\src\main\resources\mapper" />
-      <recent name="D:\ssm\testlast\WebSite\website-dao\src\main\java\com\website\dao" />
-      <recent name="D:\ssm\testlast\WebSite\website-pojo\src\main\java\com\website\pojo" />
-      <recent name="D:\ssm\testlast\WebSite\website-service\src\test\java" />
-      <recent name="D:\ssm\testlast\WebSite\website-dao\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.website.common" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\WOEKSPACE-ikook\idea_java_code\WebSite\website-platform\src\main\resources\spring" />
       <recent name="C:\WOEKSPACE-ikook\idea_java_code\WebSite\website-platform\src\main\resources" />
       <recent name="C:\WOEKSPACE-ikook\idea_java_code\WebSite\website-platform\src\main\resources\mybatis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.website.common" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitcode\project\Back-endImplementation\WebSite\website-platform\src\main\resources\config" />
+      <recent name="D:\gitcode\project\Back-endImplementation\WebSite\website-platform\src\main\resources" />
+      <recent name="D:\gitcode\project\Back-endImplementation\WebSite\website-common\src\main\resources\com.log4j" />
+      <recent name="D:\ssm\testlast\WebSite\website-dao\src\main\resources\mapper" />
+      <recent name="D:\ssm\testlast\WebSite\website-dao\src\main\java\com\website\dao" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -427,7 +537,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.mbgTest">
+  <component name="RunManager" selected="JUnit.ProjectControllerTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -438,6 +548,52 @@
       <option name="MAIN_CLASS_NAME" value="creatmbg.mbgTest" />
       <module name="website-service" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="ProjectControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="website-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.website.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.website.controller" />
+      <option name="MAIN_CLASS_NAME" value="test.com.website.controller.ProjectControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ProjectControllerTest.testAddProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="website-platform" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.website.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="test.com.website.controller" />
+      <option name="MAIN_CLASS_NAME" value="test.com.website.controller.ProjectControllerTest" />
+      <option name="METHOD_NAME" value="testAddProject" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -553,9 +709,13 @@
     <list>
       <item itemvalue="Tomcat Server.Unnamed" />
       <item itemvalue="Application.mbgTest" />
+      <item itemvalue="JUnit.ProjectControllerTest.testAddProject" />
+      <item itemvalue="JUnit.ProjectControllerTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProjectControllerTest" />
+        <item itemvalue="JUnit.ProjectControllerTest.testAddProject" />
         <item itemvalue="Application.mbgTest" />
       </list>
     </recent_temporary>
@@ -584,52 +744,122 @@
       <workItem from="1529997306925" duration="2125000" />
       <workItem from="1530000037187" duration="12999000" />
       <workItem from="1530025343631" duration="6961000" />
+      <workItem from="1530062122602" duration="9339000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 09h 51m 13s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.27 at 09h 52m 28s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.27 at 09h 56m 08s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.27 at 09h 59m 37s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 10h 28m 54s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 10h 44m 55s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 11h 09m 26s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 11h 14m 01s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 11h 16m 01s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.27 at 11h 40m 29s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64032000" />
+    <option name="totallyTimeSpent" value="73371000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1079" y="0" width="463" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.33914208" side_tool="true" visible="true" weight="0.35185185" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.33914208" side_tool="true" weight="0.0" />
       <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
       <window_info anchor="right" id="Maven Projects" order="9" weight="0.3692946" />
       <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info active="true" id="Structure" order="1" side_tool="true" visible="true" weight="0.3802469" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32922733" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6608579" weight="0.35327634" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6608579" weight="0.11527377" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16487935" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.79611653" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info id="Learn" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3299712" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49798927" weight="0.33190882" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49798927" weight="0.33190882" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="Thumbnails" order="0" weight="0.3299712" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6608579" visible="true" weight="0.11527377" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info id="Capture Tool" order="8" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.33914208" side_tool="true" weight="0.0" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Maven Projects" order="9" weight="0.3692946" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49798927" weight="0.33190882" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.79611653" />
+      <window_info id="Learn" order="6" />
+      <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="right" id="Bean Validation" order="8" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -657,49 +887,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/log4j.properties">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/SqlMapConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/applicationContext-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-service/src/main/java/pom.xml" />
     <entry file="file://$PROJECT_DIR$/websitepojo/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/website-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-33">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/db.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -731,9 +923,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="891">
           <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -802,30 +991,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-service/src/main/java/publishProject.java" />
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-trans.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1320">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-service/src/test/java/publishProject.kt" />
     <entry file="file://$PROJECT_DIR$/website-service/src/test/java/MapperTest.java" />
     <entry file="file://$PROJECT_DIR$/website-service/src/main/java/MessageUtil.java" />
-    <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3963">
-          <caret line="217" column="38" selection-start-line="217" selection-start-column="38" selection-end-line="217" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -837,9 +1005,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -847,13 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="363">
           <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="15" selection-start-line="15" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -879,20 +1037,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="891">
-          <caret line="27" column="24" selection-start-line="27" selection-start-column="24" selection-end-line="27" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -903,44 +1051,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="6" selection-start-line="6" selection-end-line="8" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Project.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-297">
+        <state relative-caret-position="396">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/vo/ProjectVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-591">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="24" column="39" selection-start-line="24" selection-start-column="39" selection-end-line="24" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/inter/ProjectServiceIn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="99">
           <caret line="5" selection-start-line="5" selection-end-line="6" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -948,42 +1068,139 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectService.java">
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/test/creatmbg/mbgTestTest.java" />
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/creatmbg/mbgTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="207">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java">
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/vo/ProjectVo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+        <state relative-caret-position="330">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectSkill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-957">
+          <caret line="13" column="29" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-418">
+          <caret line="34" column="59" selection-start-line="34" selection-start-column="59" selection-end-line="34" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-946">
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-trans.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/SqlMapConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-55">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/applicationContext-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4">
+          <caret line="102" selection-start-line="102" selection-end-line="106" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="108" column="50" selection-start-line="108" selection-start-column="50" selection-end-line="108" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/test/com/website/controller/ProjectControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        <state relative-caret-position="13">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/test/creatmbg/mbgTestTest.java">
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-594" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/creatmbg/mbgTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+        <state relative-caret-position="116">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

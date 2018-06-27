@@ -57,21 +57,19 @@
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.11</version>
             <scope>scope</scope>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.springframework/spring-test -->
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-test</artifactId>
-            <version>4.3.17.RELEASE</version>
-            <scope>scope</scope>
-        </dependency>
+        <groupId>org.springframework</groupId>
+        <artifactId>spring-test</artifactId>
+        <scope>scope</scope>
+    </dependency>
 
 
 
         <!-- JSP相关 -->
-        <!--dependency>
+        <dependency>
             <groupId>jstl</groupId>
             <artifactId>jstl</artifactId>
         </dependency>
@@ -84,13 +82,31 @@
             <groupId>javax.servlet</groupId>
             <artifactId>jsp-api</artifactId>
             <scope>provided</scope>
-        </dependency-->
+        </dependency>
 
 
         <!-- 文件上传组件 -->
         <dependency>
             <groupId>commons-fileupload</groupId>
             <artifactId>commons-fileupload</artifactId>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api -->
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+
+        </dependency>
+
+        <!--log4配置-->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-log4j12</artifactId>
         </dependency>
 
 
