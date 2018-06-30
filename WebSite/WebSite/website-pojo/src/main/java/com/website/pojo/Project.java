@@ -11,7 +11,7 @@ public class Project {
 
     private String projectDescription;
 
-    private Byte isVaried;
+    private Byte isVerified;
 
     private Long budget;
 
@@ -25,23 +25,7 @@ public class Project {
 
     private Date gmtModified;
 
-    public Project(Long id, Long businessId, String projectName, String projectDescription, Byte isVaried, Long budget, Integer tenderPeriod, Integer expectedTime, Date finishTime, Date gmtCreate, Date gmtModified) {
-        this.id = id;
-        this.businessId = businessId;
-        this.projectName = projectName;
-        this.projectDescription = projectDescription;
-        this.isVaried = isVaried;
-        this.budget = budget;
-        this.tenderPeriod = tenderPeriod;
-        this.expectedTime = expectedTime;
-        this.finishTime = finishTime;
-        this.gmtCreate = gmtCreate;
-        this.gmtModified = gmtModified;
-    }
-
-    public Project() {
-        super();
-    }
+    private String skill;
 
     public Long getId() {
         return id;
@@ -75,12 +59,12 @@ public class Project {
         this.projectDescription = projectDescription == null ? null : projectDescription.trim();
     }
 
-    public Byte getIsVaried() {
-        return isVaried;
+    public Byte getIsVerified() {
+        return isVerified;
     }
 
-    public void setIsVaried(Byte isVaried) {
-        this.isVaried = isVaried;
+    public void setIsVerified(Byte isVerified) {
+        this.isVerified = isVerified;
     }
 
     public Long getBudget() {
@@ -129,5 +113,13 @@ public class Project {
 
     public void setGmtModified(Date gmtModified) {
         this.gmtModified = gmtModified;
+    }
+
+    public String getSkill() {
+        return skill;
+    }
+
+    public void setSkill(String skill) {
+        this.skill = skill;
     }
 }

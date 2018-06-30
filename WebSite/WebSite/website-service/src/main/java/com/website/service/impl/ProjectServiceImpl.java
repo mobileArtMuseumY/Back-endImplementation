@@ -11,13 +11,13 @@ import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
 import java.sql.Date;
 
-@Service
+@Service("iprojectService")
 public class ProjectServiceImpl implements IProjectService {
 
-    @Resource
+    @Resource(name = "projectMapper")
     private ProjectMapper projectMapper;
     //private ProjectSkillMapper projectSkillMapper;
-    private long businessId;
+    private long businessId=1111;
 
     @Override
     public  ServerResponse<String> addProject(ProjectDto project) {
@@ -29,7 +29,7 @@ public class ProjectServiceImpl implements IProjectService {
         newProject.setBusinessId(businessId);
         newProject.setProjectName(project.getProjectName());
         newProject.setProjectDescription(project.getProjectDescription());
-        newProject.setIsVaried(Byte.valueOf("1"));//1为审核未通过
+        newProject.setIsVerified(Byte.valueOf("1"));//1为审核未通过
         newProject.setBudget(Long.valueOf(project.getBudget()));
         newProject.setTenderPeriod(Integer.valueOf(project.getTenderPeriod()));
         newProject.setExpectedTime(Integer.valueOf(project.getExpectedTime()));
@@ -37,18 +37,11 @@ public class ProjectServiceImpl implements IProjectService {
         //完成时间应该不是直接获取当前时间
         newProject.setGmtCreate(new Date(7000));
         newProject.setGmtModified(new Date(7000));
+        newProject.setSkill(project.getSkillList());
 
-        final int insert1 = projectMapper.insert(newProject);
+        final int insert = projectMapper.insert(newProject);
 
-        //插入project_skill表数据
-/*
-        ProjectSkill projectSkil=new ProjectSkill();
-//数组的实现~
-        projectSkil.setProjectId(newProject.getId());
-        projectSkil.setSkillId(Long.valueOf(project.getSkillList().charAt(1)));
-
-        final int insert2 = projectSkillMapper.insert(projectSkil);*/
-        if (insert1 == 0) {
+        if (insert == 0) {
             return ServerResponse.createByFailure("发布项目失败");
         }
 
@@ -64,11 +57,18 @@ public class ProjectServiceImpl implements IProjectService {
 
     @Override
     public ProjectDto queryProject(long id) {
+
         return null;
     }
 
     @Override
     public ProjectDto deleteProject(long id) {
+        return null;
+    }
+
+    @Override
+    public ProjectDto queryProjectSkill(long id) {
+
         return null;
     }
 }

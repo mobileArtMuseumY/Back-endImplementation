@@ -16,7 +16,7 @@ import javax.annotation.Resource;
 @RequestMapping(value = "/project")
 public class ProjectController {
 
-    @Resource
+    @Resource(name = "iprojectService")
     private IProjectService iprojectService;
     @RequestMapping(value = "/add",method = RequestMethod.POST)
     public ServerResponse<ProjectVo> addProject(@RequestBody ProjectVo projectVo){

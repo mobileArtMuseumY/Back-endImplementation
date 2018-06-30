@@ -19,4 +19,5 @@ public interface IProjectService {
 	public ProjectDto updateProject(ProjectDto project);
 	public ProjectDto queryProject(long id);
 	public ProjectDto deleteProject(long id);
+	public ProjectDto queryProjectSkill(long id);
 }

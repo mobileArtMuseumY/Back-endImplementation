@@ -42,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ProjectControllerTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ProjectControllerTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+            <state relative-caret-position="294">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -54,29 +54,135 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/applicationContext.xml">
+      <file leaf-file-name="ProjectServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+              <folding>
+                <element signature="e#2269#2270#0" expanded="true" />
+                <element signature="e#2296#2297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SkillMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/SkillMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+              <folding>
+                <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#2;n#mapper#0;n#!!top" />
+                <element signature="n#sql#3;n#mapper#0;n#!!top" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#delete#1;n#mapper#0;n#!!top" />
+                <element signature="n#delete#2;n#mapper#0;n#!!top" />
+                <element signature="n#insert#2;n#mapper#0;n#!!top" />
+                <element signature="n#insert#3;n#mapper#0;n#!!top" />
+                <element signature="n#select#3;n#mapper#0;n#!!top" />
+                <element signature="n#update#2;n#mapper#0;n#!!top" />
+                <element signature="n#update#3;n#mapper#0;n#!!top" />
+                <element signature="n#update#4;n#mapper#0;n#!!top" />
+                <element signature="n#update#5;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/StudentMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+              <folding>
+                <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#1;n#mapper#0;n#!!top" />
+                <element signature="n#sql#2;n#mapper#0;n#!!top" />
+                <element signature="n#sql#3;n#mapper#0;n#!!top" />
+                <element signature="n#select#1;n#mapper#0;n#!!top" />
+                <element signature="n#select#2;n#mapper#0;n#!!top" />
+                <element signature="n#delete#1;n#mapper#0;n#!!top" />
+                <element signature="n#delete#2;n#mapper#0;n#!!top" />
+                <element signature="n#insert#2;n#mapper#0;n#!!top" />
+                <element signature="n#insert#3;n#mapper#0;n#!!top" />
+                <element signature="n#select#3;n#mapper#0;n#!!top" />
+                <element signature="n#update#2;n#mapper#0;n#!!top" />
+                <element signature="n#update#3;n#mapper#0;n#!!top" />
+                <element signature="n#update#4;n#mapper#0;n#!!top" />
+                <element signature="n#update#5;n#mapper#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectAttachmentMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectAttachmentMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="297">
-              <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+              <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+              <folding>
+                <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+                <element signature="n#sql#0;n#mapper#0;n#!!top" />
+                <element signature="n#select#0;n#mapper#0;n#!!top" />
+                <element signature="n#delete#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#0;n#mapper#0;n#!!top" />
+                <element signature="n#insert#1;n#mapper#0;n#!!top" />
+                <element signature="n#update#0;n#mapper#0;n#!!top" />
+                <element signature="n#update#1;n#mapper#0;n#!!top" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml">
+      <file leaf-file-name="ProjectDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/ProjectDto.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="29" column="14" selection-start-line="23" selection-start-column="3" selection-end-line="29" selection-end-column="14" />
+            <state relative-caret-position="-1269">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/db.properties">
+      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="99">
+              <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+              <folding>
+                <element signature="e#2194#2195#0" expanded="true" />
+                <element signature="e#2228#2229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectExample.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-264">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IProjectService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/IProjectService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Skill.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Skill.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="191">
+              <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -111,6 +217,7 @@
       <find>commons</find>
       <find>test</find>
       <find />
+      <find>my</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -122,18 +229,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/website-service/mbg.xml" />
-        <option value="$PROJECT_DIR$/website-service/generatorConfiguration.xml" />
-        <option value="$PROJECT_DIR$/website-pojo/src/main/java/Project.java" />
-        <option value="$PROJECT_DIR$/website-pojo/src/main/java/util/Project.java" />
-        <option value="$PROJECT_DIR$/website-pojo/src/main/java/beans/ProjectMapper.java" />
         <option value="$PROJECT_DIR$/website-pojo/src/main/java/beans/ProjectAttachmentMapper.java" />
         <option value="$PROJECT_DIR$/website-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/ProjectAttachmentMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/ProjectMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/ProjectSkillMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/SkillMapper.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectMapper.xml" />
         <option value="$PROJECT_DIR$/website-service/src/test/publishProject.kt" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/publishProject.java" />
         <option value="$PROJECT_DIR$/website-service/src/main/resources/applicationContext-trans.xml" />
@@ -159,20 +260,26 @@
         <option value="$PROJECT_DIR$/website-dao/pom.xml" />
         <option value="$PROJECT_DIR$/website-parent/pom.xml" />
         <option value="$PROJECT_DIR$/website-platform/pom.xml" />
-        <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/inter/ProjectService.java" />
         <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/applicationContext.xml" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessAttachmentMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/AdminMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectComplaintMapper.java" />
         <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/ProjectDto.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectMapper.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/IProjectService.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectSkillMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java" />
         <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectMapper.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/SkillMapper.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/StudentMapper.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/SkillMapper.xml" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/StudentMapper.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java" />
+        <option value="$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Project.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/IProjectService.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -230,8 +337,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="305" />
-    <option name="width" value="1480" />
+    <option name="x" value="692" />
+    <option name="y" value="72" />
+    <option name="width" value="1699" />
     <option name="height" value="1040" />
   </component>
   <component name="ProjectView">
@@ -239,11 +347,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-dao" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="website-platform" type="462c0819:PsiDirectoryNode" />
@@ -317,11 +461,66 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-pojo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -375,7 +574,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjectControllerTest">
+  <component name="RunManager" selected="JUnit.ProjectControllerTest.testAddProject">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
@@ -552,8 +751,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProjectControllerTest" />
         <item itemvalue="JUnit.ProjectControllerTest.testAddProject" />
+        <item itemvalue="JUnit.ProjectControllerTest" />
         <item itemvalue="Application.mbgTest" />
       </list>
     </recent_temporary>
@@ -587,31 +786,11 @@
       <workItem from="1530103261003" duration="5463000" />
       <workItem from="1530109195648" duration="4369000" />
       <workItem from="1530113762724" duration="270000" />
+      <workItem from="1530321635807" duration="7027000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 20h 44m 37s.xml">
-      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectControllerTest - 2018.06.27 at 21h 01m 43s.xml">
-      <configuration name="ProjectControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectControllerTest - 2018.06.27 at 21h 18m 21s.xml">
-      <configuration name="ProjectControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectControllerTest - 2018.06.27 at 21h 20m 39s.xml">
-      <configuration name="ProjectControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectControllerTest - 2018.06.27 at 21h 23m 21s.xml">
-      <configuration name="ProjectControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 21h 24m 27s.xml">
-      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 21h 36m 29s.xml">
-      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ProjectControllerTest_testAddProject - 2018.06.27 at 21h 42m 36s.xml">
       <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
     </history-entry>
@@ -621,9 +800,30 @@
     <history-entry file="ProjectControllerTest - 2018.06.27 at 23h 37m 33s.xml">
       <configuration name="ProjectControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.30 at 09h 35m 13s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.30 at 11h 05m 36s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.30 at 11h 14m 14s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.30 at 11h 21m 11s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest - 2018.06.30 at 11h 34m 35s.xml">
+      <configuration name="ProjectControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.30 at 11h 36m 12s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ProjectControllerTest_testAddProject - 2018.06.30 at 11h 52m 27s.xml">
+      <configuration name="ProjectControllerTest.testAddProject" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85500000" />
+    <option name="totallyTimeSpent" value="92527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -640,19 +840,20 @@
       <window_info id="Structure" order="1" sideWeight="0.18068965" side_tool="true" weight="0.26302084" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.0" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32827586" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66018766" weight="0.46068966" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66018766" weight="0.03586207" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.81931037" visible="true" weight="0.22135417" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81931037" visible="true" weight="0.34114584" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49798927" weight="0.33190882" />
       <window_info id="Learn" order="6" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="5" side_tool="true" />
@@ -663,7 +864,6 @@
       <window_info anchor="right" id="Bean Validation" order="8" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49798927" weight="0.33190882" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -679,7 +879,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="4" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -687,40 +887,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
-          <caret line="11" column="15" selection-start-line="11" selection-start-column="15" selection-end-line="11" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/publishProject.java" />
-    <entry file="file://$PROJECT_DIR$/website-service/src/test/java/publishProject.kt" />
-    <entry file="file://$PROJECT_DIR$/website-service/src/test/java/MapperTest.java" />
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/MessageUtil.java" />
-    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectAttachmentExample.java" />
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl.java" />
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/ResponseCode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/ServerResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/IDUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="33">
-          <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-service/src/main/java/test/creatmbg/mbgTestTest.java" />
     <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-trans.xml">
       <provider selected="true" editor-type-id="text-editor">
@@ -746,7 +912,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/SkillMapper.java" />
     <entry file="file://$PROJECT_DIR$/website-service/src/main/resources/applicationContext-service.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
@@ -765,54 +930,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-service/src/main/java/creatmbg/mbgTest.java" />
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/FavoriteWorksMapper.xml" />
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessAttachmentMapper.java" />
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/AdminMapper.java" />
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BidMapper.java" />
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ComplaintAttachmentMapper.java" />
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectAttachmentMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="93" column="41" selection-start-line="93" selection-start-column="41" selection-end-line="93" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/SqlMapConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -820,30 +943,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectSkill.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectComplaint.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectAttachment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectSkill.java" />
     <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/ProjectVo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -852,59 +952,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/inter/ProjectService.java" />
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/ProjectDto.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/IProjectService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="26" column="75" selection-start-line="26" selection-start-column="75" selection-end-line="26" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectSkillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectSkillMapper.java" />
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectComplaintMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
@@ -915,26 +967,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/website-service/generatorConfiguration.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="9" column="69" selection-start-line="9" selection-start-column="69" selection-end-line="9" selection-end-column="69" />
+        <state relative-caret-position="528">
+          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="22" column="29" lean-forward="true" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1033">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="29" column="14" selection-start-line="23" selection-start-column="3" selection-end-line="29" selection-end-column="14" />
+        <state relative-caret-position="-76">
+          <caret line="26" column="20" lean-forward="true" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="168" column="35" selection-start-line="168" selection-start-column="35" selection-end-line="168" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="7" column="36" lean-forward="true" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/SkillMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/StudentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1685">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectComplaint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1157">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/SkillExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/StudentExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2244">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="26" column="69" lean-forward="true" selection-start-line="26" selection-start-column="69" selection-end-line="26" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="562">
+          <caret line="323" column="9" lean-forward="true" selection-start-line="323" selection-start-column="9" selection-end-line="323" selection-end-column="9" />
+          <folding>
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#5;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/SkillMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="2" column="48" selection-start-line="2" selection-start-column="48" selection-end-line="2" selection-end-column="48" />
+          <folding>
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#5;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectAttachmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="84" column="33" selection-start-line="84" selection-start-column="33" selection-end-line="84" selection-end-column="33" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" />
+            <element signature="n#update#1;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/StudentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="87" column="13" selection-start-line="87" selection-start-column="13" selection-end-line="87" selection-end-column="13" />
+          <folding>
+            <element signature="n#resultMap#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" />
+            <element signature="n#sql#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" />
+            <element signature="n#delete#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#2;n#mapper#0;n#!!top" />
+            <element signature="n#insert#3;n#mapper#0;n#!!top" />
+            <element signature="n#select#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" />
+            <element signature="n#update#4;n#mapper#0;n#!!top" />
+            <element signature="n#update#5;n#mapper#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/ProjectDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1269">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Skill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+          <folding>
+            <element signature="e#2194#2195#0" expanded="true" />
+            <element signature="e#2228#2229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/ProjectExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="294">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/IProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+          <folding>
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2296#2297#0" expanded="true" />
           </folding>
         </state>
       </provider>

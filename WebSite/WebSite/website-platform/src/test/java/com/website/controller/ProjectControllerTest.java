@@ -53,7 +53,7 @@ public class ProjectControllerTest {
     public void testAddProject() throws Exception {
         MockHttpServletRequestBuilder request = createRequest("/project/add", "POST");
 
-        String body = "{\"projectName\":\"设计logo\",\"projectDescription\":\"lalalalla\",\"tenderPeriod\":\"15\",\"budget\":\"1000\",\"expectedTime\":\"11212\",\"attachmentList\":\"[name1,name2]\",\"skillList\":\"[java,go,nodejs,vue]\"}";
+        String body = "{\"projectName\":\"logo\",\"projectDescription\":\"布吉岛\",\"tenderPeriod\":\"15\",\"budget\":\"1000\",\"expectedTime\":\"11212\",\"attachmentList\":\"[name1,name2]\",\"skillList\":\"[2,3]\"}";
 
         request.content(body);
         request.accept(MediaType.ALL);
