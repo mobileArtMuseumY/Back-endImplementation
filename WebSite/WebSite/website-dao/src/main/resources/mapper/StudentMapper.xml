@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.website.dao.StudentMapper" >
+  <resultMap id="BaseResultMap" type="com.website.po.Student" >
+    <constructor >
+      <idArg column="id" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="student_id" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="login_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="hashed_pwd" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="salt" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="avatar" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="sex" jdbcType="CHAR" javaType="java.lang.String" />
+      <arg column="bank_account" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="tel" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="email" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="introduction" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="transaction_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="break_time" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="login_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="is_verified" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="gmt_create" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="gmt_modified" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="follower_count" jdbcType="INTEGER" javaType="java.lang.Integer" />
+      <arg column="skill" jdbcType="CHAR" javaType="java.lang.String" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, student_id, login_name, hashed_pwd, salt, avatar, sex, bank_account, tel, email, 
+    introduction, transaction_time, break_time, login_time, is_verified, gmt_create, 
+    gmt_modified, follower_count, skill
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from student
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from student
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.website.po.Student" >
+    insert into student (id, student_id, login_name, 
+      hashed_pwd, salt, avatar, 
+      sex, bank_account, tel, 
+      email, introduction, transaction_time, 
+      break_time, login_time, is_verified, 
+      gmt_create, gmt_modified, follower_count, 
+      skill)
+    values (#{id,jdbcType=BIGINT}, #{studentId,jdbcType=VARCHAR}, #{loginName,jdbcType=VARCHAR}, 
+      #{hashedPwd,jdbcType=VARCHAR}, #{salt,jdbcType=VARCHAR}, #{avatar,jdbcType=VARCHAR}, 
+      #{sex,jdbcType=CHAR}, #{bankAccount,jdbcType=VARCHAR}, #{tel,jdbcType=VARCHAR}, 
+      #{email,jdbcType=VARCHAR}, #{introduction,jdbcType=VARCHAR}, #{transactionTime,jdbcType=INTEGER}, 
+      #{breakTime,jdbcType=INTEGER}, #{loginTime,jdbcType=TIMESTAMP}, #{isVerified,jdbcType=TINYINT}, 
+      #{gmtCreate,jdbcType=TIMESTAMP}, #{gmtModified,jdbcType=TIMESTAMP}, #{followerCount,jdbcType=INTEGER}, 
+      #{skill,jdbcType=CHAR})
+  </insert>
+  <insert id="insertSelective" parameterType="com.website.po.Student" >
+    insert into student
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="studentId != null" >
+        student_id,
+      </if>
+      <if test="loginName != null" >
+        login_name,
+      </if>
+      <if test="hashedPwd != null" >
+        hashed_pwd,
+      </if>
+      <if test="salt != null" >
+        salt,
+      </if>
+      <if test="avatar != null" >
+        avatar,
+      </if>
+      <if test="sex != null" >
+        sex,
+      </if>
+      <if test="bankAccount != null" >
+        bank_account,
+      </if>
+      <if test="tel != null" >
+        tel,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="introduction != null" >
+        introduction,
+      </if>
+      <if test="transactionTime != null" >
+        transaction_time,
+      </if>
+      <if test="breakTime != null" >
+        break_time,
+      </if>
+      <if test="loginTime != null" >
+        login_time,
+      </if>
+      <if test="isVerified != null" >
+        is_verified,
+      </if>
+      <if test="gmtCreate != null" >
+        gmt_create,
+      </if>
+      <if test="gmtModified != null" >
+        gmt_modified,
+      </if>
+      <if test="followerCount != null" >
+        follower_count,
+      </if>
+      <if test="skill != null" >
+        skill,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="studentId != null" >
+        #{studentId,jdbcType=VARCHAR},
+      </if>
+      <if test="loginName != null" >
+        #{loginName,jdbcType=VARCHAR},
+      </if>
+      <if test="hashedPwd != null" >
+        #{hashedPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="salt != null" >
+        #{salt,jdbcType=VARCHAR},
+      </if>
+      <if test="avatar != null" >
+        #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        #{sex,jdbcType=CHAR},
+      </if>
+      <if test="bankAccount != null" >
+        #{bankAccount,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null" >
+        #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="introduction != null" >
+        #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="transactionTime != null" >
+        #{transactionTime,jdbcType=INTEGER},
+      </if>
+      <if test="breakTime != null" >
+        #{breakTime,jdbcType=INTEGER},
+      </if>
+      <if test="loginTime != null" >
+        #{loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="isVerified != null" >
+        #{isVerified,jdbcType=TINYINT},
+      </if>
+      <if test="gmtCreate != null" >
+        #{gmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtModified != null" >
+        #{gmtModified,jdbcType=TIMESTAMP},
+      </if>
+      <if test="followerCount != null" >
+        #{followerCount,jdbcType=INTEGER},
+      </if>
+      <if test="skill != null" >
+        #{skill,jdbcType=CHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.website.po.Student" >
+    update student
+    <set >
+      <if test="studentId != null" >
+        student_id = #{studentId,jdbcType=VARCHAR},
+      </if>
+      <if test="loginName != null" >
+        login_name = #{loginName,jdbcType=VARCHAR},
+      </if>
+      <if test="hashedPwd != null" >
+        hashed_pwd = #{hashedPwd,jdbcType=VARCHAR},
+      </if>
+      <if test="salt != null" >
+        salt = #{salt,jdbcType=VARCHAR},
+      </if>
+      <if test="avatar != null" >
+        avatar = #{avatar,jdbcType=VARCHAR},
+      </if>
+      <if test="sex != null" >
+        sex = #{sex,jdbcType=CHAR},
+      </if>
+      <if test="bankAccount != null" >
+        bank_account = #{bankAccount,jdbcType=VARCHAR},
+      </if>
+      <if test="tel != null" >
+        tel = #{tel,jdbcType=VARCHAR},
+      </if>
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="introduction != null" >
+        introduction = #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="transactionTime != null" >
+        transaction_time = #{transactionTime,jdbcType=INTEGER},
+      </if>
+      <if test="breakTime != null" >
+        break_time = #{breakTime,jdbcType=INTEGER},
+      </if>
+      <if test="loginTime != null" >
+        login_time = #{loginTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="isVerified != null" >
+        is_verified = #{isVerified,jdbcType=TINYINT},
+      </if>
+      <if test="gmtCreate != null" >
+        gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtModified != null" >
+        gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
+      </if>
+      <if test="followerCount != null" >
+        follower_count = #{followerCount,jdbcType=INTEGER},
+      </if>
+      <if test="skill != null" >
+        skill = #{skill,jdbcType=CHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.website.po.Student" >
+    update student
+    set student_id = #{studentId,jdbcType=VARCHAR},
+      login_name = #{loginName,jdbcType=VARCHAR},
+      hashed_pwd = #{hashedPwd,jdbcType=VARCHAR},
+      salt = #{salt,jdbcType=VARCHAR},
+      avatar = #{avatar,jdbcType=VARCHAR},
+      sex = #{sex,jdbcType=CHAR},
+      bank_account = #{bankAccount,jdbcType=VARCHAR},
+      tel = #{tel,jdbcType=VARCHAR},
+      email = #{email,jdbcType=VARCHAR},
+      introduction = #{introduction,jdbcType=VARCHAR},
+      transaction_time = #{transactionTime,jdbcType=INTEGER},
+      break_time = #{breakTime,jdbcType=INTEGER},
+      login_time = #{loginTime,jdbcType=TIMESTAMP},
+      is_verified = #{isVerified,jdbcType=TINYINT},
+      gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+      gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
+      follower_count = #{followerCount,jdbcType=INTEGER},
+      skill = #{skill,jdbcType=CHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>
