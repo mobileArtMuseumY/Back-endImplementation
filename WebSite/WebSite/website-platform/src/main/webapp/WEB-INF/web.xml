@@ -31,7 +31,10 @@
     <!-- 指定Spring配置文件位置 -->
     <context-param>
         <param-name>contextConfigLocation</param-name>
-        <param-value>classpath:config/applicationContext.xml</param-value>
+        <param-value>
+            classpath:config/applicationContext.xml,
+            classpath:config/spring-mail.xml
+        </param-value>
     </context-param>
 
     <!-- 注册ServletContext监听器 -->
@@ -60,7 +63,7 @@
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:config/spring-*.xml</param-value>
+            <param-value>classpath:config/spring-mvc.xml</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
