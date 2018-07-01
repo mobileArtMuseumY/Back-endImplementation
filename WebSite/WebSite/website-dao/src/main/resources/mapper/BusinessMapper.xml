@@ -1,40 +1,62 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.website.dao.BusinessMapper" >
-  <resultMap id="BaseResultMap" type="com.website.po.Business" >
-    <constructor >
-      <idArg column="id" jdbcType="BIGINT" javaType="java.lang.Long" />
-      <arg column="hashed_pwd" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="salt" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="avatar" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="business_name" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="representation_name" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="representation_idcard" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="email" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="tel" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="introduction" jdbcType="VARCHAR" javaType="java.lang.String" />
-      <arg column="login_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
-      <arg column="is_verified" jdbcType="TINYINT" javaType="java.lang.Byte" />
-      <arg column="gmt_create" jdbcType="TIMESTAMP" javaType="java.util.Date" />
-      <arg column="gmt_modified" jdbcType="TIMESTAMP" javaType="java.util.Date" />
-      <arg column="follower_count" jdbcType="INTEGER" javaType="java.lang.Integer" />
-    </constructor>
-  </resultMap>
-  <sql id="Base_Column_List" >
+<mapper namespace="com.website.dao.BusinessMapper">
+    <resultMap id="BaseResultMap" type="com.website.po.Business">
+        <constructor>
+            <idArg column="id" jdbcType="BIGINT" javaType="java.lang.Long"/>
+            <arg column="hashed_pwd" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="salt" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="avatar" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="business_name" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="representation_name" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="representation_idcard" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="email" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="tel" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="introduction" jdbcType="VARCHAR" javaType="java.lang.String"/>
+            <arg column="login_time" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+            <arg column="is_verified" jdbcType="TINYINT" javaType="java.lang.Byte"/>
+            <arg column="gmt_create" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+            <arg column="gmt_modified" jdbcType="TIMESTAMP" javaType="java.util.Date"/>
+            <arg column="follower_count" jdbcType="INTEGER" javaType="java.lang.Integer"/>
+        </constructor>
+    </resultMap>
+    <sql id="Base_Column_List">
     id, hashed_pwd, salt, avatar, business_name, representation_name, representation_idcard, 
     email, tel, introduction, login_time, is_verified, gmt_create, gmt_modified, follower_count
   </sql>
-  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
-    select 
-    <include refid="Base_Column_List" />
-    from business
-    where id = #{id,jdbcType=BIGINT}
-  </select>
-  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long">
+        select
+        <include refid="Base_Column_List"/>
+        from business
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+
+
+    <select id="selectCountByParams" resultType="java.lang.Integer" parameterType="java.util.Map">
+        select count(*)
+        from business
+        <where>
+            1 = 1
+            <foreach collection="params" index="key" item="item" open="" close="">
+                <if test="key == 'email' and item !=null and item !=''">
+
+                    and email = #{params.${key}}
+
+                </if>
+                <if test="key == 'tel' and item !=null and item !=''">
+
+                    and tel = #{params.${key}}
+
+                </if>
+            </foreach>
+        </where>
+    </select>
+
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
     delete from business
     where id = #{id,jdbcType=BIGINT}
   </delete>
-  <insert id="insert" parameterType="com.website.po.Business" >
+    <insert id="insert" parameterType="com.website.po.Business">
     insert into business (id, hashed_pwd, salt, 
       avatar, business_name, representation_name, 
       representation_idcard, email, tel, 
@@ -48,152 +70,152 @@
       #{gmtCreate,jdbcType=TIMESTAMP}, #{gmtModified,jdbcType=TIMESTAMP}, #{followerCount,jdbcType=INTEGER}
       )
   </insert>
-  <insert id="insertSelective" parameterType="com.website.po.Business" >
-    insert into business
-    <trim prefix="(" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        id,
-      </if>
-      <if test="hashedPwd != null" >
-        hashed_pwd,
-      </if>
-      <if test="salt != null" >
-        salt,
-      </if>
-      <if test="avatar != null" >
-        avatar,
-      </if>
-      <if test="businessName != null" >
-        business_name,
-      </if>
-      <if test="representationName != null" >
-        representation_name,
-      </if>
-      <if test="representationIdcard != null" >
-        representation_idcard,
-      </if>
-      <if test="email != null" >
-        email,
-      </if>
-      <if test="tel != null" >
-        tel,
-      </if>
-      <if test="introduction != null" >
-        introduction,
-      </if>
-      <if test="loginTime != null" >
-        login_time,
-      </if>
-      <if test="isVerified != null" >
-        is_verified,
-      </if>
-      <if test="gmtCreate != null" >
-        gmt_create,
-      </if>
-      <if test="gmtModified != null" >
-        gmt_modified,
-      </if>
-      <if test="followerCount != null" >
-        follower_count,
-      </if>
-    </trim>
-    <trim prefix="values (" suffix=")" suffixOverrides="," >
-      <if test="id != null" >
-        #{id,jdbcType=BIGINT},
-      </if>
-      <if test="hashedPwd != null" >
-        #{hashedPwd,jdbcType=VARCHAR},
-      </if>
-      <if test="salt != null" >
-        #{salt,jdbcType=VARCHAR},
-      </if>
-      <if test="avatar != null" >
-        #{avatar,jdbcType=VARCHAR},
-      </if>
-      <if test="businessName != null" >
-        #{businessName,jdbcType=VARCHAR},
-      </if>
-      <if test="representationName != null" >
-        #{representationName,jdbcType=VARCHAR},
-      </if>
-      <if test="representationIdcard != null" >
-        #{representationIdcard,jdbcType=VARCHAR},
-      </if>
-      <if test="email != null" >
-        #{email,jdbcType=VARCHAR},
-      </if>
-      <if test="tel != null" >
-        #{tel,jdbcType=VARCHAR},
-      </if>
-      <if test="introduction != null" >
-        #{introduction,jdbcType=VARCHAR},
-      </if>
-      <if test="loginTime != null" >
-        #{loginTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="isVerified != null" >
-        #{isVerified,jdbcType=TINYINT},
-      </if>
-      <if test="gmtCreate != null" >
-        #{gmtCreate,jdbcType=TIMESTAMP},
-      </if>
-      <if test="gmtModified != null" >
-        #{gmtModified,jdbcType=TIMESTAMP},
-      </if>
-      <if test="followerCount != null" >
-        #{followerCount,jdbcType=INTEGER},
-      </if>
-    </trim>
-  </insert>
-  <update id="updateByPrimaryKeySelective" parameterType="com.website.po.Business" >
-    update business
-    <set >
-      <if test="hashedPwd != null" >
-        hashed_pwd = #{hashedPwd,jdbcType=VARCHAR},
-      </if>
-      <if test="salt != null" >
-        salt = #{salt,jdbcType=VARCHAR},
-      </if>
-      <if test="avatar != null" >
-        avatar = #{avatar,jdbcType=VARCHAR},
-      </if>
-      <if test="businessName != null" >
-        business_name = #{businessName,jdbcType=VARCHAR},
-      </if>
-      <if test="representationName != null" >
-        representation_name = #{representationName,jdbcType=VARCHAR},
-      </if>
-      <if test="representationIdcard != null" >
-        representation_idcard = #{representationIdcard,jdbcType=VARCHAR},
-      </if>
-      <if test="email != null" >
-        email = #{email,jdbcType=VARCHAR},
-      </if>
-      <if test="tel != null" >
-        tel = #{tel,jdbcType=VARCHAR},
-      </if>
-      <if test="introduction != null" >
-        introduction = #{introduction,jdbcType=VARCHAR},
-      </if>
-      <if test="loginTime != null" >
-        login_time = #{loginTime,jdbcType=TIMESTAMP},
-      </if>
-      <if test="isVerified != null" >
-        is_verified = #{isVerified,jdbcType=TINYINT},
-      </if>
-      <if test="gmtCreate != null" >
-        gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
-      </if>
-      <if test="gmtModified != null" >
-        gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
-      </if>
-      <if test="followerCount != null" >
-        follower_count = #{followerCount,jdbcType=INTEGER},
-      </if>
-    </set>
-    where id = #{id,jdbcType=BIGINT}
-  </update>
-  <update id="updateByPrimaryKey" parameterType="com.website.po.Business" >
+    <insert id="insertSelective" parameterType="com.website.po.Business">
+        insert into business
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="hashedPwd != null">
+                hashed_pwd,
+            </if>
+            <if test="salt != null">
+                salt,
+            </if>
+            <if test="avatar != null">
+                avatar,
+            </if>
+            <if test="businessName != null">
+                business_name,
+            </if>
+            <if test="representationName != null">
+                representation_name,
+            </if>
+            <if test="representationIdcard != null">
+                representation_idcard,
+            </if>
+            <if test="email != null">
+                email,
+            </if>
+            <if test="tel != null">
+                tel,
+            </if>
+            <if test="introduction != null">
+                introduction,
+            </if>
+            <if test="loginTime != null">
+                login_time,
+            </if>
+            <if test="isVerified != null">
+                is_verified,
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create,
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified,
+            </if>
+            <if test="followerCount != null">
+                follower_count,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="hashedPwd != null">
+                #{hashedPwd,jdbcType=VARCHAR},
+            </if>
+            <if test="salt != null">
+                #{salt,jdbcType=VARCHAR},
+            </if>
+            <if test="avatar != null">
+                #{avatar,jdbcType=VARCHAR},
+            </if>
+            <if test="businessName != null">
+                #{businessName,jdbcType=VARCHAR},
+            </if>
+            <if test="representationName != null">
+                #{representationName,jdbcType=VARCHAR},
+            </if>
+            <if test="representationIdcard != null">
+                #{representationIdcard,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="tel != null">
+                #{tel,jdbcType=VARCHAR},
+            </if>
+            <if test="introduction != null">
+                #{introduction,jdbcType=VARCHAR},
+            </if>
+            <if test="loginTime != null">
+                #{loginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="isVerified != null">
+                #{isVerified,jdbcType=TINYINT},
+            </if>
+            <if test="gmtCreate != null">
+                #{gmtCreate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="gmtModified != null">
+                #{gmtModified,jdbcType=TIMESTAMP},
+            </if>
+            <if test="followerCount != null">
+                #{followerCount,jdbcType=INTEGER},
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKeySelective" parameterType="com.website.po.Business">
+        update business
+        <set>
+            <if test="hashedPwd != null">
+                hashed_pwd = #{hashedPwd,jdbcType=VARCHAR},
+            </if>
+            <if test="salt != null">
+                salt = #{salt,jdbcType=VARCHAR},
+            </if>
+            <if test="avatar != null">
+                avatar = #{avatar,jdbcType=VARCHAR},
+            </if>
+            <if test="businessName != null">
+                business_name = #{businessName,jdbcType=VARCHAR},
+            </if>
+            <if test="representationName != null">
+                representation_name = #{representationName,jdbcType=VARCHAR},
+            </if>
+            <if test="representationIdcard != null">
+                representation_idcard = #{representationIdcard,jdbcType=VARCHAR},
+            </if>
+            <if test="email != null">
+                email = #{email,jdbcType=VARCHAR},
+            </if>
+            <if test="tel != null">
+                tel = #{tel,jdbcType=VARCHAR},
+            </if>
+            <if test="introduction != null">
+                introduction = #{introduction,jdbcType=VARCHAR},
+            </if>
+            <if test="loginTime != null">
+                login_time = #{loginTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="isVerified != null">
+                is_verified = #{isVerified,jdbcType=TINYINT},
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
+            </if>
+            <if test="followerCount != null">
+                follower_count = #{followerCount,jdbcType=INTEGER},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.website.po.Business">
     update business
     set hashed_pwd = #{hashedPwd,jdbcType=VARCHAR},
       salt = #{salt,jdbcType=VARCHAR},

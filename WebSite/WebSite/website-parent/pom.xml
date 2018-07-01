@@ -37,6 +37,7 @@
         <commons-collections.version>4.1</commons-collections.version>
         <commons-io.version>2.4</commons-io.version>
         <commons-net.version>3.3</commons-net.version>
+        <google.guava.version>18.0</google.guava.version>
         <!--<mybatis-paginator.version>	4.1.6</mybatis-paginator.version>-->
     </properties>
     <dependencyManagement>
@@ -73,6 +74,14 @@
             <artifactId>jackson-databind</artifactId>
             <version>${jackson.version}</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>${google.guava.version}</version>
+        </dependency>
+
 
         <!-- Apache工具组件 -->
         <dependency>
@@ -127,6 +136,20 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-tx</artifactId>
             <version>${spring.version}</version>
+        </dependency>
+
+        <!--spring发送邮件依赖-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-context-support</artifactId>
+            <version>${spring.version}</version>
+        </dependency>
+
+        <!-- Javamail API -->
+        <dependency>
+            <groupId>javax.mail</groupId>
+            <artifactId>mail</artifactId>
+            <version>1.4.5</version>
         </dependency>
 
         <dependency>

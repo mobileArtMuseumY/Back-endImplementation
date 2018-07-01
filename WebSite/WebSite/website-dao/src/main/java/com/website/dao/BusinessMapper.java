@@ -1,8 +1,10 @@
 package com.website.dao;
 
 import com.website.po.Business;
-
+import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;
+
+import java.util.Map;
 
 @Repository
 public interface BusinessMapper {
@@ -17,4 +19,6 @@ public interface BusinessMapper {
     int updateByPrimaryKeySelective(Business record);
 
     int updateByPrimaryKey(Business record);
+
+    int selectCountByParams(@Param("params") Map<String, String> params);
 }
