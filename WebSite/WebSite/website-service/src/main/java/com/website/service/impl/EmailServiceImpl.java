@@ -21,7 +21,6 @@ import java.util.*;
  * @author: smallsoup
  * @create: 2018-06-30 20:29
  **/
-
 public class EmailServiceImpl implements EmailService {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(EmailServiceImpl.class);

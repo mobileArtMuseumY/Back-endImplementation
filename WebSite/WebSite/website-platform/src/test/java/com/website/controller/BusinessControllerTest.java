@@ -53,7 +53,8 @@ public class BusinessControllerTest {
 
         MockHttpServletRequestBuilder request = MocUtils.createRequest("/business/regist", "POST");
 
-        request.param("account", "ll837448792@126.com");
+//        request.param("account", "ll83744892@126.com");
+        request.param("account", "15222161830");
 
         MocUtils.handleTest(request, mockMvc);
 

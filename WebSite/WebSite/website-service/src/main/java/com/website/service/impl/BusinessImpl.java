@@ -2,6 +2,7 @@ package com.website.service.impl;
 
 import com.website.common.RandomCodeUtils;
 import com.website.common.RegexUtils;
+import com.website.common.SendMsgUtils;
 import com.website.dao.BusinessMapper;
 import com.website.service.EmailService;
 import com.website.service.IBusinessService;
@@ -27,7 +28,7 @@ public class BusinessImpl implements IBusinessService {
     private EmailService emailService;
 
     @Override
-    public int regist(String account) throws Exception {
+    public void regist(String account) throws Exception {
 
 //        ImmutableMap<String, String> params = null;
         Map<String, String> params = new HashMap<>(1);
@@ -58,9 +59,7 @@ public class BusinessImpl implements IBusinessService {
 
             emailService.sendMailSimple(account, "注册验证", "验证码为：" + code);
         }else { //发短信
-
+            SendMsgUtils.sendMsgByTxPlatform(account);
         }
-
-        return 0;
     }
 }

@@ -9,5 +9,5 @@ package com.website.service;
 
 public interface IBusinessService {
 
-    public int regist( String account) throws Exception;
+    void regist( String account) throws Exception;
 }
