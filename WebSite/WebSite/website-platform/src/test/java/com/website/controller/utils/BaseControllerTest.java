@@ -2,7 +2,11 @@ package com.website.controller.utils;
 
 import com.alibaba.fastjson.JSONObject;
 import org.junit.Assert;
+import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.springframework.http.MediaType;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
@@ -16,10 +20,21 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  * @author: smallsoup
  * @create: 2018-06-30 21:09
  **/
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration({"classpath:config/spring-*.xml"})
+public class BaseControllerTest {
 
-public final class MocUtils {
+    /**
+     * 加此测试方法防止报错
+     * java.lang.Exception: No runnable methods
+     *
+     * Your unit test code is running JUnit4. At least one test method must have
+     * the @test annotation. Otherwise this error occurs.
+     */
+    @Test
+    public void testBaseBlank(){}
 
-    public static void handleTest(MockHttpServletRequestBuilder request, MockMvc mockMvc){
+    protected void handleTest(MockHttpServletRequestBuilder request, MockMvc mockMvc){
         request.accept(MediaType.ALL);
         request.contentType(MediaType.APPLICATION_JSON_VALUE);
 
@@ -40,7 +55,7 @@ public final class MocUtils {
         }
     }
 
-    public static MockHttpServletRequestBuilder createRequest(String uri, String method) {
+    protected MockHttpServletRequestBuilder createRequest(String uri, String method) {
         MockHttpServletRequestBuilder builder = null;
 
         if ("GET".equalsIgnoreCase(method))

@@ -2,11 +2,9 @@ package com.website.dao;
 
 import com.website.po.Business;
 import org.apache.ibatis.annotations.Param;
-import org.springframework.stereotype.Repository;
 
 import java.util.Map;
 
-@Repository
 public interface BusinessMapper {
     int deleteByPrimaryKey(Long id);
 

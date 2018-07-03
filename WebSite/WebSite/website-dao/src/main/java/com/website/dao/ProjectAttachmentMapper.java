@@ -2,9 +2,6 @@ package com.website.dao;
 
 import com.website.po.ProjectAttachment;
 
-import org.springframework.stereotype.Repository;
-
-@Repository
 public interface ProjectAttachmentMapper {
     int deleteByPrimaryKey(Long id);
 

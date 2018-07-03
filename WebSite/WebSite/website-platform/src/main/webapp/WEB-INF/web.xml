@@ -5,43 +5,6 @@
 
     <display-name>Archetype Created Web Application</display-name>
 
-    <!-- 加载log4j的配置文件log4j.properties -->
-    <context-param>
-        <param-name>log4jConfigLocation</param-name>
-        <param-value>classpath:config/log4j.properties</param-value>
-    </context-param>
-
-    <!-- 设定刷新日志配置文件的时间间隔，这里设置为10s -->
-    <context-param>
-        <param-name>log4jRefreshInterval</param-name>
-        <param-value>10000</param-value>
-    </context-param>
-
-    <!-- 加载Spring框架中的log4j监听器Log4jConfigListener -->
-    <listener>
-        <listener-class>org.springframework.web.util.Log4jConfigListener</listener-class>
-    </listener>
-
-    <!-- 为避免项目间冲突，定义唯一的 webAppRootKey -->
-    <context-param>
-        <param-name>webAppRootKey</param-name>
-        <param-value>scheduleProject</param-value>
-    </context-param>
-
-    <!-- 指定Spring配置文件位置 -->
-    <context-param>
-        <param-name>contextConfigLocation</param-name>
-        <param-value>
-            classpath:config/applicationContext.xml,
-            classpath:config/spring-mail.xml
-        </param-value>
-    </context-param>
-
-    <!-- 注册ServletContext监听器 -->
-    <listener>
-        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-    </listener>
-
     <!-- 注册字符集过滤器 -->
     <filter>
         <filter-name>characterEncodingFilter</filter-name>
@@ -63,11 +26,12 @@
         <servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
         <init-param>
             <param-name>contextConfigLocation</param-name>
-            <param-value>classpath:config/spring-mvc.xml</param-value>
+            <param-value>classpath*:config/spring-*.xml</param-value>
         </init-param>
     </servlet>
     <servlet-mapping>
         <servlet-name>springmvc</servlet-name>
+        <!--默认匹配所有的请求-->
         <url-pattern>/</url-pattern>
     </servlet-mapping>
 

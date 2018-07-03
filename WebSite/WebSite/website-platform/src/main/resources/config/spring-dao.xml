@@ -6,10 +6,10 @@
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
     <!-- 数据库连接池 -->
-    <!-- 加载配置文件 -->
+    <!-- 1、加载配置文件 -->
     <context:property-placeholder location="classpath:config/db.properties" ignore-unresolvable="true"/>
-    <context:component-scan base-package="com.website.service" />
-    <!-- 数据库连接池 -->
+
+    <!-- 2、数据库连接池 -->
     <bean id="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
           destroy-method="close">
         <property name="url" value="${jdbc.url}"/>
@@ -19,14 +19,23 @@
         <property name="maxActive" value="10"/>
         <property name="minIdle" value="5"/>
     </bean>
-    <!-- 让spring管理sqlsessionfactory 使用mybatis和spring整合包中的 -->
+
+    <!-- 3、让spring管理创建数据库连接池的sqlsessionfactory对象 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-        <property name="dataSource" ref="dataSource" />
         <!-- 数据库连接池 -->
-        <!-- 加载mybatis的全局配置文件 -->
+        <property name="dataSource" ref="dataSource" />
+        <!--配置mybatis全局配置文件:mybatis-config.xml-->
+        <!-- <property name="configLocation" value="classpath:mybatis-config.xml"/>-->
+        <!--扫描entity包,使用别名-->
+        <!--<property name="typeAliasesPackage" value="com.website.po"/>-->
+        <!-- 加载sql配置文件：mapper需要的xml -->
         <property name="mapperLocations" value="classpath*:mapper/*Mapper.xml"/>
     </bean>
+
+    <!--4、配置扫描Dao接口包，动态实现Dao接口，注入到Spring容器中-->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+        <!--注入sqlSessionFactory-->
+        <!--<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>-->
         <property name="basePackage" value="com.website.dao"/>
     </bean>
 

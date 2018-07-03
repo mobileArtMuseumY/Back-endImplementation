@@ -1,15 +1,12 @@
 package com.website.controller;
 
 
-import com.website.controller.utils.MocUtils;
+import com.website.controller.utils.BaseControllerTest;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
-import org.springframework.test.context.ContextConfiguration;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
@@ -26,13 +23,8 @@ import java.io.FileNotFoundException;
  * @author: smallsoup
  * @create: 2018/6/24
  **/
-
-@RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration({"classpath:config/applicationContext.xml",
-        "classpath:config/spring-mvc.xml",
-        "classpath:config/spring-mail.xml"})
 @WebAppConfiguration
-public class ProjectControllerTest {
+public class ProjectControllerTest extends BaseControllerTest {
     protected MockMvc mockMvc;
 
     @Autowired
@@ -53,7 +45,7 @@ public class ProjectControllerTest {
      */
     @Test
     public void testAddProject() {
-        MockHttpServletRequestBuilder request = MocUtils.createRequest("/project/add", "POST");
+        MockHttpServletRequestBuilder request = createRequest("/project/add", "POST");
 
         String body = "{\"projectName\":\"设计logo\"," +
                 "\"projectDescription\":\"lalalalla\"," +
@@ -65,7 +57,7 @@ public class ProjectControllerTest {
         request.accept(MediaType.ALL);
         request.contentType(MediaType.APPLICATION_JSON_VALUE);
 
-        MocUtils.handleTest(request, mockMvc);
+        handleTest(request, mockMvc);
 
     }
 
@@ -74,11 +66,11 @@ public class ProjectControllerTest {
      */
     @Test
     public void testGetProject() {
-        MockHttpServletRequestBuilder request = MocUtils.createRequest("/project/getById", "GET");
+        MockHttpServletRequestBuilder request = createRequest("/project/getById", "GET");
 
         request.param("projectId", "153035104572630");
 
-        MocUtils.handleTest(request, mockMvc);
+        handleTest(request, mockMvc);
 
     }
 

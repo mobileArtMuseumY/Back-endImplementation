@@ -1,9 +1,7 @@
 package com.website.dao;
 
 import com.website.po.ProjectComplaint;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface ProjectComplaintMapper {
     int deleteByPrimaryKey(Long id);
 

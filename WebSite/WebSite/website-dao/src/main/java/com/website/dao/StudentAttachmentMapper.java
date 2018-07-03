@@ -1,9 +1,7 @@
 package com.website.dao;
 
 import com.website.po.StudentAttachment;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface StudentAttachmentMapper {
     int deleteByPrimaryKey(Long id);
 

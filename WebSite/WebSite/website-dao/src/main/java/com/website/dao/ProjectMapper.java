@@ -1,9 +1,7 @@
 package com.website.dao;
 
 import com.website.po.Project;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface ProjectMapper {
     int deleteByPrimaryKey(Long id);
 

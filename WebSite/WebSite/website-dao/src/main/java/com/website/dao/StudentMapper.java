@@ -1,9 +1,7 @@
 package com.website.dao;
 
 import com.website.po.Student;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public interface StudentMapper {
     int deleteByPrimaryKey(Long id);
 
