@@ -1,0 +1,104 @@
+package com.website.common;
+
+import net.coobird.thumbnailator.Thumbnails;
+import net.coobird.thumbnailator.geometry.Positions;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.web.multipart.commons.CommonsMultipartFile;
+
+import javax.imageio.ImageIO;
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class ImageUtils {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(ImageUtils.class);
+
+    private static String basePath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+
+    private static SimpleDateFormat sdf = new SimpleDateFormat("yyyyMMddHHmmss");
+
+    /**
+     * 处理缩略图
+     *
+     * @param thumbnail  文件流
+     * @param targetAddr 文件目标地址
+     * @throws IOException
+     */
+    public static void generateThumbnail(CommonsMultipartFile thumbnail, String targetAddr) {
+        String realFileName = getRandomFileName();
+
+        String extension = getFileExtensionName(thumbnail);
+
+        String relativeAddr = targetAddr + realFileName + extension;
+
+        makePathDir(relativeAddr);
+
+        File destFile = new File(PathUtils.getImageBasePath() + relativeAddr);
+
+        try {
+            Thumbnails.of(thumbnail.getInputStream()).
+                    size(1000, 200).
+                    watermark(Positions.BOTTOM_RIGHT,
+                            ImageIO.read(new File(basePath + "/waterprint.jpg")), 0.25f).outputQuality(0.8f).
+                    toFile(destFile);
+        } catch (IOException e) {
+            LOGGER.error("[ImageUtils] generateThumbnail error: {}", e);
+        }
+
+    }
+
+    /**
+     * 递归创建目录,比如目录是/home/dev/upload/
+     * 那么创建时会将home、dev、upload都会创建出来
+     * @param relativeAddr
+     */
+    private static void makePathDir(String relativeAddr) {
+
+        String realFilePath = PathUtils.getImageBasePath() + relativeAddr;
+
+        File file = new File(realFilePath);
+
+        //递归创建
+        if (!file.exists()) {
+            file.mkdirs();
+        }
+    }
+
+    /**
+     * 获取随机文件名
+     *
+     * @return 文件名
+     */
+    private static String getRandomFileName() {
+
+        final String randomNum = RandomCodeUtils.getSixValidationCode();
+        final String nowTimeStr = sdf.format(new Date());
+
+        return nowTimeStr + randomNum;
+    }
+
+    /**
+     * 获取文件流的扩展名
+     *
+     * @param thumbnail
+     * @return
+     */
+    private static String getFileExtensionName(CommonsMultipartFile thumbnail) {
+        final String fileName = thumbnail.getOriginalFilename();
+        return fileName.substring(fileName.lastIndexOf("."));
+    }
+
+
+    public static void main(String[] args) throws IOException {
+        String basePath = Thread.currentThread().getContextClassLoader().getResource("").getPath();
+        System.out.println(basePath);
+        Thumbnails.of(new File("D:\\tmp\\picture1.png")).
+                size(1000, 200).
+                watermark(Positions.BOTTOM_RIGHT,
+                        ImageIO.read(new File("D:\\tmp/waterprint.jpg")), 0.25f).outputQuality(0.8f).
+                toFile("D:\\tmp\\picture3.png");
+    }
+}
