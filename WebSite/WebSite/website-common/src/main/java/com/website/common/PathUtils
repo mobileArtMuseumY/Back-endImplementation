@@ -1,0 +1,33 @@
+package com.website.common;
+
+public class PathUtils {
+
+    private static String separator = System.getProperty("file.separator");
+
+    public static String getImageBasePath(){
+
+        String os = System.getProperty("os.name");
+
+        String basePath = "";
+
+        if (os.toLowerCase().startsWith("win")) {
+
+            basePath = "D:/tmp/dev/";
+        }else {
+            basePath = "/home/dev/";
+        }
+
+        //替换/为操作系统的分隔符
+        basePath = basePath.replace("/", separator);
+
+        return basePath;
+    }
+
+    public static String getShopImagePath(long shopId){
+
+        String path = "D:/tmp/dev/upload/dev/" + shopId + "/";
+
+        return path.replace("/", separator);
+    }
+
+}
