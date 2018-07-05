@@ -11,7 +11,6 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.util.Log4jConfigurer;
 import org.springframework.web.context.WebApplicationContext;
 
 import java.io.FileNotFoundException;
@@ -32,7 +31,7 @@ public class ProjectControllerTest extends BaseControllerTest {
 
     @Before
     public void setup() throws FileNotFoundException {
-        Log4jConfigurer.initLogging("classpath:config/log4j.properties");
+//        Log4jConfigurer.initLogging("classpath:config/log4j.properties");
         mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();  //初始化MockMvc对象
     }
 
