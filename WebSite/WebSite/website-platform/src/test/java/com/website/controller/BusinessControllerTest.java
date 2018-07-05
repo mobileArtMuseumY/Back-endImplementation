@@ -1,6 +1,9 @@
 package com.website.controller;
 
 import com.website.controller.utils.BaseControllerTest;
+import com.website.service.impl.EmailServiceImpl;
+import mockit.Mock;
+import mockit.MockUp;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,10 +12,7 @@ import org.springframework.test.context.web.WebAppConfiguration;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.request.MockHttpServletRequestBuilder;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
-import org.springframework.util.Log4jConfigurer;
 import org.springframework.web.context.WebApplicationContext;
-
-import java.io.FileNotFoundException;
 
 /**
  * @program: WebSite
@@ -29,9 +29,19 @@ public class BusinessControllerTest extends BaseControllerTest {
     protected WebApplicationContext wac;
 
     @Before
-    public void setup() throws FileNotFoundException {
-        Log4jConfigurer.initLogging("classpath:config/log4j.properties");
+    public void setup() {
+//        Log4jConfigurer.initLogging("classpath:config/log4j.properties");
         mockMvc = MockMvcBuilders.webAppContextSetup(wac).build();  //初始化MockMvc对象
+
+        //1. mock对象
+        MockUp<EmailServiceImpl> mockUp = new MockUp<EmailServiceImpl>() {
+
+            @Mock
+            public void sendMailSimple(String to, String subject, String content) {
+                //blank exec
+            }
+        };
+
     }
 
     @After
@@ -42,14 +52,17 @@ public class BusinessControllerTest extends BaseControllerTest {
      * Method: testAddProject(@RequestBody ProjectVo project)
      */
     @Test
-    public void testRegist() {
+    public void testValidate() {
 
-        MockHttpServletRequestBuilder request = createRequest("/business/regist", "POST");
+        MockHttpServletRequestBuilder request = createRequest("/business/validate", "POST");
 
         request.param("account", "837448792@126.com");
-//        request.param("account", "15222161830");
 
-        handleTest(request, mockMvc);
+        try {
+            handleTest(request, mockMvc);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
 
     }
 
