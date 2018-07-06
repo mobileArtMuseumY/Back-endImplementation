@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.website.dao.ProjectMapper">
+    <resultMap id="BaseResultMap" type="com.website.pojo.Project">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="business_id" jdbcType="BIGINT" property="businessId"/>
+        <result column="project_name" jdbcType="VARCHAR" property="projectName"/>
+        <result column="project_description" jdbcType="VARCHAR" property="projectDescription"/>
+        <result column="is_verified" jdbcType="TINYINT" property="isVerified"/>
+        <result column="budget" jdbcType="DECIMAL" property="budget"/>
+        <result column="tender_period" jdbcType="INTEGER" property="tenderPeriod"/>
+        <result column="expected_time" jdbcType="INTEGER" property="expectedTime"/>
+        <result column="finish_time" jdbcType="TIMESTAMP" property="finishTime"/>
+        <result column="gmt_create" jdbcType="TIMESTAMP" property="gmtCreate"/>
+        <result column="gmt_modified" jdbcType="TIMESTAMP" property="gmtModified"/>
+        <result column="skill" jdbcType="OTHER" property="skill"/>
+    </resultMap>
+    <sql id="Example_Where_Clause">
+        <where>
+            <foreach collection="oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" prefixOverrides="and" suffix=")">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach close=")" collection="criterion.value" item="listItem" open="("
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
+            </foreach>
+        </where>
+    </sql>
+    <sql id="Update_By_Example_Where_Clause">
+        <where>
+            <foreach collection="example.oredCriteria" item="criteria" separator="or">
+                <if test="criteria.valid">
+                    <trim prefix="(" prefixOverrides="and" suffix=")">
+                        <foreach collection="criteria.criteria" item="criterion">
+                            <choose>
+                                <when test="criterion.noValue">
+                                    and ${criterion.condition}
+                                </when>
+                                <when test="criterion.singleValue">
+                                    and ${criterion.condition} #{criterion.value}
+                                </when>
+                                <when test="criterion.betweenValue">
+                                    and ${criterion.condition} #{criterion.value} and #{criterion.secondValue}
+                                </when>
+                                <when test="criterion.listValue">
+                                    and ${criterion.condition}
+                                    <foreach close=")" collection="criterion.value" item="listItem" open="("
+                                             separator=",">
+                                        #{listItem}
+                                    </foreach>
+                                </when>
+                            </choose>
+                        </foreach>
+                    </trim>
+                </if>
+            </foreach>
+        </where>
+    </sql>
+    <sql id="Base_Column_List">
+    id, business_id, project_name, project_description, is_verified, budget, tender_period, 
+    expected_time, finish_time, gmt_create, gmt_modified, skill
+  </sql>
+    <select id="selectByExample" parameterType="com.website.pojo.ProjectExample" resultMap="BaseResultMap">
+        select
+        <if test="distinct">
+            distinct
+        </if>
+        <include refid="Base_Column_List"/>
+        from project
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+        <if test="orderByClause != null">
+            order by ${orderByClause}
+        </if>
+    </select>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List"/>
+        from project
+        where id = #{id,jdbcType=BIGINT}
+    </select>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from project
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+    <delete id="deleteByExample" parameterType="com.website.pojo.ProjectExample">
+        delete from project
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+    </delete>
+    <insert id="insert" parameterType="com.website.pojo.Project">
+    insert into project (id, business_id, project_name, 
+      project_description, is_verified, budget, 
+      tender_period, expected_time, finish_time, 
+      gmt_create, gmt_modified, skill
+      )
+    values (#{id,jdbcType=BIGINT}, #{businessId,jdbcType=BIGINT}, #{projectName,jdbcType=VARCHAR}, 
+      #{projectDescription,jdbcType=VARCHAR}, #{isVerified,jdbcType=TINYINT}, #{budget,jdbcType=DECIMAL}, 
+      #{tenderPeriod,jdbcType=INTEGER}, #{expectedTime,jdbcType=INTEGER}, #{finishTime,jdbcType=TIMESTAMP}, 
+      #{gmtCreate,jdbcType=TIMESTAMP}, #{gmtModified,jdbcType=TIMESTAMP}, #{skill,jdbcType=OTHER}
+      )
+  </insert>
+    <insert id="insertSelective" parameterType="com.website.pojo.Project">
+        insert into project
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                id,
+            </if>
+            <if test="businessId != null">
+                business_id,
+            </if>
+            <if test="projectName != null">
+                project_name,
+            </if>
+            <if test="projectDescription != null">
+                project_description,
+            </if>
+            <if test="isVerified != null">
+                is_verified,
+            </if>
+            <if test="budget != null">
+                budget,
+            </if>
+            <if test="tenderPeriod != null">
+                tender_period,
+            </if>
+            <if test="expectedTime != null">
+                expected_time,
+            </if>
+            <if test="finishTime != null">
+                finish_time,
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create,
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified,
+            </if>
+            <if test="skill != null">
+                skill,
+            </if>
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+            <if test="id != null">
+                #{id,jdbcType=BIGINT},
+            </if>
+            <if test="businessId != null">
+                #{businessId,jdbcType=BIGINT},
+            </if>
+            <if test="projectName != null">
+                #{projectName,jdbcType=VARCHAR},
+            </if>
+            <if test="projectDescription != null">
+                #{projectDescription,jdbcType=VARCHAR},
+            </if>
+            <if test="isVerified != null">
+                #{isVerified,jdbcType=TINYINT},
+            </if>
+            <if test="budget != null">
+                #{budget,jdbcType=DECIMAL},
+            </if>
+            <if test="tenderPeriod != null">
+                #{tenderPeriod,jdbcType=INTEGER},
+            </if>
+            <if test="expectedTime != null">
+                #{expectedTime,jdbcType=INTEGER},
+            </if>
+            <if test="finishTime != null">
+                #{finishTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="gmtCreate != null">
+                #{gmtCreate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="gmtModified != null">
+                #{gmtModified,jdbcType=TIMESTAMP},
+            </if>
+            <if test="skill != null">
+                #{skill,jdbcType=OTHER},
+            </if>
+        </trim>
+    </insert>
+    <select id="countByExample" parameterType="com.website.pojo.ProjectExample" resultType="java.lang.Long">
+        select count(*) from project
+        <if test="_parameter != null">
+            <include refid="Example_Where_Clause"/>
+        </if>
+    </select>
+    <update id="updateByExampleSelective" parameterType="map">
+        update project
+        <set>
+            <if test="record.id != null">
+                id = #{record.id,jdbcType=BIGINT},
+            </if>
+            <if test="record.businessId != null">
+                business_id = #{record.businessId,jdbcType=BIGINT},
+            </if>
+            <if test="record.projectName != null">
+                project_name = #{record.projectName,jdbcType=VARCHAR},
+            </if>
+            <if test="record.projectDescription != null">
+                project_description = #{record.projectDescription,jdbcType=VARCHAR},
+            </if>
+            <if test="record.isVerified != null">
+                is_verified = #{record.isVerified,jdbcType=TINYINT},
+            </if>
+            <if test="record.budget != null">
+                budget = #{record.budget,jdbcType=DECIMAL},
+            </if>
+            <if test="record.tenderPeriod != null">
+                tender_period = #{record.tenderPeriod,jdbcType=INTEGER},
+            </if>
+            <if test="record.expectedTime != null">
+                expected_time = #{record.expectedTime,jdbcType=INTEGER},
+            </if>
+            <if test="record.finishTime != null">
+                finish_time = #{record.finishTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="record.gmtCreate != null">
+                gmt_create = #{record.gmtCreate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="record.gmtModified != null">
+                gmt_modified = #{record.gmtModified,jdbcType=TIMESTAMP},
+            </if>
+            <if test="record.skill != null">
+                skill = #{record.skill,jdbcType=OTHER},
+            </if>
+        </set>
+        <if test="_parameter != null">
+            <include refid="Update_By_Example_Where_Clause"/>
+        </if>
+    </update>
+    <update id="updateByExample" parameterType="map">
+        update project
+        set id = #{record.id,jdbcType=BIGINT},
+        business_id = #{record.businessId,jdbcType=BIGINT},
+        project_name = #{record.projectName,jdbcType=VARCHAR},
+        project_description = #{record.projectDescription,jdbcType=VARCHAR},
+        is_verified = #{record.isVerified,jdbcType=TINYINT},
+        budget = #{record.budget,jdbcType=DECIMAL},
+        tender_period = #{record.tenderPeriod,jdbcType=INTEGER},
+        expected_time = #{record.expectedTime,jdbcType=INTEGER},
+        finish_time = #{record.finishTime,jdbcType=TIMESTAMP},
+        gmt_create = #{record.gmtCreate,jdbcType=TIMESTAMP},
+        gmt_modified = #{record.gmtModified,jdbcType=TIMESTAMP},
+        skill = #{record.skill,jdbcType=OTHER}
+        <if test="_parameter != null">
+            <include refid="Update_By_Example_Where_Clause"/>
+        </if>
+    </update>
+    <update id="updateByPrimaryKeySelective" parameterType="com.website.pojo.Project">
+        update project
+        <set>
+            <if test="businessId != null">
+                business_id = #{businessId,jdbcType=BIGINT},
+            </if>
+            <if test="projectName != null">
+                project_name = #{projectName,jdbcType=VARCHAR},
+            </if>
+            <if test="projectDescription != null">
+                project_description = #{projectDescription,jdbcType=VARCHAR},
+            </if>
+            <if test="isVerified != null">
+                is_verified = #{isVerified,jdbcType=TINYINT},
+            </if>
+            <if test="budget != null">
+                budget = #{budget,jdbcType=DECIMAL},
+            </if>
+            <if test="tenderPeriod != null">
+                tender_period = #{tenderPeriod,jdbcType=INTEGER},
+            </if>
+            <if test="expectedTime != null">
+                expected_time = #{expectedTime,jdbcType=INTEGER},
+            </if>
+            <if test="finishTime != null">
+                finish_time = #{finishTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="gmtCreate != null">
+                gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+            </if>
+            <if test="gmtModified != null">
+                gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
+            </if>
+            <if test="skill != null">
+                skill = #{skill,jdbcType=OTHER},
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <update id="updateByPrimaryKey" parameterType="com.website.pojo.Project">
+    update project
+    set business_id = #{businessId,jdbcType=BIGINT},
+      project_name = #{projectName,jdbcType=VARCHAR},
+      project_description = #{projectDescription,jdbcType=VARCHAR},
+      is_verified = #{isVerified,jdbcType=TINYINT},
+      budget = #{budget,jdbcType=DECIMAL},
+      tender_period = #{tenderPeriod,jdbcType=INTEGER},
+      expected_time = #{expectedTime,jdbcType=INTEGER},
+      finish_time = #{finishTime,jdbcType=TIMESTAMP},
+      gmt_create = #{gmtCreate,jdbcType=TIMESTAMP},
+      gmt_modified = #{gmtModified,jdbcType=TIMESTAMP},
+      skill = #{skill,jdbcType=OTHER}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

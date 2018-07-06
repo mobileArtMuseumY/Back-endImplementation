@@ -1,0 +1,2296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="website-platform:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="7b95515c-5f86-45c8-a81d-e17d1b9ac659" name="Default" comment="ceshi" />
+    <ignored path="$PROJECT_DIR$/website-common/target/" />
+    <ignored path="$PROJECT_DIR$/website-parent/target/" />
+    <ignored path="$PROJECT_DIR$/website-service/target/" />
+    <ignored path="$PROJECT_DIR$/website-platform/target/" />
+    <ignored path="$PROJECT_DIR$/website-dao/target/" />
+    <ignored path="$PROJECT_DIR$/website-pojo/target/" />
+    <ignored path=".idea/" />
+    <ignored path="mybatis-generator/target/" />
+    <ignored path="website-parent/.idea/" />
+    <ignored path="$PROJECT_DIR$/mybatis-generator/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="spring-web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mybatisConfig.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/mybatisConfig.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="741">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/db.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-dao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectDto.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/dto/ProjectDto.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/impl/ProjectServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectVo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/project/vo/ProjectVo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectController.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/project/ProjectController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="551">
+              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProjectService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/ProjectService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-service.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>test</find>
+      <find>ProjectExample</find>
+      <find>Jackson</find>
+      <find>json</find>
+      <find>termsOfServiceUrl</find>
+      <find>dispatch</find>
+      <find>mybatis-spring</find>
+      <find>slf4j</find>
+      <find>lo</find>
+      <find>log4j</find>
+      <find>slf4j.version</find>
+      <find>fastjson</find>
+      <find>ga</find>
+      <find>ch.qos.logback</find>
+      <find>google</find>
+      <find>log4jConfigLocation</find>
+      <find>guava</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/website-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/website-dao/src/test/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/sss" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BidMapper.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml" />
+        <option value="$PROJECT_DIR$/website-dao/src/test/java/com/website/dao/ConnectTest.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/project/IProjectService.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/IDUtils.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/ResponseCode.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/ServerResponse.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/dto/ProjectDto.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/impl/TestMultiThread.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/ProjectVo.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/IProjectService.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/ProjectService.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/project/vo/ProjectVo.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/project/ProjectController.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectMapper.xml" />
+        <option value="$PROJECT_DIR$/mybatis-generator/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/impl/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/website-common/pom.xml" />
+        <option value="$PROJECT_DIR$/website-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/config/Swagger2Config.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-web.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-service.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/mybatisConfig.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-dao.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="website-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="website-platform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="website-platform" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="website-pojo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="artMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="artMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="artMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="artMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="artMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="artMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="artMuseum" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="projectM&#9;FILE&#9;file://D:/hjy/Guns/artMuseum/website-dao/src/main/resources/mapper/ProjectMapper.xml" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-generator/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.31034482" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\hjy\Guns\artMuseum\website-dao\src\test\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\hjy\Guns\artMuseum\website-dao\src\main\resources\mapper" />
+      <recent name="D:\hjy\Guns\artMuseum\website-pojo\src\main\java\com\website\pojo" />
+      <recent name="D:\hjy\Guns\artMuseum\website-dao\src\main\java\com\website\dao" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.86" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/doc.html" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="website-platform:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_artMuseum" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52022" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.86" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="website-platform:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="_artMuseum" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52022" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="website-platform:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration useDefault="false">C:\Users\lzy\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b95515c-5f86-45c8-a81d-e17d1b9ac659" name="Default" comment="" />
+      <created>1530524221059</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530524221059</updated>
+      <workItem from="1530524225230" duration="885000" />
+      <workItem from="1530580053003" duration="3496000" />
+      <workItem from="1530754524715" duration="769000" />
+      <workItem from="1530755315572" duration="20263000" />
+      <workItem from="1530842262845" duration="2067000" />
+    </task>
+    <task id="LOCAL-00001" summary="mybatis-generator 生成">
+      <created>1530524927332</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1530524927332</updated>
+    </task>
+    <task id="LOCAL-00002" summary="mybatis-generator 生成">
+      <created>1530754706136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1530754706136</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ceshi">
+      <created>1530756164116</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1530756164116</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ConnectTest_queryAllTest - 2018.07.03 at 09h 55m 53s.xml">
+      <configuration name="ConnectTest.queryAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConnectTest_queryAllTest - 2018.07.03 at 09h 56m 34s.xml">
+      <configuration name="ConnectTest.queryAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConnectTest_queryAllTest - 2018.07.03 at 09h 56m 56s.xml">
+      <configuration name="ConnectTest.queryAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConnectTest_queryAllTest - 2018.07.03 at 09h 58m 59s.xml">
+      <configuration name="ConnectTest.queryAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ConnectTest - 2018.07.03 at 10h 08m 09s.xml">
+      <configuration name="ConnectTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="27480000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50159913" side_tool="true" weight="0.32922733" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.32922733" />
+      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32995737" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="3" weight="0.32995737" />
+      <window_info id="Structure" order="1" sideWeight="0.5018657" side_tool="true" weight="0.18017058" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.68533033" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="7" weight="0.32922733" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" weight="0.23964165" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4989339" weight="0.3706607" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32922733" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49813432" visible="true" weight="0.18550107" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32922733" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32922733" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UpdateCopyrightCheckinHandler">
+    <option name="UPDATE_COPYRIGHT" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="mybatis-generator 生成" />
+    <MESSAGE value="ceshi" />
+    <option name="LAST_COMMIT_MESSAGE" value="ceshi" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="54" lean-forward="true" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/mybatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="11" lean-forward="true" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="8" lean-forward="true" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.7.0/springfox-swagger2-2.7.0.jar!/springfox/documentation/swagger2/annotations/EnableSwagger2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.7.0/springfox-core-2.7.0.jar!/springfox/documentation/service/Contact.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-core/2.7.0/springfox-core-2.7.0.jar!/springfox/documentation/builders/ApiInfoBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-206">
+          <caret line="16" column="36" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/FavoriteProjectMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/FavoriteWorksMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="52" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1197">
+          <caret line="3" column="40" lean-forward="true" selection-start-line="3" selection-start-column="40" selection-end-line="3" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BidMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="27" column="48" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/WorksAttachmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/WorksMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/AdministratorMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-pojo/src/main/java/com/website/pojo/Administrator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/net/DualStackPlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.website:website-dao:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.website:website-dao:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="2492.4920523893793" y="1350.0">com.website:website-dao:1.0-SNAPSHOT</node>
+            <node x="2269.149628146955" y="1180.0">com.website:website-pojo:jar:1.0-SNAPSHOT</node>
+            <node x="2218.899628146955" y="1020.0">com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT</node>
+            <node x="792.8246439384693" y="630.0">com.fasterxml.jackson.core:jackson-core:jar:2.9.3</node>
+            <node x="643.7272727272727" y="790.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.3</node>
+            <node x="569.3401774600004" y="630.0">com.fasterxml.jackson.core:jackson-databind:jar:2.9.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="3505.6203491683755" y="330.0">org.springframework:spring-test:jar:4.3.8.RELEASE</node>
+            <node x="3136.7453491683755" y="200.0">org.springframework:spring-core:jar:4.3.8.RELEASE</node>
+            <node x="3117.2453491683755" y="80.0">org.springframework:spring-core:jar:4.3.8.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="3155.6203491683755" y="420.0">org.springframework:spring-aop:jar:4.3.8.RELEASE</node>
+            <node x="3024.5370158350424" y="330.0">org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE</node>
+            <node x="3075.7453491683755" y="630.0">org.springframework:spring-web:jar:4.3.8.RELEASE</node>
+            <node x="3273.6203491683755" y="510.0">org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE</node>
+            <node x="3302.00479985533" y="790.0">org.springframework:spring-webmvc:jar:4.3.8.RELEASE</node>
+            <node x="3347.6203491683755" y="420.0">org.springframework:spring-webmvc:jar:4.3.8.RELEASE/org.springframework:spring-expression:jar:4.3.8.RELEASE</node>
+            <node x="2618.960590269092" y="790.0">org.springframework:spring-jdbc:jar:4.3.8.RELEASE</node>
+            <node x="2781.4953491683755" y="630.0">org.springframework:spring-tx:jar:4.3.8.RELEASE</node>
+            <node x="2864.210590269092" y="790.0">javax.mail:mail:jar:1.4.5</node>
+            <node x="2885.4953491683755" y="630.0">javax.mail:mail:jar:1.4.5/javax.activation:activation:jar:1.1</node>
+            <node x="0.0" y="1180.0">javax.servlet:javax.servlet-api:jar:3.0.1</node>
+            <node x="1166.9496439384693" y="790.0">org.aspectj:aspectjrt:jar:1.8.0</node>
+            <node x="2940.210590269092" y="790.0">org.aspectj:aspectjweaver:jar:1.8.0</node>
+            <node x="2737.960590269092" y="790.0">com.alibaba:fastjson:jar:1.2.47</node>
+            <node x="1437.9496439384693" y="790.0">org.mybatis:mybatis:jar:3.3.0</node>
+            <node x="150.72727272727275" y="790.0">mysql:mysql-connector-java:jar:5.1.26</node>
+            <node x="66.72727272727298" y="790.0">com.alibaba:druid:jar:1.0.20</node>
+            <node x="12.977272727272975" y="630.0">com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="112.97727272727275" y="630.0">com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0</node>
+            <node x="327.72727272727275" y="790.0">org.mybatis:mybatis-spring:jar:1.2.3</node>
+            <node x="1268.9496439384693" y="790.0">io.springfox:springfox-swagger2:jar:2.7.0</node>
+            <node x="1827.418923602425" y="420.0">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13</node>
+            <node x="2058.0022569357584" y="510.0">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13</node>
+            <node x="2003.418923602425" y="420.0">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5</node>
+            <node x="2172.418923602425" y="420.0">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13/org.slf4j:slf4j-api:jar:1.7.22</node>
+            <node x="1443.4412948136214" y="420.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0</node>
+            <node x="1293.4412948136214" y="330.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0</node>
+            <node x="1272.9412948136214" y="200.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0/net.bytebuddy:byte-buddy:jar:1.6.14</node>
+            <node x="1517.731423602425" y="510.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0</node>
+            <node x="1611.4326298701299" y="630.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0</node>
+            <node x="1172.4412948136214" y="510.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0</node>
+            <node x="997.1897569357582" y="420.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11</node>
+            <node x="1054.0371281469547" y="330.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/com.google.guava:guava:jar:20.0</node>
+            <node x="954.0371281469547" y="330.0">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
+            <node x="1809.84512987013" y="200.0">io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:18.0</node>
+            <node x="1685.731423602425" y="200.0">io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="2067.0022569357584" y="630.0">io.springfox:springfox-swagger2:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.24</node>
+            <node x="1329.9117965367966" y="80.0">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="1332.86333441466" y="0.0">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-beans:jar:4.0.9.RELEASE</node>
+            <node x="1559.86333441466" y="0.0">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-context:jar:4.0.9.RELEASE</node>
+            <node x="1215.86333441466" y="0.0">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-aop:jar:4.0.9.RELEASE</node>
+            <node x="1461.86333441466" y="0.0">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.10</node>
+            <node x="1070.9412948136214" y="200.0">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="1152.4117965367966" y="80.0">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.24</node>
+            <node x="1112.5908900808938" y="630.0">io.springfox:springfox-swagger2:jar:2.7.0/org.mapstruct:mapstruct:jar:1.1.0.Final</node>
+            <node x="466.72727272727275" y="790.0">io.springfox:springfox-swagger-ui:jar:2.7.0</node>
+            <node x="2438.960590269092" y="790.0">com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="com.alibaba:druid:jar:1.0.20" target="com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0">
+              <point x="15.75" y="-15.0" />
+              <point x="113.97727272727298" y="750.0" />
+              <point x="143.47727272727275" y="750.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE/commons-logging:commons-logging:jar:1.2">
+              <point x="0.0" y="-15.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.47">
+              <point x="18.90000000000009" y="-15.0" />
+              <point x="2342.049628146955" y="1100.0" />
+              <point x="2776.460590269092" y="1100.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.24">
+              <point x="-67.71428571428567" y="-15.0" />
+              <point x="1183.7270090993356" y="490.0" />
+              <point x="943.5371281469547" y="490.0" />
+              <point x="943.5371281469547" y="170.0" />
+              <point x="1162.1617965367966" y="170.0" />
+              <point x="-29.25" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="24.25" y="-15.0" />
+              <point x="3228.3703491683755" y="310.0" />
+              <point x="3190.9120158350424" y="310.0" />
+              <point x="4.166666666666515" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0">
+              <point x="-31.041666666666515" y="-15.0" />
+              <point x="1312.4079772718028" y="690.0" />
+              <point x="1490.24512987013" y="690.0" />
+              <point x="1490.24512987013" y="490.0" />
+              <point x="1484.3162948136214" y="490.0" />
+              <point x="-13.625" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-context:jar:4.0.9.RELEASE">
+              <point x="52.875" y="-15.0" />
+              <point x="1453.2867965367966" y="60.0" />
+              <point x="1617.86333441466" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.8.RELEASE">
+              <point x="62.526315789473756" y="-15.0" />
+              <point x="2347.4259439364287" y="980.0" />
+              <point x="3322.171466521997" y="980.0" />
+              <point x="-40.33333333333326" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.8.RELEASE">
+              <point x="51.30000000000018" y="-15.0" />
+              <point x="2374.449628146955" y="1160.0" />
+              <point x="3052.859387046239" y="1160.0" />
+              <point x="3052.859387046239" y="990.0" />
+              <point x="3362.50479985533" y="990.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.26">
+              <point x="-35.454545454545496" y="-15.0" />
+              <point x="2509.037506934834" y="1300.0" />
+              <point x="164.70909090909072" y="1300.0" />
+              <point x="164.70909090909072" y="940.0" />
+              <point x="176.89393939393926" y="940.0" />
+              <point x="-52.333333333333485" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE">
+              <point x="-36.75" y="-15.0" />
+              <point x="3087.9953491683755" y="610.0" />
+              <point x="3069.953682501709" y="610.0" />
+              <point x="-9.083333333333485" y="15.0" />
+            </edge>
+            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.3" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.3">
+              <point x="33.25" y="-15.0" />
+              <point x="743.4772727272727" y="770.0" />
+              <point x="832.9496439384693" y="770.0" />
+              <point x="-13.375" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="49.63636363636351" y="-15.0" />
+              <point x="2594.128416025743" y="1330.0" />
+              <point x="3611.1203491683755" y="1330.0" />
+              <point x="3611.1203491683755" y="260.0" />
+              <point x="3232.5786825017094" y="260.0" />
+              <point x="45.833333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.3.8.RELEASE">
+              <point x="26.0" y="-15.0" />
+              <point x="2570.4920523893793" y="1280.0" />
+              <point x="3095.8275688644208" y="1280.0" />
+              <point x="3095.8275688644208" y="840.0" />
+              <point x="3064.710590269092" y="840.0" />
+              <point x="3064.710590269092" y="750.0" />
+              <point x="2854.9953491683755" y="750.0" />
+              <point x="31.5" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13" target="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5">
+              <point x="0.0" y="-15.0" />
+              <point x="2123.0022569357584" y="480.0" />
+              <point x="2077.918923602425" y="480.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.47">
+              <point x="41.68421052631584" y="-15.0" />
+              <point x="2326.5838386732707" y="910.0" />
+              <point x="2750.793923602425" y="910.0" />
+              <point x="-25.666666666666742" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.8.RELEASE" target="org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE">
+              <point x="10.083333333333485" y="-15.0" />
+              <point x="3372.5881331886635" y="770.0" />
+              <point x="3360.6203491683755" y="770.0" />
+              <point x="29.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.7.0">
+              <point x="-20.84210526315792" y="-15.0" />
+              <point x="2264.057522883797" y="860.0" />
+              <point x="1393.116310605136" y="860.0" />
+              <point x="49.66666666666674" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3">
+              <point x="9.899999999999864" y="-15.0" />
+              <point x="1720.33262987013" y="570.0" />
+              <point x="1741.356423602425" y="570.0" />
+              <point x="11.125" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.7.0">
+              <point x="-13.5" y="-15.0" />
+              <point x="2309.649628146955" y="1090.0" />
+              <point x="1343.4496439384693" y="1090.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.8.RELEASE">
+              <point x="30.72727272727252" y="-15.0" />
+              <point x="2575.219325116652" y="1290.0" />
+              <point x="3291.50479985533" y="1290.0" />
+              <point x="3291.50479985533" y="770.0" />
+              <point x="3136.9953491683755" y="770.0" />
+              <point x="12.25" y="15.0" />
+            </edge>
+            <edge source="javax.mail:mail:jar:1.4.5" target="javax.mail:mail:jar:1.4.5/javax.activation:activation:jar:1.1">
+              <point x="0.0" y="-15.0" />
+              <point x="2892.210590269092" y="760.0" />
+              <point x="2928.9953491683755" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="29.700000000000045" y="-15.0" />
+              <point x="1740.1326298701301" y="580.0" />
+              <point x="1785.231423602425" y="580.0" />
+              <point x="1785.231423602425" y="140.0" />
+              <point x="1428.6117965367966" y="140.0" />
+              <point x="28.200000000000045" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger-ui:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0">
+              <point x="0.0" y="-15.0" />
+              <point x="545.2272727272727" y="750.0" />
+              <point x="535.4651774600004" y="750.0" />
+              <point x="535.4651774600004" y="610.0" />
+              <point x="1198.774628146955" y="610.0" />
+              <point x="-52.66666666666663" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.3">
+              <point x="-40.5" y="-15.0" />
+              <point x="2282.649628146955" y="1140.0" />
+              <point x="387.22727272727275" y="1140.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0">
+              <point x="-43.45833333333326" y="-15.0" />
+              <point x="1299.991310605136" y="750.0" />
+              <point x="1251.4412948136214" y="750.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13" target="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13">
+              <point x="-43.33333333333326" y="-15.0" />
+              <point x="2079.668923602425" y="490.0" />
+              <point x="1956.5855902690917" y="490.0" />
+              <point x="51.66666666666674" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.7.0">
+              <point x="-41.68421052631584" y="-15.0" />
+              <point x="2243.215417620639" y="890.0" />
+              <point x="597.560606060606" y="890.0" />
+              <point x="52.33333333333337" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
+              <point x="6.947368421052488" y="-15.0" />
+              <point x="2291.8469965680074" y="860.0" />
+              <point x="2381.236906058565" y="860.0" />
+              <point x="2381.236906058565" y="480.0" />
+              <point x="3163.7036825017094" y="480.0" />
+              <point x="-40.416666666666515" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="-12.25" y="-15.0" />
+              <point x="3112.4953491683755" y="600.0" />
+              <point x="3144.0370158350424" y="600.0" />
+              <point x="3144.0370158350424" y="310.0" />
+              <point x="3182.5786825017094" y="310.0" />
+              <point x="-4.166666666666515" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.8.RELEASE">
+              <point x="13.5" y="-15.0" />
+              <point x="2336.649628146955" y="1090.0" />
+              <point x="2668.460590269092" y="1090.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="javax.mail:mail:jar:1.4.5">
+              <point x="29.699999999999818" y="-15.0" />
+              <point x="2352.8496281469547" y="1120.0" />
+              <point x="2878.1530145115157" y="1120.0" />
+              <point x="2878.1530145115157" y="930.0" />
+              <point x="2892.210590269092" y="930.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3">
+              <point x="29.5" y="-15.0" />
+              <point x="1381.9412948136214" y="270.0" />
+              <point x="1696.856423602425" y="270.0" />
+              <point x="-33.375" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE">
+              <point x="-24.25" y="-15.0" />
+              <point x="3179.8703491683755" y="400.0" />
+              <point x="3088.120349168376" y="400.0" />
+              <point x="9.083333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.8.0">
+              <point x="-27.789473684210407" y="-15.0" />
+              <point x="2257.1101544627445" y="870.0" />
+              <point x="1235.2829772718028" y="870.0" />
+              <point x="27.33333333333333" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13">
+              <point x="89.09999999999991" y="-15.0" />
+              <point x="1799.5326298701298" y="610.0" />
+              <point x="2090.5022569357584" y="610.0" />
+              <point x="-32.5" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0">
+              <point x="-69.29999999999995" y="-15.0" />
+              <point x="1641.1326298701301" y="590.0" />
+              <point x="1507.231423602425" y="590.0" />
+              <point x="1507.231423602425" y="490.0" />
+              <point x="1511.5662948136214" y="490.0" />
+              <point x="13.625" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6">
+              <point x="2.3636363636364877" y="-15.0" />
+              <point x="2546.855688753016" y="1230.0" />
+              <point x="3063.859387046239" y="1230.0" />
+              <point x="3063.859387046239" y="890.0" />
+              <point x="2572.293923602425" y="890.0" />
+              <point x="53.333333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6">
+              <point x="27.789473684210407" y="-15.0" />
+              <point x="2312.6891018311653" y="890.0" />
+              <point x="2465.627256935758" y="890.0" />
+              <point x="-53.333333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.3.0">
+              <point x="-8.099999999999909" y="-15.0" />
+              <point x="2315.049628146955" y="1080.0" />
+              <point x="1476.4496439384693" y="1080.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
+              <point x="-43.5" y="-15.0" />
+              <point x="3288.1203491683755" y="480.0" />
+              <point x="3228.3703491683755" y="480.0" />
+              <point x="24.25" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.3.0">
+              <point x="-7.090909090909008" y="-15.0" />
+              <point x="2537.4011432984703" y="1240.0" />
+              <point x="193.0727272727272" y="1240.0" />
+              <point x="193.0727272727272" y="1000.0" />
+              <point x="1450.7829772718026" y="1000.0" />
+              <point x="-25.666666666666742" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6">
+              <point x="8.099999999999909" y="-15.0" />
+              <point x="2331.249628146955" y="1080.0" />
+              <point x="2518.960590269092" y="1080.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="-33.0" y="-15.0" />
+              <point x="2635.460590269092" y="740.0" />
+              <point x="2649.8381331886635" y="740.0" />
+              <point x="2649.8381331886635" y="280.0" />
+              <point x="3157.5786825017094" y="280.0" />
+              <point x="-29.166666666666515" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.7.0">
+              <point x="-26.0" y="-15.0" />
+              <point x="2518.4920523893793" y="1280.0" />
+              <point x="174.16363636363621" y="1280.0" />
+              <point x="174.16363636363621" y="960.0" />
+              <point x="492.8939393939395" y="960.0" />
+              <point x="-52.33333333333326" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="14.5" y="-15.0" />
+              <point x="3346.1203491683755" y="490.0" />
+              <point x="3337.1203491683755" y="490.0" />
+              <point x="3337.1203491683755" y="300.0" />
+              <point x="3199.2453491683755" y="300.0" />
+              <point x="12.5" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0">
+              <point x="-49.5" y="-15.0" />
+              <point x="1660.9326298701299" y="580.0" />
+              <point x="1619.731423602425" y="580.0" />
+              <point x="34.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="javax.mail:mail:jar:1.4.5">
+              <point x="16.545454545454504" y="-15.0" />
+              <point x="2561.037506934834" y="1260.0" />
+              <point x="3078.041205228057" y="1260.0" />
+              <point x="3078.041205228057" y="860.0" />
+              <point x="2910.8772569357584" y="860.0" />
+              <point x="18.666666666666742" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0">
+              <point x="-6.2083333333332575" y="-15.0" />
+              <point x="1337.241310605136" y="710.0" />
+              <point x="1710.4326298701299" y="710.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/com.google.guava:guava:jar:20.0">
+              <point x="23.0" y="-15.0" />
+              <point x="1066.1897569357582" y="400.0" />
+              <point x="1087.5371281469547" y="400.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11">
+              <point x="-45.14285714285711" y="-15.0" />
+              <point x="1206.2984376707643" y="480.0" />
+              <point x="1043.1897569357582" y="480.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE">
+              <point x="21.0" y="-15.0" />
+              <point x="2844.4953491683755" y="610.0" />
+              <point x="2828.9953491683755" y="610.0" />
+              <point x="2828.9953491683755" y="400.0" />
+              <point x="3051.7870158350424" y="400.0" />
+              <point x="-27.25" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3">
+              <point x="18.625" y="-15.0" />
+              <point x="1362.0746439384693" y="730.0" />
+              <point x="1992.918923602425" y="730.0" />
+              <point x="1992.918923602425" y="280.0" />
+              <point x="1763.606423602425" y="280.0" />
+              <point x="33.375" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.8.RELEASE">
+              <point x="20.84210526315792" y="-15.0" />
+              <point x="2305.741733410113" y="880.0" />
+              <point x="2395.1316429006706" y="880.0" />
+              <point x="2395.1316429006706" y="770.0" />
+              <point x="3087.9953491683755" y="770.0" />
+              <point x="-36.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="3079.0370158350424" y="300.0" />
+              <point x="3174.2453491683755" y="300.0" />
+              <point x="-12.5" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.8.0">
+              <point x="55.57894736842127" y="-15.0" />
+              <point x="2340.478575515376" y="940.0" />
+              <point x="2959.210590269092" y="940.0" />
+              <point x="-38.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.8.0">
+              <point x="21.27272727272748" y="-15.0" />
+              <point x="2565.764779662107" y="1270.0" />
+              <point x="3082.76847795533" y="1270.0" />
+              <point x="3082.76847795533" y="850.0" />
+              <point x="3035.210590269092" y="850.0" />
+              <point x="38.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
+              <point x="12.25" y="-15.0" />
+              <point x="3136.9953491683755" y="610.0" />
+              <point x="3155.0370158350424" y="610.0" />
+              <point x="3155.0370158350424" y="490.0" />
+              <point x="3179.8703491683755" y="490.0" />
+              <point x="-24.25" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.8.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.8.RELEASE/org.springframework:spring-expression:jar:4.3.8.RELEASE">
+              <point x="30.25" y="-15.0" />
+              <point x="3392.75479985533" y="760.0" />
+              <point x="3450.3703491683755" y="760.0" />
+              <point x="34.25" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.3">
+              <point x="-48.631578947368325" y="-15.0" />
+              <point x="2236.2680491995866" y="900.0" />
+              <point x="426.8939393939395" y="900.0" />
+              <point x="39.66666666666674" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.mybatis:mybatis-spring:jar:1.2.3">
+              <point x="-30.727272727272975" y="-15.0" />
+              <point x="2513.7647796621063" y="1290.0" />
+              <point x="169.43636363636324" y="1290.0" />
+              <point x="169.43636363636324" y="950.0" />
+              <point x="347.560606060606" y="950.0" />
+              <point x="-39.66666666666674" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.24">
+              <point x="-9.900000000000091" y="-15.0" />
+              <point x="1700.5326298701298" y="560.0" />
+              <point x="1675.231423602425" y="560.0" />
+              <point x="1675.231423602425" y="150.0" />
+              <point x="1220.6617965367966" y="150.0" />
+              <point x="29.25" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.3">
+              <point x="-6.947368421052488" y="-15.0" />
+              <point x="2277.9522597259024" y="840.0" />
+              <point x="1535.725959727943" y="840.0" />
+              <point x="1535.725959727943" y="680.0" />
+              <point x="886.4496439384693" y="680.0" />
+              <point x="40.125" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.3">
+              <point x="-40.18181818181802" y="-15.0" />
+              <point x="2504.3102342075613" y="1310.0" />
+              <point x="140.22727272727275" y="1310.0" />
+              <point x="140.22727272727275" y="760.0" />
+              <point x="806.1996439384693" y="760.0" />
+              <point x="-40.125" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.10">
+              <point x="17.625" y="-15.0" />
+              <point x="1418.0367965367966" y="50.0" />
+              <point x="1500.86333441466" y="50.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.26">
+              <point x="-55.57894736842081" y="-15.0" />
+              <point x="2229.320680778534" y="910.0" />
+              <point x="281.56060606060623" y="910.0" />
+              <point x="52.333333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.mybatis:mybatis:jar:3.3.0">
+              <point x="-13.89473684210543" y="-15.0" />
+              <point x="2271.0048913048495" y="850.0" />
+              <point x="1502.116310605136" y="850.0" />
+              <point x="25.666666666666742" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
+              <point x="-30.25" y="-15.0" />
+              <point x="3332.25479985533" y="750.0" />
+              <point x="3229.9953491683755" y="750.0" />
+              <point x="3229.9953491683755" y="490.0" />
+              <point x="3212.2036825017094" y="490.0" />
+              <point x="8.083333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="javax.mail:mail:jar:1.4.5">
+              <point x="48.631578947368325" y="-15.0" />
+              <point x="2333.5312070943232" y="920.0" />
+              <point x="2873.543923602425" y="920.0" />
+              <point x="-18.66666666666667" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.8.0">
+              <point x="-18.90000000000009" y="-15.0" />
+              <point x="2304.249628146955" y="1100.0" />
+              <point x="1207.9496439384693" y="1100.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="-68.29166666666652" y="-15.0" />
+              <point x="1275.1579772718028" y="770.0" />
+              <point x="932.5371281469547" y="770.0" />
+              <point x="932.5371281469547" y="310.0" />
+              <point x="1092.1912948136214" y="310.0" />
+              <point x="-63.75" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.3.8.RELEASE">
+              <point x="24.300000000000182" y="-15.0" />
+              <point x="2347.449628146955" y="1110.0" />
+              <point x="2825.460590269092" y="1110.0" />
+              <point x="2825.460590269092" y="760.0" />
+              <point x="2833.9953491683755" y="760.0" />
+              <point x="10.5" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13">
+              <point x="43.45833333333326" y="-15.0" />
+              <point x="1386.9079772718026" y="750.0" />
+              <point x="2155.5022569357584" y="750.0" />
+              <point x="32.5" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="-49.16666666666674" y="-15.0" />
+              <point x="1303.2746281469547" y="310.0" />
+              <point x="1177.1912948136214" y="310.0" />
+              <point x="21.25" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:4.3.8.RELEASE">
+              <point x="35.454545454545496" y="-15.0" />
+              <point x="2579.946597843925" y="1300.0" />
+              <point x="3349.535102885633" y="1300.0" />
+              <point x="3349.535102885633" y="1000.0" />
+              <point x="3402.8381331886635" y="1000.0" />
+              <point x="40.333333333333485" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:18.0">
+              <point x="55.875" y="-15.0" />
+              <point x="1399.3246439384693" y="760.0" />
+              <point x="2260.918923602425" y="760.0" />
+              <point x="2260.918923602425" y="270.0" />
+              <point x="1868.47012987013" y="270.0" />
+              <point x="25.125" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-aop:jar:4.0.9.RELEASE">
+              <point x="-52.875" y="-15.0" />
+              <point x="1347.5367965367966" y="60.0" />
+              <point x="1264.36333441466" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
+              <point x="40.18181818181802" y="-15.0" />
+              <point x="2584.6738705711973" y="1310.0" />
+              <point x="3527.2567128047394" y="1310.0" />
+              <point x="3527.2567128047394" y="470.0" />
+              <point x="3244.5370158350424" y="470.0" />
+              <point x="40.416666666666515" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:18.0">
+              <point x="49.16666666666674" y="-15.0" />
+              <point x="1401.6079614802882" y="290.0" />
+              <point x="1818.22012987013" y="290.0" />
+              <point x="-25.125" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.8.RELEASE/org.springframework:spring-expression:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="3416.1203491683755" y="290.0" />
+              <point x="3207.5786825017094" y="290.0" />
+              <point x="20.833333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="javax.servlet:javax.servlet-api:jar:3.0.1">
+              <point x="-49.63636363636351" y="-15.0" />
+              <point x="2494.855688753016" y="1330.0" />
+              <point x="62.5" y="1330.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="9.833333333333258" y="-15.0" />
+              <point x="1362.2746281469547" y="260.0" />
+              <point x="1382.4412948136214" y="260.0" />
+              <point x="1382.4412948136214" y="180.0" />
+              <point x="1400.4117965367966" y="180.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE" target="org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE">
+              <point x="36.75" y="-15.0" />
+              <point x="3161.4953491683755" y="610.0" />
+              <point x="3302.6203491683755" y="610.0" />
+              <point x="-29.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE">
+              <point x="-10.083333333333258" y="-15.0" />
+              <point x="3352.421466521997" y="740.0" />
+              <point x="3263.1203491683755" y="740.0" />
+              <point x="3263.1203491683755" y="390.0" />
+              <point x="3106.2870158350424" y="390.0" />
+              <point x="27.25" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:4.3.8.RELEASE">
+              <point x="40.5" y="-15.0" />
+              <point x="2363.649628146955" y="1140.0" />
+              <point x="2972.334387046239" y="1140.0" />
+              <point x="2972.334387046239" y="960.0" />
+              <point x="3112.4953491683755" y="960.0" />
+              <point x="-12.25" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.8.RELEASE" target="org.springframework:spring-web:jar:4.3.8.RELEASE">
+              <point x="-50.41666666666674" y="-15.0" />
+              <point x="3312.088133188663" y="760.0" />
+              <point x="3161.4953491683755" y="760.0" />
+              <point x="36.75" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="3553.1203491683755" y="270.0" />
+              <point x="3224.2453491683755" y="270.0" />
+              <point x="37.5" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-beans:jar:4.0.9.RELEASE">
+              <point x="-17.625" y="-15.0" />
+              <point x="1382.7867965367966" y="60.0" />
+              <point x="1387.36333441466" y="60.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:4.3.8.RELEASE">
+              <point x="44.90909090909099" y="-15.0" />
+              <point x="2589.4011432984703" y="1320.0" />
+              <point x="3553.1203491683755" y="1320.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.3">
+              <point x="-29.699999999999818" y="-15.0" />
+              <point x="2293.449628146955" y="1120.0" />
+              <point x="710.2272727272727" y="1120.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="68.29166666666674" y="-15.0" />
+              <point x="1411.741310605136" y="770.0" />
+              <point x="2275.856423602425" y="770.0" />
+              <point x="2275.856423602425" y="130.0" />
+              <point x="1456.8117965367965" y="130.0" />
+              <point x="56.39999999999998" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="42.5" y="-15.0" />
+              <point x="1198.4412948136214" y="170.0" />
+              <point x="1344.0117965367967" y="170.0" />
+              <point x="-56.39999999999998" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-webmvc:jar:4.3.8.RELEASE/org.springframework:spring-expression:jar:4.3.8.RELEASE">
+              <point x="43.5" y="-15.0" />
+              <point x="3375.1203491683755" y="490.0" />
+              <point x="3381.8703491683755" y="490.0" />
+              <point x="-34.25" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-core:jar:2.9.3">
+              <point x="-24.300000000000182" y="-15.0" />
+              <point x="2298.8496281469547" y="1110.0" />
+              <point x="838.3522727272727" y="1110.0" />
+              <point x="838.3522727272727" y="770.0" />
+              <point x="859.6996439384693" y="770.0" />
+              <point x="13.375" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13">
+              <point x="69.29999999999995" y="-15.0" />
+              <point x="1779.73262987013" y="600.0" />
+              <point x="1879.318923602425" y="600.0" />
+              <point x="1879.318923602425" y="490.0" />
+              <point x="1853.2522569357582" y="490.0" />
+              <point x="-51.66666666666674" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0">
+              <point x="0.0" y="-15.0" />
+              <point x="1497.9412948136214" y="400.0" />
+              <point x="1322.9412948136214" y="400.0" />
+              <point x="-29.5" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="com.alibaba:druid:jar:1.0.20">
+              <point x="-44.90909090909099" y="-15.0" />
+              <point x="2499.5829614802883" y="1320.0" />
+              <point x="135.49999999999977" y="1320.0" />
+              <point x="135.49999999999977" y="1000.0" />
+              <point x="77.22727272727298" y="1000.0" />
+              <point x="-21.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0">
+              <point x="67.71428571428578" y="-15.0" />
+              <point x="1319.1555805279072" y="490.0" />
+              <point x="1457.0662948136214" y="490.0" />
+              <point x="-40.875" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3">
+              <point x="22.571428571428555" y="-15.0" />
+              <point x="1274.0127233850499" y="470.0" />
+              <point x="1421.9412948136214" y="470.0" />
+              <point x="1421.9412948136214" y="280.0" />
+              <point x="1719.106423602425" y="280.0" />
+              <point x="-11.125" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="mysql:mysql-connector-java:jar:5.1.26">
+              <point x="-45.90000000000009" y="-15.0" />
+              <point x="2277.249628146955" y="1150.0" />
+              <point x="229.22727272727275" y="1150.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.springframework:spring-tx:jar:4.3.8.RELEASE">
+              <point x="13.89473684210543" y="-15.0" />
+              <point x="2298.7943649890603" y="870.0" />
+              <point x="2388.184274479618" y="870.0" />
+              <point x="2388.184274479618" y="750.0" />
+              <point x="2791.9953491683755" y="750.0" />
+              <point x="-31.5" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="2.699999999999818" y="-15.0" />
+              <point x="2325.8496281469547" y="1070.0" />
+              <point x="2428.460590269092" y="1070.0" />
+              <point x="2428.460590269092" y="270.0" />
+              <point x="3149.2453491683755" y="270.0" />
+              <point x="-37.5" y="15.0" />
+            </edge>
+            <edge source="com.alibaba:druid:jar:1.0.20" target="com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0">
+              <point x="-15.75" y="-15.0" />
+              <point x="82.47727272727298" y="770.0" />
+              <point x="52.977272727272975" y="770.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="50.416666666666515" y="-15.0" />
+              <point x="3412.9214665219965" y="770.0" />
+              <point x="3495.1203491683755" y="770.0" />
+              <point x="3495.1203491683755" y="280.0" />
+              <point x="3215.9120158350424" y="280.0" />
+              <point x="29.166666666666515" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="-29.700000000000045" y="-15.0" />
+              <point x="1680.73262987013" y="570.0" />
+              <point x="1664.231423602425" y="570.0" />
+              <point x="1664.231423602425" y="250.0" />
+              <point x="1219.6912948136214" y="250.0" />
+              <point x="63.75" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0">
+              <point x="34.0" y="-15.0" />
+              <point x="1619.731423602425" y="390.0" />
+              <point x="1381.9412948136214" y="390.0" />
+              <point x="29.5" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="1251.4412948136214" y="180.0" />
+              <point x="1372.2117965367966" y="180.0" />
+              <point x="-28.200000000000045" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:18.0">
+              <point x="49.5" y="-15.0" />
+              <point x="1759.9326298701299" y="590.0" />
+              <point x="1816.918923602425" y="590.0" />
+              <point x="1816.918923602425" y="310.0" />
+              <point x="1851.72012987013" y="310.0" />
+              <point x="8.375" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.3.8.RELEASE" target="org.springframework:spring-tx:jar:4.3.8.RELEASE">
+              <point x="33.0" y="-15.0" />
+              <point x="2701.460590269092" y="760.0" />
+              <point x="2812.9953491683755" y="760.0" />
+              <point x="-10.5" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.8.RELEASE">
+              <point x="7.090909090909008" y="-15.0" />
+              <point x="2551.5829614802883" y="1240.0" />
+              <point x="3068.5866597735117" y="1240.0" />
+              <point x="3068.5866597735117" y="880.0" />
+              <point x="2701.460590269092" y="880.0" />
+              <point x="33.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="com.alibaba:druid:jar:1.0.20">
+              <point x="-62.526315789473756" y="-15.0" />
+              <point x="2222.373312357481" y="920.0" />
+              <point x="119.22727272727298" y="920.0" />
+              <point x="21.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:18.0">
+              <point x="45.14285714285711" y="-15.0" />
+              <point x="1296.5841519564785" y="480.0" />
+              <point x="1432.9412948136214" y="480.0" />
+              <point x="1432.9412948136214" y="300.0" />
+              <point x="1834.97012987013" y="300.0" />
+              <point x="-8.375" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.24">
+              <point x="-42.5" y="-15.0" />
+              <point x="1113.4412948136214" y="180.0" />
+              <point x="1181.6617965367966" y="180.0" />
+              <point x="-9.75" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="com.website:website-pojo:jar:1.0-SNAPSHOT">
+              <point x="-2.3636363636364877" y="-15.0" />
+              <point x="2542.128416025743" y="1230.0" />
+              <point x="2323.149628146955" y="1230.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.aspectj:aspectjweaver:jar:1.8.0">
+              <point x="35.09999999999991" y="-15.0" />
+              <point x="2358.249628146955" y="1130.0" />
+              <point x="2963.556844126667" y="1130.0" />
+              <point x="2963.556844126667" y="950.0" />
+              <point x="2997.210590269092" y="950.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="org.aspectj:aspectjrt:jar:1.8.0">
+              <point x="-16.545454545454504" y="-15.0" />
+              <point x="2527.946597843925" y="1260.0" />
+              <point x="183.6181818181817" y="1260.0" />
+              <point x="183.6181818181817" y="980.0" />
+              <point x="1180.6163106051358" y="980.0" />
+              <point x="-27.33333333333337" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="com.alibaba:druid:jar:1.0.20">
+              <point x="-51.30000000000018" y="-15.0" />
+              <point x="2271.8496281469547" y="1160.0" />
+              <point x="205.17272727272712" y="1160.0" />
+              <point x="205.17272727272712" y="930.0" />
+              <point x="98.22727272727298" y="930.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE">
+              <point x="-14.5" y="-15.0" />
+              <point x="3317.1203491683755" y="490.0" />
+              <point x="3326.1203491683755" y="490.0" />
+              <point x="3326.1203491683755" y="380.0" />
+              <point x="3124.453682501709" y="380.0" />
+              <point x="45.416666666666515" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-jdbc:jar:4.3.8.RELEASE" target="org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="2668.460590269092" y="740.0" />
+              <point x="2660.8381331886635" y="740.0" />
+              <point x="2660.8381331886635" y="390.0" />
+              <point x="3033.620349168376" y="390.0" />
+              <point x="-45.416666666666515" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0">
+              <point x="-34.0" y="-15.0" />
+              <point x="1551.731423602425" y="490.0" />
+              <point x="1538.8162948136214" y="490.0" />
+              <point x="40.875" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13" target="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13/org.slf4j:slf4j-api:jar:1.7.22">
+              <point x="43.33333333333326" y="-15.0" />
+              <point x="2166.3355902690914" y="490.0" />
+              <point x="2211.418923602425" y="490.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.3">
+              <point x="-34.73684210526335" y="-15.0" />
+              <point x="2250.1627860416916" y="880.0" />
+              <point x="754.5606060606062" y="880.0" />
+              <point x="44.333333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.3">
+              <point x="-21.27272727272748" y="-15.0" />
+              <point x="2523.219325116652" y="1270.0" />
+              <point x="178.89090909090874" y="1270.0" />
+              <point x="178.89090909090874" y="970.0" />
+              <point x="665.8939393939393" y="970.0" />
+              <point x="-44.333333333333485" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE/org.slf4j:slf4j-api:jar:1.7.24">
+              <point x="-29.5" y="-15.0" />
+              <point x="1322.9412948136214" y="300.0" />
+              <point x="1262.4412948136214" y="300.0" />
+              <point x="1262.4412948136214" y="160.0" />
+              <point x="1201.1617965367966" y="160.0" />
+              <point x="9.75" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.mapstruct:mapstruct:jar:1.1.0.Final">
+              <point x="-55.875" y="-15.0" />
+              <point x="1287.5746439384693" y="760.0" />
+              <point x="1157.5908900808938" y="760.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13">
+              <point x="6.2083333333332575" y="-15.0" />
+              <point x="1349.6579772718026" y="720.0" />
+              <point x="1904.918923602425" y="720.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE">
+              <point x="-22.571428571428555" y="-15.0" />
+              <point x="1228.869866242193" y="470.0" />
+              <point x="1134.6912948136214" y="470.0" />
+              <point x="-21.25" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0">
+              <point x="-89.10000000000014" y="-15.0" />
+              <point x="1621.33262987013" y="600.0" />
+              <point x="1304.107961480288" y="600.0" />
+              <point x="52.66666666666663" y="15.0" />
+            </edge>
+            <edge source="com.fasterxml.jackson.core:jackson-databind:jar:2.9.3" target="com.fasterxml.jackson.core:jackson-databind:jar:2.9.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0">
+              <point x="-33.25" y="-15.0" />
+              <point x="676.9772727272727" y="750.0" />
+              <point x="643.8401774600004" y="750.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0/net.bytebuddy:byte-buddy:jar:1.6.14">
+              <point x="-9.833333333333258" y="-15.0" />
+              <point x="1342.6079614802882" y="290.0" />
+              <point x="1322.4412948136214" y="290.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="org.springframework:spring-tx:jar:4.3.8.RELEASE" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="-21.0" y="-15.0" />
+              <point x="2802.4953491683755" y="610.0" />
+              <point x="2817.9953491683755" y="610.0" />
+              <point x="2817.9953491683755" y="290.0" />
+              <point x="3165.9120158350424" y="290.0" />
+              <point x="-20.833333333333485" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.24">
+              <point x="31.041666666666742" y="-15.0" />
+              <point x="1374.491310605136" y="740.0" />
+              <point x="2106.0022569357584" y="740.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="org.springframework:spring-aop:jar:4.3.8.RELEASE">
+              <point x="45.90000000000009" y="-15.0" />
+              <point x="2369.049628146955" y="1150.0" />
+              <point x="3047.459387046239" y="1150.0" />
+              <point x="3047.459387046239" y="970.0" />
+              <point x="3198.6203491683755" y="970.0" />
+              <point x="3198.6203491683755" y="490.0" />
+              <point x="3196.0370158350424" y="490.0" />
+              <point x="-8.083333333333485" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="io.springfox:springfox-swagger-ui:jar:2.7.0">
+              <point x="-35.09999999999991" y="-15.0" />
+              <point x="2288.049628146955" y="1130.0" />
+              <point x="545.2272727272727" y="1130.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT" target="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT">
+              <point x="-2.699999999999818" y="-15.0" />
+              <point x="2320.449628146955" y="1070.0" />
+              <point x="2284.899628146955" y="1070.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA">
+              <point x="-23.0" y="-15.0" />
+              <point x="1020.1897569357582" y="400.0" />
+              <point x="994.0371281469547" y="400.0" />
+              <point x="0.0" y="15.0" />
+            </edge>
+            <edge source="io.springfox:springfox-swagger2:jar:2.7.0" target="io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0">
+              <point x="-18.625" y="-15.0" />
+              <point x="1324.8246439384693" y="700.0" />
+              <point x="1523.49512987013" y="700.0" />
+              <point x="1523.49512987013" y="610.0" />
+              <point x="1551.731423602425" y="610.0" />
+              <point x="-34.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="com.alibaba:fastjson:jar:1.2.47">
+              <point x="11.818181818181984" y="-15.0" />
+              <point x="2556.3102342075613" y="1250.0" />
+              <point x="3073.3139325007846" y="1250.0" />
+              <point x="3073.3139325007846" y="870.0" />
+              <point x="2802.1272569357584" y="870.0" />
+              <point x="25.666666666666742" y="15.0" />
+            </edge>
+            <edge source="com.website:website-dao:1.0-SNAPSHOT" target="io.springfox:springfox-swagger2:jar:2.7.0">
+              <point x="-11.818181818181984" y="-15.0" />
+              <point x="2532.6738705711973" y="1250.0" />
+              <point x="188.34545454545423" y="1250.0" />
+              <point x="188.34545454545423" y="990.0" />
+              <point x="1293.7829772718026" y="990.0" />
+              <point x="-49.66666666666674" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.springframework:spring-jdbc:jar:4.3.8.RELEASE">
+              <point x="34.73684210526335" y="-15.0" />
+              <point x="2319.6364702522183" y="900.0" />
+              <point x="2635.460590269092" y="900.0" />
+              <point x="-33.0" y="15.0" />
+            </edge>
+            <edge source="com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:4.3.8.RELEASE">
+              <point x="0.0" y="-15.0" />
+              <point x="2284.899628146955" y="850.0" />
+              <point x="2351.9605902690914" y="850.0" />
+              <point x="2351.9605902690914" y="260.0" />
+              <point x="3140.9120158350424" y="260.0" />
+              <point x="-45.833333333333485" y="15.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0473584394473041" x="1277.0" y="209.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/META-INF/maven/commons-logging/commons-logging/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="449" column="31" selection-start-line="449" selection-start-column="31" selection-end-line="449" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybatis-generator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-395" />
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/plugin/spring-plugin/1.2.0.RELEASE/spring-plugin-1.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="47" column="29" selection-start-line="47" selection-start-column="29" selection-end-line="47" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/ch/qos/logback/logback-classic/1.2.3/logback-classic-1.2.3.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="307" column="42" selection-start-line="307" selection-start-column="28" selection-end-line="307" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.7.0/springfox-swagger2-2.7.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/io/springfox/springfox-spring-web/2.7.0/springfox-spring-web-2.7.0.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.website:website-service:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.website:website-service:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.website:website-service:1.0-SNAPSHOT</node>
+            <node x="" y="">com.website:website-dao:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.website:website-dao:jar:1.0-SNAPSHOT/com.website:website-pojo:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.website:website-dao:jar:1.0-SNAPSHOT/com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT</node>
+            <node x="" y="">com.website:website-dao:jar:1.0-SNAPSHOT/com.website:website-pojo:jar:1.0-SNAPSHOT/com.website:website-common:jar:1.0-SNAPSHOT/joda-time:joda-time:jar:2.9.3</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.9.3</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.3</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.3.8.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.8.RELEASE/org.springframework:spring-expression:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.3.8.RELEASE</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.0.1</node>
+            <node x="" y="">org.aspectj:aspectjrt:jar:1.8.0</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.47</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.3.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.26</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.2.3</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0/net.bytebuddy:byte-buddy:jar:1.6.14</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-beans:jar:4.0.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-context:jar:4.0.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-aop:jar:4.0.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.mapstruct:mapstruct:jar:1.1.0.Final</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0</node>
+            <node x="" y="">com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.9" x="907.0" y="939.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.website:website-parent:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.website:website-parent:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.website:website-parent:1.0-SNAPSHOT</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-core:jar:2.9.3</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.3</node>
+            <node x="" y="">com.fasterxml.jackson.core:jackson-databind:jar:2.9.3/com.fasterxml.jackson.core:jackson-annotations:jar:2.9.0</node>
+            <node x="" y="">org.springframework:spring-test:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-core:jar:4.3.8.RELEASE/commons-logging:commons-logging:jar:1.2</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-aop:jar:4.3.8.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-web:jar:4.3.8.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-webmvc:jar:4.3.8.RELEASE/org.springframework:spring-expression:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-jdbc:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework:spring-tx:jar:4.3.8.RELEASE</node>
+            <node x="" y="">javax.servlet:javax.servlet-api:jar:3.0.1</node>
+            <node x="" y="">org.aspectj:aspectjrt:jar:1.8.0</node>
+            <node x="" y="">org.aspectj:aspectjweaver:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:fastjson:jar:1.2.47</node>
+            <node x="" y="">org.mybatis:mybatis:jar:3.3.0</node>
+            <node x="" y="">mysql:mysql-connector-java:jar:5.1.26</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20/com.alibaba:jconsole:jar:1.8.0</node>
+            <node x="" y="">com.alibaba:druid:jar:1.0.20/com.alibaba:tools:jar:1.8.0</node>
+            <node x="" y="">org.mybatis:mybatis-spring:jar:1.2.3</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-annotations:jar:1.5.13</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.swagger:swagger-models:jar:1.5.13/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.5</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spi:jar:2.7.0/io.springfox:springfox-core:jar:2.7.0/net.bytebuddy:byte-buddy:jar:1.6.14</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-schema:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-swagger-common:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/io.springfox:springfox-spring-web:jar:2.7.0/org.reflections:reflections:jar:0.9.11/org.javassist:javassist:jar:3.21.0-GA</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.google.guava:guava:jar:20.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.slf4j:slf4j-api:jar:1.7.7</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-beans:jar:4.0.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-context:jar:4.0.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-aop:jar:4.0.9.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.7.0/org.mapstruct:mapstruct:jar:1.1.0.Final</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.7.0</node>
+            <node x="" y="">com.github.xiaoymin:swagger-bootstrap-ui:jar:1.6</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.2.3</node>
+            <node x="" y="">ch.qos.logback:logback-classic:jar:1.2.3/ch.qos.logback:logback-core:jar:1.2.3</node>
+            <node x="" y="">junit:junit:jar:4.12</node>
+            <node x="" y="">junit:junit:jar:4.12/org.hamcrest:hamcrest-core:jar:1.3</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.6579096045197741" x="2392.0" y="543.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE.jar!/org/springframework/web/util/Log4jConfigListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/util/Log4jConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/IllegalFormatCodePointException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="38" column="13" selection-start-line="38" selection-start-column="13" selection-end-line="38" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/IllegalFormatConversionException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="21" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/springfox/springfox-swagger2/2.7.0/springfox-swagger2-2.7.0.jar!/springfox/documentation/swagger2/annotations/EnableSwagger2.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml" />
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/applicationContext.xml" />
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/config/Swagger2Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="54" selection-start-line="5" selection-start-column="54" selection-end-line="5" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/db.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/mybatisConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/dto/ProjectDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/ProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/project/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/project/vo/ProjectVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/project/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>website-platform:war exploded</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (website-platform)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31034482" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>website-common</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31034482" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.alibaba:druid:1.0.20</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.31034482" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
