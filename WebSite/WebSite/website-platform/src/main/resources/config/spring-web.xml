@@ -17,32 +17,26 @@
     <!--2、开启SpringMVC注解模式-->
     <mvc:annotation-driven/>
 
-    <!-- 3、静态资源默认servlet配置
+<!--     3、静态资源默认servlet配置
      (1)加入对静态资源的处理：js,gif,png
      (2)允许使用"/"做整体映射
 
      resources表示SpringMVC的DispatcherServlet处理/css/开头的请求时,都当做静态资源处理，将由
-     default-servlet-handler去处理
-     -->
-    <!--
-    <mvc:resources mapping="/css/**" location="/css/" />
-    <mvc:resources mapping="/js/**" location="/js/" />
+     default-servlet-handler去处理-->
+ <!--   <mvc:resources mapping="/css/**" location="/css/" />
+    <mvc:resources mapping="/js/**" location="/js/" />-->
     <mvc:default-servlet-handler/>
-    -->
-
 
 
     <!--4、定义视图解析器
 
     WEB-INF的安全性,外部地址栏不能直接访问WEB-INF下jsp,必须经过controller中转
     -->
-  <!--  <bean id="viewResolver"
+    <bean id="viewResolver"
             class="org.springframework.web.servlet.view.InternalResourceViewResolver">
-
-        <property name="prefix" value="/WEB-INF/jsp/"/>
-        <property name="suffix" value=".jsp"/>
+        <property name="prefix" value="/WEB-INF/html/"/>
+        <property name="suffix" value=".html"/>
     </bean>
-   -->
     <!-- 配置多媒体解析器 -->
     <!-- 定义文件上传解析器 -->
     <!-- <bean id="multipartResolver"
