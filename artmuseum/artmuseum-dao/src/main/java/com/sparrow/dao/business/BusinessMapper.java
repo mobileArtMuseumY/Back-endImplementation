@@ -1,6 +1,7 @@
 package com.sparrow.dao.business;
 
 import com.sparrow.model.Business;
+import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
 import java.util.List;

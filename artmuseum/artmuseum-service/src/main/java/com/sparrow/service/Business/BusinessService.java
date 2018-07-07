@@ -19,7 +19,7 @@ public class BusinessService {
     private PasswordEncoder passwordEncoder;
 
     @Autowired
-    private BusinessMapper businessMapper ;
+    private BusinessMapper businessMapper;
 
     public ServerResponse save(Business business){
         if (!isIDCard(business.getRepresentationIdcard())){
@@ -34,6 +34,7 @@ public class BusinessService {
         business.setGmtCreate(new Date());
         business.setIsVerified((byte) 0);
         String password = business.getPassword();
+        System.out.println(passwordEncoder.encode(password).length());
         business.setPassword(passwordEncoder.encode(password));
         businessMapper.insert(business);
         return new ServerResponse("200","ok",null);

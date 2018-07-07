@@ -11,11 +11,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/business")
 public class BusinessController {
+
     @Autowired
     private BusinessService businessService;
 
     @RequestMapping(value = "/register", method=RequestMethod.POST)
     public ServerResponse register(Business business){
+        System.out.print(businessService);
         return businessService.save(business);
     }
 

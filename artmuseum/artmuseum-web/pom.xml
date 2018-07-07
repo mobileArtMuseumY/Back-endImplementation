@@ -35,6 +35,11 @@
 			<artifactId>artmuseum-service</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+		<dependency>
+			<groupId>com.sparrow</groupId>
+			<artifactId>artmuseum-common</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 
 	<build>
