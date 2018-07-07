@@ -36,7 +36,7 @@ public class BusinessControllerTest {
                 .contentType(MediaType.APPLICATION_JSON_UTF8)
                 .param("businessName","阿里")
                 .param("representationName","马云")
-                .param("representationIdcard","342222199209052814")
+                .param("representationIdcard","34222212341111111")//换成真正的身份证号
                 .param("email","ali@aliyun.com")
                 .param("password","123456")
                 .param("tel"," 010-87655210 "))
