@@ -1,8 +1,14 @@
 package com.website.common;
 
+/**
+ * @program: WebSite
+ * @description: 获取path工具类
+ * @author: smallsoup
+ * @create: 2018-06-30 19:58
+ **/
 public class PathUtils {
 
-    private static String separator = System.getProperty("file.separator");
+    public static String separator = System.getProperty("file.separator");
 
     public static String getImageBasePath(){
 
@@ -23,7 +29,7 @@ public class PathUtils {
         return basePath;
     }
 
-    public static String getShopImagePath(long shopId){
+    public static String getImagePath(long shopId){
 
         String path = "D:/tmp/dev/upload/dev/" + shopId + "/";
 

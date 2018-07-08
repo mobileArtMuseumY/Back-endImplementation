@@ -9,7 +9,7 @@ import java.util.Random;
 public class IDUtils {
 
     //随机生成ProjectID
-    public static long getProjectId() {
+    public static long generateId() {
         //取当前时间的长整形值包含毫秒
         long millis = System.currentTimeMillis();
         //long millis = System.nanoTime();
@@ -21,6 +21,4 @@ public class IDUtils {
         long id = new Long(str);
         return id;
     }
-
-
 }

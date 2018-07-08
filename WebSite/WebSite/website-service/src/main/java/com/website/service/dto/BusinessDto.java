@@ -1,17 +1,19 @@
-package com.website.controller.vo;
+package com.website.service.dto;
 
-import com.website.service.dto.BusinessDto;
+import com.website.common.IDUtils;
+import com.website.po.Business;
 
 import java.io.File;
+import java.util.Date;
 
 /**
  * @program: WebSite
- * @description: 企业VO类
+ * @description: 企业data tansfer obj
  * @author: smallsoup
- * @create: 2018-07-05 20:04
+ * @create: 2018-07-07 19:18
  **/
 
-public class BusinessVo {
+public class BusinessDto {
 
     private String hashedPwd;
 
@@ -29,21 +31,43 @@ public class BusinessVo {
 
     private String introduction;
 
-    public BusinessDto convertBusinessDto(File businessLicenseImg) {
+    private File licenseImg;
 
-        BusinessDto businessDto = new BusinessDto();
 
-        businessDto.setAvatar(this.getAvatar());
-        businessDto.setBusinessName(this.getBusinessName());
-        businessDto.setEmail(this.getEmail());
-        businessDto.setHashedPwd(this.getHashedPwd());
-        businessDto.setIntroduction(this.getIntroduction());
-        businessDto.setRepresentationIdcard(this.getRepresentationIdcard());
-        businessDto.setRepresentationName(this.getRepresentationName());
-        businessDto.setTel(this.getTel());
-        businessDto.setLicenseImg(businessLicenseImg);
+    public BusinessDto() {
+    }
 
-        return businessDto;
+    public Business convertBusiness(){
+
+        Business business = new Business();
+
+        business.setAvatar(this.avatar);
+        business.setBusinessName(this.businessName);
+        business.setEmail(this.email);
+        business.setFollowerCount(1);
+        business.setGmtCreate(new Date());
+        business.setGmtModified(new Date());
+        business.setHashedPwd(this.getHashedPwd());
+        business.setId(IDUtils.generateId());
+        business.setIntroduction(this.introduction);
+        business.setIsVerified(new Byte("1"));
+        business.setLoginTime(new Date());
+
+        business.setRepresentationIdcard(this.getRepresentationIdcard());
+        business.setRepresentationName(this.getRepresentationName());
+
+        business.setTel(this.tel);
+        business.setSalt("salteeeeee");
+
+        return business;
+    }
+
+    public File getLicenseImg() {
+        return licenseImg;
+    }
+
+    public void setLicenseImg(File licenseImg) {
+        this.licenseImg = licenseImg;
     }
 
     public String getHashedPwd() {
@@ -108,20 +132,5 @@ public class BusinessVo {
 
     public void setIntroduction(String introduction) {
         this.introduction = introduction;
-    }
-
-    @Override
-    public String toString() {
-        final StringBuilder sb = new StringBuilder("BusinessVo{");
-        sb.append("hashedPwd='").append(hashedPwd).append('\'');
-        sb.append(", avatar='").append(avatar).append('\'');
-        sb.append(", businessName='").append(businessName).append('\'');
-        sb.append(", representationName='").append(representationName).append('\'');
-        sb.append(", representationIdcard='").append(representationIdcard).append('\'');
-        sb.append(", email='").append(email).append('\'');
-        sb.append(", tel='").append(tel).append('\'');
-        sb.append(", introduction='").append(introduction).append('\'');
-        sb.append('}');
-        return sb.toString();
     }
 }

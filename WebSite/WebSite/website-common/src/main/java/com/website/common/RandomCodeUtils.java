@@ -8,7 +8,6 @@ import java.util.Random;
  * @author: smallsoup
  * @create: 2018-06-30 19:58
  **/
-
 public final class RandomCodeUtils {
 
     /**

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.website.dao.EmailActivationMapper" >
+  <resultMap id="BaseResultMap" type="com.website.po.EmailActivation" >
+    <constructor >
+      <idArg column="id" jdbcType="BIGINT" javaType="java.lang.Long" />
+      <arg column="email" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="state" jdbcType="TINYINT" javaType="java.lang.Byte" />
+      <arg column="token" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="token_expried_time" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="gmt_registered" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+      <arg column="gmt_activated" jdbcType="TIMESTAMP" javaType="java.util.Date" />
+    </constructor>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, email, state, token, token_expried_time, gmt_registered, gmt_activated
+  </sql>
+  <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from email_activation
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+
+  <select id="selectCountByParams" resultType="java.lang.Integer" parameterType="java.util.Map">
+    select count(*)
+    from email_activation
+    <where>
+      1 = 1
+      <foreach collection="params" index="key" item="item" open="" close="">
+        <if test="key == 'email' and item !=null and item !=''">
+
+          and email = #{params.${key}}
+
+        </if>
+      </foreach>
+    </where>
+  </select>
+
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
+    delete from email_activation
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.website.po.EmailActivation" >
+    insert into email_activation (id, email, state, 
+      token, token_expried_time, gmt_registered, 
+      gmt_activated)
+    values (#{id,jdbcType=BIGINT}, #{email,jdbcType=VARCHAR}, #{state,jdbcType=TINYINT}, 
+      #{token,jdbcType=VARCHAR}, #{tokenExpriedTime,jdbcType=TIMESTAMP}, #{gmtRegistered,jdbcType=TIMESTAMP}, 
+      #{gmtActivated,jdbcType=TIMESTAMP})
+  </insert>
+  <insert id="insertSelective" parameterType="com.website.po.EmailActivation" >
+    insert into email_activation
+    <trim prefix="(" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        id,
+      </if>
+      <if test="email != null" >
+        email,
+      </if>
+      <if test="state != null" >
+        state,
+      </if>
+      <if test="token != null" >
+        token,
+      </if>
+      <if test="tokenExpriedTime != null" >
+        token_expried_time,
+      </if>
+      <if test="gmtRegistered != null" >
+        gmt_registered,
+      </if>
+      <if test="gmtActivated != null" >
+        gmt_activated,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides="," >
+      <if test="id != null" >
+        #{id,jdbcType=BIGINT},
+      </if>
+      <if test="email != null" >
+        #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null" >
+        #{state,jdbcType=TINYINT},
+      </if>
+      <if test="token != null" >
+        #{token,jdbcType=VARCHAR},
+      </if>
+      <if test="tokenExpriedTime != null" >
+        #{tokenExpriedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtRegistered != null" >
+        #{gmtRegistered,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtActivated != null" >
+        #{gmtActivated,jdbcType=TIMESTAMP},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.website.po.EmailActivation" >
+    update email_activation
+    <set >
+      <if test="email != null" >
+        email = #{email,jdbcType=VARCHAR},
+      </if>
+      <if test="state != null" >
+        state = #{state,jdbcType=TINYINT},
+      </if>
+      <if test="token != null" >
+        token = #{token,jdbcType=VARCHAR},
+      </if>
+      <if test="tokenExpriedTime != null" >
+        token_expried_time = #{tokenExpriedTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtRegistered != null" >
+        gmt_registered = #{gmtRegistered,jdbcType=TIMESTAMP},
+      </if>
+      <if test="gmtActivated != null" >
+        gmt_activated = #{gmtActivated,jdbcType=TIMESTAMP},
+      </if>
+    </set>
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.website.po.EmailActivation" >
+    update email_activation
+    set email = #{email,jdbcType=VARCHAR},
+      state = #{state,jdbcType=TINYINT},
+      token = #{token,jdbcType=VARCHAR},
+      token_expried_time = #{tokenExpriedTime,jdbcType=TIMESTAMP},
+      gmt_registered = #{gmtRegistered,jdbcType=TIMESTAMP},
+      gmt_activated = #{gmtActivated,jdbcType=TIMESTAMP}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+</mapper>

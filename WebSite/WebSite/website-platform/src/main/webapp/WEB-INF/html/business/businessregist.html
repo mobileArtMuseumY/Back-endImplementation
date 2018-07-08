@@ -132,9 +132,32 @@
                     <li class="align-top">
                         <div class="item-content">
                             <div class="item-inner">
-                                <div class="item-title label">Textarea</div>
+                                <div class="item-title label">企业介绍</div>
                                 <div class="item-input">
                                     <textarea id="business_introduce" placeholder="企业介绍"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--营业执照-->
+                    <li class="align-top">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">营业执照</div>
+                                <div class="item-input">
+                                    <input type="file" id="business_license"/>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!--验证码-->
+                    <li class="align-top">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">验证码</div>
+                                <input type="text" id="j_captcha" placeholder="验证码">
+                                <div class="item-input">
+                                    <img id="captcha_img" alt="点击更换" title="点击更换" src="../Kaptcha"/>
                                 </div>
                             </div>
                         </div>
@@ -144,7 +167,8 @@
             <div class="content-block">
                 <div class="row">
                     <div class="col-50"><a href="#" class="button button-big button-fill button-danger">取消</a></div>
-                    <div class="col-50"><a href="#" class="button button-big button-fill button-success" id="business_reg_submit">提交</a></div>
+                    <div class="col-50"><a href="#" class="button button-big button-fill button-success"
+                                           id="business_reg_submit">提交</a></div>
                 </div>
             </div>
         </div>
@@ -154,9 +178,9 @@
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
-<script type="text/javascript" src="../resources/js/business/businessregist.js" charset='utf-8'>
+<script type="text/javascript" src="../resources/js/business/businessregist.js" charset='utf-8'></script>
+<script type="text/javascript" src="../resources/js/common/common.js" charset='utf-8'></script>
 
-</script>
 </body>
 <!--参考-->
 <!--https://blog.csdn.net/jdjdndhj/article/details/54907891-->

@@ -39,8 +39,8 @@
             <artifactId>qcloudsms</artifactId>
             <version>1.0.4</version>
         </dependency>
-             
-              <dependency>
+
+        <dependency>
             <groupId>net.coobird</groupId>
             <artifactId>thumbnailator</artifactId>
         </dependency>

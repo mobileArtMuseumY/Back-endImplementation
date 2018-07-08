@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>SUI Mobile Demo</title>
+    <title>项目信息</title>
     <meta name="description" content="MSUI: Build mobile apps with simple HTML, CSS, and JS components.">
     <meta name="author" content="阿里巴巴国际UED前端">
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -13,11 +14,8 @@
     <meta name="format-detection" content="telephone=no">
 
     <!-- Google Web Fonts -->
-
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm.min.css">
     <link rel="stylesheet" href="//g.alicdn.com/msui/sm/0.6.2/css/sm-extend.min.css">
-
-    <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon-114x114.png">
 
     <script>
         //ga
@@ -41,7 +39,7 @@
                 <span class="icon icon-left"></span>
                 返回
             </a>
-            <h1 class="title">表单</h1>
+            <h1 class="title">项目信息</h1>
         </header>
         <div class="content">
             <div class="list-block">
@@ -50,9 +48,9 @@
                     <li>
                         <div class="item-content">
                             <div class="item-inner">
-                                <div class="item-title label">Name</div>
+                                <div class="item-title label">项目名称</div>
                                 <div class="item-input">
-                                    <input type="text" placeholder="Your name">
+                                    <input type="text" id="project_name" placeholder="项目名称">
                                 </div>
                             </div>
                         </div>
@@ -60,9 +58,9 @@
                     <li>
                         <div class="item-content">
                             <div class="item-inner">
-                                <div class="item-title label">E-mail</div>
+                                <div class="item-title label">项目持续时间</div>
                                 <div class="item-input">
-                                    <input type="email" placeholder="E-mail">
+                                    <input type="text" id="tender_period" placeholder="？天">
                                 </div>
                             </div>
                         </div>
@@ -70,9 +68,9 @@
                     <li>
                         <div class="item-content">
                             <div class="item-inner">
-                                <div class="item-title label">Password</div>
+                                <div class="item-title label">项目预算价格</div>
                                 <div class="item-input">
-                                    <input type="password" placeholder="Password" class="">
+                                    <input type="text" id="budget" placeholder="价格">
                                 </div>
                             </div>
                         </div>
@@ -80,66 +78,72 @@
                     <li>
                         <div class="item-content">
                             <div class="item-inner">
-                                <div class="item-title label">Gender</div>
+                                <div class="item-title label">期望多少天完成</div>
                                 <div class="item-input">
-                                    <select>
-                                        <option>Male</option>
-                                        <option>Female</option>
-                                    </select>
+                                    <input type="email" id="expected_time" placeholder="？天">
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <!-- Date -->
                     <li>
                         <div class="item-content">
                             <div class="item-inner">
-                                <div class="item-title label">Birth date</div>
+                                <div class="item-title label">需要具备的能力</div>
                                 <div class="item-input">
-                                    <input type="date" placeholder="Birth day" value="2014-04-30">
+                                    <input type="text" id="skills" value="1" disabled="true">
                                 </div>
+                                <!--<select multiple data-am-selected>
+                                    <option value="a">Apple</option>
+                                    <option value="b">Banana</option>
+                                    <option value="o">Orange</option>
+                                    <option value="m">Mango</option>
+                                </select>-->
                             </div>
                         </div>
                     </li>
-                    <!-- Switch (Checkbox) -->
-                    <li>
-                        <div class="item-content">
-                            <div class="item-inner">
-                                <div class="item-title label">Switch</div>
-                                <div class="item-input">
-                                    <label class="label-switch">
-                                        <input type="checkbox">
-                                        <div class="checkbox"></div>
-                                    </label>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
+                    <!--上传附件-->
                     <li class="align-top">
                         <div class="item-content">
                             <div class="item-inner">
-                                <div class="item-title label">Textarea</div>
+                                <div class="item-title label">附件</div>
                                 <div class="item-input">
-                                    <textarea></textarea>
+                                    <input type="file" id="project_attachment"/>
                                 </div>
                             </div>
                         </div>
                     </li>
+
+                    <li class="align-top">
+                        <div class="item-content">
+                            <div class="item-inner">
+                                <div class="item-title label">项目描述</div>
+                                <div class="item-input">
+                                    <textarea id="project_description" placeholder="项目描述"></textarea>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
                 </ul>
             </div>
             <div class="content-block">
                 <div class="row">
                     <div class="col-50"><a href="#" class="button button-big button-fill button-danger">取消</a></div>
-                    <div class="col-50"><a href="#" class="button button-big button-fill button-success">提交</a></div>
+                    <div class="col-50"><a href="#" class="button button-big button-fill button-success"
+                                           id="project_add_submit">提交</a></div>
                 </div>
             </div>
         </div>
     </div>
 
 </div>
+
 <script type='text/javascript' src='//g.alicdn.com/sj/lib/zepto/zepto.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm.min.js' charset='utf-8'></script>
 <script type='text/javascript' src='//g.alicdn.com/msui/sm/0.6.2/js/sm-extend.min.js' charset='utf-8'></script>
+<script type="text/javascript" src="../resources/js/project/project.js" charset='utf-8'></script>
+
+
 </body>
 <!--参考-->
 <!--https://blog.csdn.net/jdjdndhj/article/details/54907891-->

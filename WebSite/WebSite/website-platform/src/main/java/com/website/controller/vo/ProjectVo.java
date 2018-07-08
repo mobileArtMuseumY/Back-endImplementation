@@ -2,6 +2,9 @@ package com.website.controller.vo;
 
 import com.website.service.dto.ProjectDto;
 
+import java.io.InputStream;
+import java.util.HashMap;
+
 public class ProjectVo {
 
     private String projectName;
@@ -13,7 +16,7 @@ public class ProjectVo {
 
     private String expectedTime;
 
-    private String attachmentList;
+    private HashMap<InputStream, String> attachmentsMap;
 
     private String skillList;
 
@@ -22,7 +25,7 @@ public class ProjectVo {
 
     public ProjectVo(ProjectDto projectDto) {
 
-        this.setAttachmentList(projectDto.getAttachmentList());
+        this.setAttachmentsMap(projectDto.getAttachmentsMap());
         this.setBudget(projectDto.getBudget());
         this.setExpectedTime(projectDto.getExpectedTime());
         this.setProjectDescription(projectDto.getProjectDescription());
@@ -37,7 +40,7 @@ public class ProjectVo {
 
         projectDto.setTenderPeriod(this.tenderPeriod);
         projectDto.setSkillList(this.skillList);
-        projectDto.setAttachmentList(this.attachmentList);
+        projectDto.setAttachmentsMap(this.attachmentsMap);
         projectDto.setBudget(this.budget);
         projectDto.setProjectDescription(this.projectDescription);
         projectDto.setExpectedTime(this.expectedTime);
@@ -87,12 +90,12 @@ public class ProjectVo {
         this.expectedTime = expectedTime;
     }
 
-    public String getAttachmentList() {
-        return attachmentList;
+    public HashMap<InputStream, String> getAttachmentsMap() {
+        return attachmentsMap;
     }
 
-    public void setAttachmentList(String attachmentList) {
-        this.attachmentList = attachmentList;
+    public void setAttachmentsMap(HashMap<InputStream, String> attachmentsMap) {
+        this.attachmentsMap = attachmentsMap;
     }
 
     public String getSkillList() {
@@ -111,7 +114,7 @@ public class ProjectVo {
         sb.append(", tenderPeriod='").append(tenderPeriod).append('\'');
         sb.append(", budget='").append(budget).append('\'');
         sb.append(", expectedTime='").append(expectedTime).append('\'');
-        sb.append(", attachmentList='").append(attachmentList).append('\'');
+        sb.append(", attachmentsMap=").append(attachmentsMap);
         sb.append(", skillList='").append(skillList).append('\'');
         sb.append('}');
         return sb.toString();

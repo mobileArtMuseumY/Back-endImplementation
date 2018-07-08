@@ -26,6 +26,8 @@ public interface EmailService {
 
     void sendMailSimple(String to, String subject, String htmlText) throws Exception;
 
+    void sendMailHtml(String to, String subject, String htmlText) throws Exception;
+
 
     class MailModel {
 

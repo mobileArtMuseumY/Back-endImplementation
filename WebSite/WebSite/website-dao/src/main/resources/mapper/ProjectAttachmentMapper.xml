@@ -33,6 +33,22 @@
       #{attachmentSize,jdbcType=DECIMAL}, #{projectId,jdbcType=BIGINT}, #{gmtCreate,jdbcType=TIMESTAMP}, 
       #{gmtModified,jdbcType=TIMESTAMP})
   </insert>
+
+
+  <insert id="insertBatch" parameterType="com.website.po.ProjectAttachment" >
+    insert into project_attachment (id, attachment_name, attachment_path,
+      attachment_size, project_id, gmt_create,
+      gmt_modified)
+
+    <foreach collection ="records" item="record" index= "index" separator =",">
+      values (#{record.id,jdbcType=BIGINT}, #{record.attachmentName,jdbcType=VARCHAR}, #{record.attachmentPath,jdbcType=VARCHAR},
+      #{record.attachmentSize,jdbcType=DECIMAL}, #{record.projectId,jdbcType=BIGINT}, #{record.gmtCreate,jdbcType=TIMESTAMP},
+      #{record.gmtModified,jdbcType=TIMESTAMP})
+    </foreach>
+  </insert>
+
+
+
   <insert id="insertSelective" parameterType="com.website.po.ProjectAttachment" >
     insert into project_attachment
     <trim prefix="(" suffix=")" suffixOverrides="," >

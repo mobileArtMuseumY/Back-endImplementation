@@ -59,14 +59,14 @@ public class SendMsgUtils {
      * @throws HTTPException  http status exception
      * @throws IOException    network problem
      */
-    public static void sendMsgByTxPlatform(String phone) throws Exception {
+    public static void sendMsgByTxPlatform(String phone, String code) throws Exception {
 
         // 短信应用SDK AppID
         // 1400开头
-        int appId = 140012548;
+        int appId = 1400106548;
 
         // 短信应用SDK AppKey
-        String appKey = "b67d0bf78122159ca561953532";
+        String appKey = "b67d0bf7876c1d4581b59ca561953532";
 
         // 需要发送短信的手机号码
 //        String[] phoneNumbers = {"15201011830"};
@@ -83,7 +83,7 @@ public class SendMsgUtils {
         //第一个参数0表示普通短信,1表示营销短信
         SmsSingleSenderResult result = sSender.send(0, "86",
                 phone,
-                RandomCodeUtils.getSixValidationCode() + "为您的登录验证码，请于" + 10 + "分钟内填写。如非本人操作，请忽略本短信。", "", "");
+                code + "为您的登录验证码，请于" + 10 + "分钟内填写。如非本人操作，请忽略本短信。", "", "");
 
         if (result.result != 0) {
             throw new Exception("send phone validateCode is error" + result.errMsg);

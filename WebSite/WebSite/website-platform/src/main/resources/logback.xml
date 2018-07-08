@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
-<configuration debug="false">
-    <appender name="INFO-FILE"
+<configuration scan="true" scanPeriod="60 seconds" debug="true">
+
+    <property name="log.level" value="DEBUG"/>
+
+    <appender name="logAppender"
               class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>${catalina.base}/webapps/logs/info/info.log</file>
+        <file>${catalina.base}/webapps/logs/root.log</file>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${catalina.base}/webapps/logs/info/info.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
+            <fileNamePattern>${catalina.base}/webapps/logs/root.%d{yyyy-MM-dd}.%i.log.zip</fileNamePattern>
             <timeBasedFileNamingAndTriggeringPolicy
                     class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
                 <maxFileSize>1024MB</maxFileSize>
@@ -17,30 +20,20 @@
             </pattern>
         </layout>
     </appender>
-    <appender name="ACCESS-FILE"
-              class="ch.qos.logback.core.rolling.RollingFileAppender">
-        <file>
-            ${catalina.base}/webapps/logs/access/access.log
-        </file>
-        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <FileNamePattern>${catalina.base}/webapps/logs/access/access.%d{yyyy-MM-dd}.%i.log.zip
-            </FileNamePattern>
-            <timeBasedFileNamingAndTriggeringPolicy
-                    class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP">
-                <maxFileSize>1024MB</maxFileSize>
-            </timeBasedFileNamingAndTriggeringPolicy>
-            <maxHistory>30</maxHistory>
-        </rollingPolicy>
+
+    <appender name="consoleAppender"
+              class="ch.qos.logback.core.ConsoleAppender">
         <layout class="ch.qos.logback.classic.PatternLayout">
             <pattern>%d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %-5level %logger{55} -
                 %msg%n
             </pattern>
         </layout>
     </appender>
-    <logger name="com.website" level="DEBUG" additivity="true">
-        <appender-ref ref="ACCESS-FILE"/>
+
+    <logger name="com.website" level="${log.level}" additivity="true">
+        <appender-ref ref="logAppender"/>
     </logger>
-    <root level="INFO">
-        <appender-ref ref="INFO-FILE"/>
+    <root level="debug">
+        <appender-ref ref="consoleAppender"/>
     </root>
 </configuration>

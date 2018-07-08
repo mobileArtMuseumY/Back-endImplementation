@@ -6,6 +6,12 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.http.HttpServletRequest;
 
+/**
+ * @program: artmuseum
+ * @description: HttpServletRequest根据K获取V工具类
+ * @author: smallsoup
+ * @create: 2018-06-25 16:48
+ **/
 public class HttpServletRequestUtils {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HttpServletRequestUtils.class);

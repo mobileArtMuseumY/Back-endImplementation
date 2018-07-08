@@ -53,7 +53,32 @@ public class EmailServiceImpl implements EmailService {
             //发送
             javaMailSender.send(simpleMailMessage);
 
-            emailManage();
+//            emailManage();
+
+        } catch (Exception e) {
+            throw new MessagingException("failed to send mail!", e);
+        }
+    }
+
+    @Override
+    public void sendMailHtml(String to, String subject, String content) throws Exception {
+
+        //建立邮件消息,发送简单邮件和html邮件的区别
+        MimeMessage mailMessage = javaMailSender.createMimeMessage();
+        MimeMessageHelper messageHelper = new MimeMessageHelper(mailMessage);
+
+        try {
+            messageHelper.setFrom(simpleMailMessage.getFrom());
+            //用于接收邮件的邮箱
+            messageHelper.setTo(to);
+            //邮件的主题
+            messageHelper.setSubject(subject);
+            //邮件的正文，第二个boolean类型的参数代表html格式
+            messageHelper.setText(content,true);
+
+            LOGGER.info("----------sendMailHtml-----------------");
+            //发送
+            javaMailSender.send(mailMessage);
 
         } catch (Exception e) {
             throw new MessagingException("failed to send mail!", e);

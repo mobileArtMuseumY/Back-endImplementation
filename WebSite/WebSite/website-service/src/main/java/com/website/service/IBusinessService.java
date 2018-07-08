@@ -1,5 +1,7 @@
 package com.website.service;
 
+import com.website.service.dto.BusinessDto;
+
 /**
  * @program: WebSite
  * @description: 企业业务逻辑处理接口
@@ -9,5 +11,8 @@ package com.website.service;
 
 public interface IBusinessService {
 
-    void regist( String account) throws Exception;
+    int regist(BusinessDto businessDto) throws Exception;
+    String sendVerifyCode(String account) throws Exception;
+
+    void emailActivate(String id, String token) throws Exception;
 }

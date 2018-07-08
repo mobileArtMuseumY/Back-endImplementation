@@ -12,6 +12,12 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * @program: WebSite
+ * @description: 处理图像工具类
+ * @author: smallsoup
+ * @create: 2018-06-30 19:58
+ **/
 public class ImageUtils {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(ImageUtils.class);
@@ -55,9 +61,12 @@ public class ImageUtils {
      * 那么创建时会将home、dev、upload都会创建出来
      * @param relativeAddr
      */
-    private static void makePathDir(String relativeAddr) {
+    public static String makePathDir(String relativeAddr) {
 
         String realFilePath = PathUtils.getImageBasePath() + relativeAddr;
+
+        //替换/为操作系统的分隔符
+        realFilePath = realFilePath.replace("/", PathUtils.separator);
 
         File file = new File(realFilePath);
 
@@ -65,6 +74,8 @@ public class ImageUtils {
         if (!file.exists()) {
             file.mkdirs();
         }
+
+        return realFilePath;
     }
 
     /**
@@ -72,7 +83,7 @@ public class ImageUtils {
      *
      * @return 文件名
      */
-    private static String getRandomFileName() {
+    public static String getRandomFileName() {
 
         final String randomNum = RandomCodeUtils.getSixValidationCode();
         final String nowTimeStr = sdf.format(new Date());
@@ -86,8 +97,18 @@ public class ImageUtils {
      * @param thumbnail
      * @return
      */
-    private static String getFileExtensionName(CommonsMultipartFile thumbnail) {
+    public static String getFileExtensionName(CommonsMultipartFile thumbnail) {
         final String fileName = thumbnail.getOriginalFilename();
+        return fileName.substring(fileName.lastIndexOf("."));
+    }
+
+    /**
+     * 获取文件的扩展名
+     *
+     * @param fileName
+     * @return
+     */
+    public static String getFileExtensionName(String fileName) {
         return fileName.substring(fileName.lastIndexOf("."));
     }
 

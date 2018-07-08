@@ -3,6 +3,7 @@ package com.website.po;
 import java.util.Date;
 
 public class BusinessAttachment {
+
     private Long id;
 
     private String attachmentName;

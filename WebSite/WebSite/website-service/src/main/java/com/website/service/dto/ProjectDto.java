@@ -3,7 +3,9 @@ package com.website.service.dto;
 import com.website.common.IDUtils;
 import com.website.po.Project;
 
+import java.io.InputStream;
 import java.sql.Date;
+import java.util.HashMap;
 
 /**
  * @program: artmuseum
@@ -24,7 +26,7 @@ public class ProjectDto {
 
     private String expectedTime;
 
-    private String attachmentList;
+    private HashMap<InputStream, String> attachmentsMap;
 
     private String skillList;
 
@@ -50,9 +52,9 @@ public class ProjectDto {
         //插入project表数据
         Project project= new Project();
         //生成主键ID
-        project.setId(IDUtils.getProjectId());
+//        project.setId(IDUtils.generateId());
         //生成项目ID
-        project.setBusinessId(IDUtils.getProjectId());
+        project.setBusinessId(IDUtils.generateId());
         project.setProjectName(this.projectName);
 
         //1为审核未通过
@@ -111,12 +113,12 @@ public class ProjectDto {
         this.expectedTime = expectedTime;
     }
 
-    public String getAttachmentList() {
-        return attachmentList;
+    public HashMap<InputStream, String> getAttachmentsMap() {
+        return attachmentsMap;
     }
 
-    public void setAttachmentList(String attachmentList) {
-        this.attachmentList = attachmentList;
+    public void setAttachmentsMap(HashMap<InputStream, String> attachmentsMap) {
+        this.attachmentsMap = attachmentsMap;
     }
 
     public String getSkillList() {
@@ -135,10 +137,9 @@ public class ProjectDto {
         sb.append(", tenderPeriod='").append(tenderPeriod).append('\'');
         sb.append(", budget='").append(budget).append('\'');
         sb.append(", expectedTime='").append(expectedTime).append('\'');
-        sb.append(", attachmentList='").append(attachmentList).append('\'');
+        sb.append(", attachmentsMap=").append(attachmentsMap);
         sb.append(", skillList='").append(skillList).append('\'');
         sb.append('}');
         return sb.toString();
     }
-
 }

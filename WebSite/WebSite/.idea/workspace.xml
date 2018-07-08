@@ -28,6 +28,9 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/WebSite$Tomcat.ic" NAME="Tomcat Coverage Results" MODIFIED="1530954765171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -44,20 +47,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/logback.xml">
+      <file leaf-file-name="project.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/resources/js/project/project.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            <state relative-caret-position="436">
+              <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
+      <file leaf-file-name="projectaddsuccess.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/project/projectaddsuccess.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="234" column="6" lean-forward="true" selection-start-line="234" selection-start-column="6" selection-end-line="241" selection-end-column="21" />
+            <state relative-caret-position="120">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="businessregist.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/resources/js/business/businessregist.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="135" column="70" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="70" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="37" column="47" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -68,9 +92,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="JavaScript File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,6 +123,11 @@
       <find>javaMailSender</find>
       <find>email.protocol</find>
       <find>convertArgsToSqlCommandParam</find>
+      <find>business_reg_submit</find>
+      <find>verifyCodeActual</find>
+      <find>mysql</find>
+      <find>logAppender</find>
+      <find>insertSelective</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -109,57 +139,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/springmvc.xml" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/db.properties" />
-        <option value="$PROJECT_DIR$/website-platform/pom.xml" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/log4j.properties" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java" />
-        <option value="$PROJECT_DIR$/../../../../reverseEngineer/src/main/resources/generator.properties" />
-        <option value="$PROJECT_DIR$/../../../../reverseEngineer/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ISkillService.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/SkillDto.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/SkillMapper.xml" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/SkillServiceImpl.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/ProjectDto.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/ISkillService.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/constant/RegexConstants.java" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/RegexUtils.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/IBusinessService.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/BusinessController.java" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/RandomCodeUtils.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-mail.xml" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/EmailService.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/BusinessMapper.xml" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/EmailServiceImpl.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/email.properties" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/HttpClientUtil.java" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/constant/Const.java" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/HttpRequestUtils.java" />
-        <option value="$PROJECT_DIR$/website-common/pom.xml" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/ISendMsgUtils.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/IBusinessService.java" />
-        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/BusinessImpl.java" />
-        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/SendMsgUtils.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-mvc.xml" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-service.xml" />
-        <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/utils/MocUtils.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java" />
-        <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/BusinessControllerTest.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessAttachmentMapper.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessMapper.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectComplaintMapper.java" />
-        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/SkillMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/StudentAttachmentMapper.java" />
         <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/StudentMapper.java" />
         <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/utils/BaseControllerTest.java" />
+        <option value="$PROJECT_DIR$/website-common/pom.xml" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/RandomCodeUtils.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/BusinessControllerTest.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/CodeVo.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/HttpServletRequestUtils.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/SendMsgUtils.java" />
         <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/resources/js/common/common.js" />
+        <option value="$PROJECT_DIR$/website-platform/pom.xml" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/resources/config/spring-web.xml" />
         <option value="$PROJECT_DIR$/website-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/BusinessDto.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/IDUtils.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/businessregist.html" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/CodeUtils.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/BusinessDto.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/BusinessVo.java" />
+        <option value="$PROJECT_DIR$/website-po/src/main/java/com/website/po/BusinessAttachment.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/PathUtils.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/ProjectVo.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/IOUtils.java" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/com/website/common/ImageUtils.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/ProjectDto.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectAttachmentMapper.xml" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/project/projectadd.html" />
         <option value="$PROJECT_DIR$/website-platform/src/main/resources/logback.xml" />
+        <option value="$PROJECT_DIR$/../../../../reverseEngineer/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/EmailActivationMapper.java" />
+        <option value="$PROJECT_DIR$/website-dao/src/main/resources/mapper/EmailActivationMapper.xml" />
+        <option value="$PROJECT_DIR$/website-common/src/main/java/MD5Util.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/IBusinessService.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/BusinessController.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/registback.html" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/EmailService.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/EmailServiceImpl.java" />
+        <option value="$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/BusinessImpl.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/registfailure.html" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/registsuccess.html" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/notifyactivate.html" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/project/projectaddsuccess.html" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ViewController.java" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/resources/js/business/businessregist.js" />
+        <option value="$PROJECT_DIR$/website-platform/src/main/webapp/resources/js/project/project.js" />
       </list>
     </option>
   </component>
@@ -216,38 +246,175 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="305" />
-    <option name="width" value="1480" />
-    <option name="height" value="1040" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="website-parent" type="462c0819:PsiDirectoryNode" />
+              <item name="website-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="website-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.slf4j:slf4j-api:1.7.25" type="70bed36:NamedLibraryElementNode" />
+              <item name="website-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="vo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="business" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-platform" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WebSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="website-po" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,37 +423,40 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../smallsoup/Back-endImplementation/WebSite/WebSite/website-platform" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2724138" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../../../smallsoup/Back-endImplementation/WebSite/WebSite/website-platform" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.website.controller" />
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-platform\src\main\resources\config" />
-      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-platform\WEB-INF" />
-      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-pojo\src\main\java\com\website\pojo" />
-      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-dao\src\main\resources\mapper" />
-      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-dao\src\main\java\com\website\dao" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.website.service" />
-      <recent name="com.website.service.dto" />
-      <recent name="com.website.common" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-dao\src\main\resources\mapper" />
       <recent name="D:\gitcode\project\Back-endImplementation\WebSite\website-platform\src\main\resources\config" />
       <recent name="D:\gitcode\project\Back-endImplementation\WebSite\website-platform\src\main\resources" />
       <recent name="D:\gitcode\project\Back-endImplementation\WebSite\website-common\src\main\resources\com.log4j" />
       <recent name="D:\ssm\testlast\WebSite\website-dao\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.website.controller" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.website.dao" />
+      <recent name="mapper" />
+      <recent name="com.website.po" />
+      <recent name="com.website.service" />
+      <recent name="com.website.service.dto" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-platform\src\main\webapp\WEB-INF\html\project" />
+      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-platform\src\main\webapp\WEB-INF\html\business" />
+      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-dao\src\main\resources\mapper" />
+      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-platform\src\main\webapp\resources\js\project" />
+      <recent name="D:\SoftwareAndProgram\program\git\111\Back-endImplementation\WebSite\WebSite\website-common\src\main\java\com\website\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -301,115 +471,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ProjectControllerTest.testGetProject">
+  <component name="RunManager" selected="Tomcat Server.Tomcat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
     </configuration>
-    <configuration name="SendMsgUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.website.common.SendMsgUtils" />
-      <module name="website-common" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.website.common.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BusinessControllerTest.testRegist" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="website-platform" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.website.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.website.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.website.controller.BusinessControllerTest" />
-      <option name="METHOD_NAME" value="testRegist" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ProjectControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="website-platform" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.website.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.website.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.website.controller.ProjectControllerTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ProjectControllerTest.testAddProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="website-platform" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.website.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.website.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.website.controller.ProjectControllerTest" />
-      <option name="METHOD_NAME" value="testAddProject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="ProjectControllerTest.testGetProject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="website-platform" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.website.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.website.controller" />
-      <option name="MAIN_CLASS_NAME" value="com.website.controller.ProjectControllerTest" />
-      <option name="METHOD_NAME" value="testGetProject" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -426,31 +493,6 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
-    </configuration>
-    <configuration name="Unnamed (1)" type="MavenRunConfiguration" factoryName="Maven">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="mybatis-generator:generate" />
-                <option value="-e" />
-              </list>
-            </option>
-            <option name="pomFileName" />
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="$PROJECT_DIR$/../../../../reverseEngineer" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
     </configuration>
     <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
@@ -499,8 +541,10 @@
       <properties />
       <listeners />
     </configuration>
-    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+    <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.8" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="website-platform:war exploded">
           <settings>
@@ -510,7 +554,6 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="Unnamed_WebSite" />
-        <option name="HTTP_PORT" value="38080" />
         <option name="JNDI_PORT" value="10991" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
@@ -573,24 +616,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.Unnamed (1)" />
       <item itemvalue="Maven.Unnamed" />
-      <item itemvalue="Tomcat Server.Unnamed" />
-      <item itemvalue="JUnit.ProjectControllerTest" />
-      <item itemvalue="JUnit.BusinessControllerTest.testRegist" />
-      <item itemvalue="Application.SendMsgUtils" />
-      <item itemvalue="JUnit.ProjectControllerTest.testGetProject" />
-      <item itemvalue="JUnit.ProjectControllerTest.testAddProject" />
+      <item itemvalue="Tomcat Server.Tomcat" />
     </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.ProjectControllerTest.testGetProject" />
-        <item itemvalue="JUnit.ProjectControllerTest.testAddProject" />
-        <item itemvalue="JUnit.BusinessControllerTest.testRegist" />
-        <item itemvalue="Application.SendMsgUtils" />
-        <item itemvalue="JUnit.ProjectControllerTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration>C:\Users\93403\AppData\Roaming\Subversion</configuration>
@@ -626,13 +654,14 @@
       <workItem from="1530410624089" duration="23567000" />
       <workItem from="1530536248085" duration="4305000" />
       <workItem from="1530605554509" duration="7164000" />
+      <workItem from="1530708954405" duration="6903000" />
+      <workItem from="1530790801767" duration="15796000" />
+      <workItem from="1530887312571" duration="5495000" />
+      <workItem from="1530933204240" duration="62377000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BusinessControllerTest_testRegist - 2018.07.03 at 16h 14m 52s.xml">
-      <configuration name="BusinessControllerTest.testRegist" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BusinessControllerTest_testRegist - 2018.07.03 at 16h 16m 03s.xml">
       <configuration name="BusinessControllerTest.testRegist" configurationId="JUnit" />
     </history-entry>
@@ -660,9 +689,12 @@
     <history-entry file="ProjectControllerTest_testGetProject - 2018.07.03 at 16h 30m 58s.xml">
       <configuration name="ProjectControllerTest.testGetProject" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BusinessControllerTest_testValidate - 2018.07.05 at 22h 29m 34s.xml">
+      <configuration name="BusinessControllerTest.testValidate" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="169162000" />
+    <option name="totallyTimeSpent" value="259733000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -675,30 +707,32 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.33981234" side_tool="true" weight="0.46153846" />
-      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.32922733" />
-      <window_info anchor="right" id="Maven Projects" order="9" weight="0.26876676" />
-      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.33981234" side_tool="true" weight="0.46153846" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.32905984" />
+      <window_info anchor="right" id="Maven Projects" order="9" sideWeight="0.4985755" weight="0.26876676" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Designer" order="2" />
       <window_info anchor="right" id="Database" order="5" weight="0.3297587" />
       <window_info id="Structure" order="1" sideWeight="0.18068965" side_tool="true" weight="0.26302084" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4985755" weight="0.25" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.3988604" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.47150996" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32905984" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32905984" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.06980057" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info id="Image Layers" order="3" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.32905984" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66018766" weight="0.3974359" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.66018766" weight="0.7934473" />
+      <window_info anchor="right" id="Coverage" sideWeight="0.5014245" side_tool="true" weight="0.26876676" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81931037" visible="true" weight="0.23324397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.81931037" visible="true" weight="0.20174263" />
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="3" sideWeight="0.49798927" weight="0.33190882" />
       <window_info anchor="right" id="Theme Preview" order="7" />
@@ -763,7 +797,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="8" />
+      <option name="time" value="13" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -771,359 +805,415 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/methods/HttpRequestBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/HttpClient.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/message/BasicNameValuePair.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207">
-          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/methods/HttpGet.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/HttpEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-24">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/methods/HttpEntityEnclosingRequestBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="22" column="30" lean-forward="true" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/config/RequestConfig.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="165" column="24" selection-start-line="165" selection-start-column="24" selection-end-line="165" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/Consts.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="19" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar!/org/apache/http/client/entity/UrlEncodedFormEntity.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="21" column="85" selection-start-line="21" selection-start-column="78" selection-end-line="21" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/nio/charset/Charset.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11472">
-          <caret line="526" column="26" selection-start-line="526" selection-start-column="26" selection-end-line="526" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/constant/Const.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="17" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/httpcomponents/httpcore/4.4.9/httpcore-4.4.9.jar!/org/apache/http/util/EntityUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="162" lean-forward="true" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/ISendMsgUtils.java" />
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/com/github/qcloudsms/qcloudsms/1.0.4/qcloudsms-1.0.4.jar!/com/github/qcloudsms/SmsSingleSender.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="31" column="33" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/com/github/qcloudsms/qcloudsms/1.0.4/qcloudsms-1.0.4-sources.jar!/com/github/qcloudsms/SmsSingleSenderResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/HttpRequestUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1670">
-          <caret line="123" column="18" selection-start-line="123" selection-start-column="12" selection-end-line="123" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/lang/Exception.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-783">
-          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/com/github/qcloudsms/qcloudsms/1.0.4/qcloudsms-1.0.4-sources.jar!/com/github/qcloudsms/SmsSingleSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1402">
-          <caret line="67" column="38" lean-forward="true" selection-start-line="67" selection-start-column="38" selection-end-line="67" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/SendMsgUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="65" column="26" selection-start-line="65" selection-start-column="26" selection-end-line="65" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="36" column="20" lean-forward="true" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/RandomCodeUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-po/src/main/java/com/website/po/Business.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/db.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-mail.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/email.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="21" column="63" selection-start-line="21" selection-start-column="63" selection-end-line="21" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE.jar!/org/springframework/test/context/web/WebAppConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/springframework/spring-test/4.3.8.RELEASE/spring-test-4.3.8.RELEASE-sources.jar!/org/springframework/test/context/web/WebAppConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/EmailServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="65" column="12" lean-forward="true" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/BusinessControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/ProjectControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-826">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessAttachmentMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="168">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java">
+    <entry file="file://$PROJECT_DIR$/website-po/src/main/java/com/website/po/BusinessAttachment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectComplaintMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/SkillMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/StudentAttachmentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/StudentMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-dao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="41" column="8" lean-forward="true" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/test/java/com/website/controller/utils/BaseControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="34" column="32" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/BusinessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="63" column="5" lean-forward="true" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/IBusinessService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/BusinessController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="34" column="36" lean-forward="true" selection-start-line="34" selection-start-column="36" selection-end-line="34" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="17" lean-forward="true" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/website-parent/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="234" column="6" lean-forward="true" selection-start-line="234" selection-start-column="6" selection-end-line="241" selection-end-column="21" />
+        <state relative-caret-position="4824">
+          <caret line="201" column="23" lean-forward="true" selection-start-line="201" selection-start-column="23" selection-end-line="201" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/apache/commons/commons-collections4/4.1/commons-collections4-4.1.jar!/org/apache/commons/collections4/ListUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <folding>
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1130#1131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/springframework/spring-core/4.3.8.RELEASE/spring-core-4.3.8.RELEASE.jar!/org/springframework/core/io/InputStreamSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/springframework/spring-web/4.3.8.RELEASE/spring-web-4.3.8.RELEASE-sources.jar!/org/springframework/web/multipart/MultipartFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="90" column="15" selection-start-line="90" selection-start-column="4" selection-end-line="90" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/com/google/guava/guava/18.0/guava-18.0.jar!/com/google/common/collect/Lists.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="50" column="35" selection-start-line="50" selection-start-column="35" selection-end-line="50" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/IProjectService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="363">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="579">
+          <caret line="35" column="24" selection-start-line="35" selection-start-column="24" selection-end-line="35" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_171/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="395" column="10" selection-start-line="395" selection-start-column="10" selection-end-line="395" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/com/website/common/ImageUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="107" column="22" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="22" />
+          <folding>
+            <element signature="e#2987#2988#0" expanded="true" />
+            <element signature="e#3055#3056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-po/src/main/java/com/website/po/ProjectAttachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/ProjectDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="50" column="19" selection-start-line="50" selection-start-column="19" selection-end-line="50" selection-end-column="19" />
+          <folding>
+            <element signature="e#3003#3004#0" expanded="true" />
+            <element signature="e#3040#3041#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/ProjectAttachmentMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/ProjectAttachmentMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/ProjectServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="77" column="9" lean-forward="true" selection-start-line="77" selection-start-column="9" selection-end-line="77" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-po/src/main/java/com/website/po/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1234">
+          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/ProjectVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/project/projectadd.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="120" column="69" selection-start-line="120" selection-start-column="50" selection-end-line="120" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4">
+          <caret line="1" column="62" selection-start-line="1" selection-start-column="62" selection-end-line="1" selection-end-column="62" />
+          <folding>
+            <element signature="n#appender#0;n#configuration#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../reverseEngineer/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2365">
+          <caret line="125" column="16" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../reverseEngineer/src/main/resources/generator.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/EmailActivationMapper.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/dto/BusinessDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/BusinessMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="20" column="73" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/BusinessMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="52" column="13" lean-forward="true" selection-start-line="34" selection-start-column="4" selection-end-line="52" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/resources/mapper/EmailActivationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="35" column="4" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-po/src/main/java/com/website/po/EmailActivation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="62">
+          <caret line="53" column="16" selection-start-line="53" selection-start-column="16" selection-end-line="53" selection-end-column="16" />
+          <folding>
+            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1135#1136#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-common/src/main/java/MD5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="14">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/org/apache/commons/codec/digest/Md5Crypt.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="8" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="39" />
+          <folding>
+            <element signature="e#1227#1228#0" expanded="true" />
+            <element signature="e#1298#1299#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/CodeVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/vo/BusinessVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/IBusinessService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/springframework/spring-context-support/4.3.8.RELEASE/spring-context-support-4.3.8.RELEASE.jar!/org/springframework/mail/MailSender.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../java/repository/org/springframework/spring-context-support/4.3.8.RELEASE/spring-context-support-4.3.8.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1814">
+          <caret line="116" column="16" selection-start-line="116" selection-start-column="16" selection-end-line="116" selection-end-column="16" />
+          <folding>
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2623#2624#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ProjectController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="100" column="44" selection-start-line="100" selection-start-column="44" selection-end-line="100" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-dao/src/main/java/com/website/dao/EmailActivationMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/spring-mail.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="15" lean-forward="true" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+          <folding>
+            <element signature="e#1370#1389#0" expanded="true" />
+            <element signature="e#1428#1443#0" expanded="true" />
+            <element signature="e#1482#1497#0" expanded="true" />
+            <element signature="e#1540#1559#0" expanded="true" />
+            <element signature="e#1602#1621#0" expanded="true" />
+            <element signature="n#prop#0;n#props#0;n#property#6;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#prop#1;n#props#0;n#property#6;n#bean#0;n#beans#0;n#!!top" expanded="true" />
+            <element signature="n#value#0;n#property#3;n#bean#1;n#beans#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/resources/config/email.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2108">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/BusinessController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="152" column="32" lean-forward="true" selection-start-line="152" selection-start-column="32" selection-end-line="152" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/EmailServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-service/src/main/java/com/website/service/impl/BusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="196" lean-forward="true" selection-start-line="196" selection-end-line="196" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/businessregist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="45" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/registfailure.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" column="7" lean-forward="true" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/registsuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/business/notifyactivate.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/WEB-INF/html/project/projectaddsuccess.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/resources/js/business/businessregist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="135" column="70" lean-forward="true" selection-start-line="135" selection-start-column="23" selection-end-line="135" selection-end-column="70" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/java/com/website/controller/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/website-platform/src/main/webapp/resources/js/project/project.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="50" column="71" selection-start-line="50" selection-start-column="71" selection-end-line="50" selection-end-column="71" />
         </state>
       </provider>
     </entry>
