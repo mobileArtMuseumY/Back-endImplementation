@@ -19,6 +19,8 @@ import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Propagation;
+import org.springframework.transaction.annotation.Transactional;
 
 import javax.annotation.Resource;
 import java.io.File;
@@ -51,6 +53,7 @@ public class BusinessImpl implements IBusinessService {
     @Resource
     private EmailService emailService;
 
+    @Transactional(propagation= Propagation.REQUIRED,rollbackFor = Exception.class)
     @Override
     public int regist(BusinessDto businessDto) throws Exception {
 
@@ -99,7 +102,6 @@ public class BusinessImpl implements IBusinessService {
             throw new Exception("邮箱入库失败");
         }
 
-
         //发送邮件
         ///邮件的内容
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
@@ -114,14 +116,13 @@ public class BusinessImpl implements IBusinessService {
         sb.append("点我哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦！</a>" + "<br/>如果以上链接无法点击，请把上面网页地址复制到浏览器地址栏中打开<br/><br/><br/>Art Museum，专注兴趣，分享创作<br/>" + sdf.format(new Date()) + "</div></div>");
 
         //发邮件
-        emailService.sendMailHtml(email, "Art Museum注册验证", sb.toString());
+//        emailService.sendMailHtml(email, "Art Museum注册验证", sb.toString());
 
         BusinessAttachment businessAttachment = convertToBusinessAttachment(businessDto.getLicenseImg());
         Business business = businessDto.convertBusiness();
 
         businessAttachment.setBusinessId(business.getId());
 
-        //todo service层加事务
         int businessAttachmentCount = businessAttachmentMapper.insert(businessAttachment);
 
         if (businessAttachmentCount != 1) {
