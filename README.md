@@ -1,6 +1,6 @@
 **项目发布完成**：
 
-简单套用了个页面，现附件只能传一个，附件可能多个还没做  
+简单套用了个页面，现在附件只能传一个        
 
 发布项目页面：http://localhost:8080/view/projectadd
 
@@ -25,7 +25,7 @@ projectAttachments：附件
 
 **企业注册完成**：
 
-简单套用了个页面，前段校验还没做
+简单套用了个页面，前端校验还没做
 
 企业注册界面：http://localhost:8080/view/businessregist
 
