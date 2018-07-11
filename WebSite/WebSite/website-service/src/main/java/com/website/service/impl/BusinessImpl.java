@@ -102,21 +102,30 @@ public class BusinessImpl implements IBusinessService {
             throw new Exception("邮箱入库失败");
         }
 
+
         //发送邮件
         ///邮件的内容
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-
+/*
 //        StringBuffer sb = new StringBuffer("<div style=\"width:660px;overflow:hidden;border-bottom:1px solid #bdbdbe;\"><div style=\"height:52px;overflow:hidden;border:1px solid #464c51;background:#353b3f url(http://www.lofter.com/rsc/img/email/hdbg.png);\"><a href=\"http://www.lofter.com?mail=qbclickbynoticemail_20120626_01\" target=\"_blank\" style=\"display:block;width:144px;height:34px;margin:10px 0 0 20px;overflow:hidden;text-indent:-2000px;background:url(http://www.lofter.com/rsc/img/email/logo.png) no-repeat;\">Art Museum</a></div>" + "<div style=\"padding:24px 20px;\">您好，" + email + "<br/><br/>Art Museum是一款\"专注兴趣、分享创作\"的平台，旨在为\"热爱记录生活、追求时尚品质、崇尚自由空间\"的你，打造一个全新而定展示平台！<br/><br/>请点击下面链接激活账号，24小时生效，否则重新注册账号，链接只能使用一次，请尽快激活！</br>");
         StringBuffer sb = new StringBuffer("请点击下面链接激活账号，24小时生效，否则重新注册账号，链接只能使用一次，请尽快激活！</br>");
-//        sb.append("<a href=\"http://18.219.28.143:8080/view/business/emailconfirm?op=activate&id=");
-        sb.append("<a href=\"http://localhost:8080/view/business/emailconfirm?op=activate&id=");
+        sb.append("<a href=\"http://18.219.28.143:8080/view/business/emailconfirm?op=activate&id=");
+//        sb.append("<a href=\"http://localhost:8080/view/business/emailconfirm?op=activate&id=");
         sb.append(id);
         sb.append("&token=");
         sb.append(token + "\">");
         sb.append("点我哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦哦！</a>" + "<br/>如果以上链接无法点击，请把上面网页地址复制到浏览器地址栏中打开<br/><br/><br/>Art Museum，专注兴趣，分享创作<br/>" + sdf.format(new Date()) + "</div></div>");
+*/
+        StringBuffer sb = new StringBuffer("你好吗");
 
+       /* StringBuffer sb = new StringBuffer("请点击下面链接激活账号，24小时生效，否则重新注册账号，链接只能使用一次，请尽快激活");
+        sb.append("http://18.219.28.143:8080/view/business/emailconfirm?op=activate&id=");
+        sb.append(id);
+        sb.append("&token=");
+        sb.append(token);
+                sb.append("点我哦！" + "如果以上链接无法点击，请把上面网页地址复制到浏览器地址栏中打开Art Museum，专注兴趣，分享创作" + sdf.format(new Date()) + "");*/
         //发邮件
-//        emailService.sendMailHtml(email, "Art Museum注册验证", sb.toString());
+        emailService.sendMailHtml(email, "Art Museum注册验证", sb.toString());
 
         BusinessAttachment businessAttachment = convertToBusinessAttachment(businessDto.getLicenseImg());
         Business business = businessDto.convertBusiness();

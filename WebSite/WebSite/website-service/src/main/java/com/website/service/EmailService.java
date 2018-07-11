@@ -22,7 +22,7 @@ public interface EmailService {
      *
      * @param mail
      */
-    boolean sendEmail(MailModel mail) throws Exception;
+    boolean sendEmailComplex(MailModel mail) throws Exception;
 
     void sendMailSimple(String to, String subject, String htmlText) throws Exception;
 

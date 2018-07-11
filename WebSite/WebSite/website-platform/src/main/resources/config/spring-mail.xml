@@ -5,13 +5,13 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.2.xsd
     http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.2.xsd">
 
-<!-- 引入属性文件 -->
+    <!-- 引入属性文件 -->
     <context:property-placeholder location="classpath:config/email.properties" ignore-unresolvable="true"/>
 
-   <!-- <bean id="local" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
-        <property name="location" value="classpath:config/email.properties" />
-        <property name="ignoreUnresolvablePlaceholders" value="true" />
-    </bean>-->
+    <!-- <bean id="local" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+         <property name="location" value="classpath:config/email.properties" />
+         <property name="ignoreUnresolvablePlaceholders" value="true" />
+     </bean>-->
     <!--
         下面列出网易的SMTP服务器名和端口号:
          网易邮箱          SMTP服务器     SMTP端口     POP3服务器       POP3端口
@@ -33,19 +33,18 @@
                 <prop key="mail.smtp.timeout">${email.timout}</prop>
             </props>
         </property>
-
     </bean>
 
     <bean id="simpleMailMessage" class="org.springframework.mail.SimpleMailMessage">
         <!-- 发件人email -->
-        <property name="from" value="${email.username}" />
-         <!--收件人email-->
-        <property name="to" value="${email.default.to}" />
+        <property name="from" value="${email.username}"/>
+        <!--收件人email-->
+        <property name="to" value="${email.default.to}"/>
         <!--email主题(标题)-->
-        <property name="subject" value="${email.default.subject}" />
+        <property name="subject" value="${email.default.subject}"/>
         <!--email主题内容-->
         <property name="text">
-          <value>${email.default.text}</value>
+            <value>${email.default.text}</value>
         </property>
     </bean>
 

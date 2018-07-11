@@ -63,10 +63,10 @@ public class SendMsgUtils {
 
         // 短信应用SDK AppID
         // 1400开头
-        int appId = 1400106548;
+        int appId = 1400548;
 
         // 短信应用SDK AppKey
-        String appKey = "b67d0bf7876c1d4581b59ca561953532";
+        String appKey = "b67d0bf7876c1d4qeqq59ca561953532";
 
         // 需要发送短信的手机号码
 //        String[] phoneNumbers = {"15201011830"};

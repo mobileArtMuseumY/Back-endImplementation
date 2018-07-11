@@ -2,6 +2,7 @@ package com.website.service.dto;
 
 import com.website.common.IDUtils;
 import com.website.po.Business;
+import org.apache.commons.codec.digest.DigestUtils;
 
 import java.io.File;
 import java.util.Date;
@@ -47,7 +48,7 @@ public class BusinessDto {
         business.setFollowerCount(1);
         business.setGmtCreate(new Date());
         business.setGmtModified(new Date());
-        business.setHashedPwd(this.getHashedPwd());
+        
         business.setId(IDUtils.generateId());
         business.setIntroduction(this.introduction);
         business.setIsVerified(new Byte("1"));
@@ -57,7 +58,15 @@ public class BusinessDto {
         business.setRepresentationName(this.getRepresentationName());
 
         business.setTel(this.tel);
-        business.setSalt("salteeeeee");
+
+        long s = IDUtils.generateId();
+        String salt = String.valueOf(s);
+
+        String password = DigestUtils.md5Hex(this.tel + salt);
+
+        business.setHashedPwd(password);
+        
+        business.setSalt(salt);
 
         return business;
     }

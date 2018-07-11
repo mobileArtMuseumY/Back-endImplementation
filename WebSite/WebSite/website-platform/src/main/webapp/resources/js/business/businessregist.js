@@ -102,7 +102,7 @@ $(function () {
         business.email = email;
         business.tel = mobile;
         business.mobileCode = mobile_code;
-        business.hashedPwd = password;
+        business.hashedPwd = md5(password);
         business.introduction = business_introduce;
 
         var business_license = $("#business_license")[0].files[0];

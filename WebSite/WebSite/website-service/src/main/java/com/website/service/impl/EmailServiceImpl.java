@@ -1,18 +1,23 @@
 package com.website.service.impl;
 
+import com.alibaba.fastjson.JSON;
 import com.website.service.EmailService;
 import org.apache.commons.lang3.ArrayUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.mail.SimpleMailMessage;
 import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.mail.javamail.MimeMessageHelper;
 
 import javax.mail.MessagingException;
 import javax.mail.internet.MimeMessage;
 import java.io.File;
+import java.io.IOException;
 import java.util.*;
 
 /**
@@ -30,6 +35,10 @@ public class EmailServiceImpl implements EmailService {
     private JavaMailSender javaMailSender;
 
     private SimpleMailMessage simpleMailMessage;
+
+    @Autowired
+    @Qualifier("javaMailSender")
+    private JavaMailSenderImpl sender;
 
     /**
      * @方法名: sendMail
@@ -60,28 +69,34 @@ public class EmailServiceImpl implements EmailService {
         }
     }
 
+
     @Override
     public void sendMailHtml(String to, String subject, String content) throws Exception {
 
-        //建立邮件消息,发送简单邮件和html邮件的区别
-        MimeMessage mailMessage = javaMailSender.createMimeMessage();
-        MimeMessageHelper messageHelper = new MimeMessageHelper(mailMessage);
-
         try {
+            //建立邮件消息,发送简单邮件和html邮件的区别
+            MimeMessage mailMessage = javaMailSender.createMimeMessage();
+            MimeMessageHelper messageHelper = new MimeMessageHelper(mailMessage);
+
+            LOGGER.info("----------simpleMailMessage is-----------------{}", JSON.toJSONString(simpleMailMessage));
+
             messageHelper.setFrom(simpleMailMessage.getFrom());
+
+            messageHelper.setCc(to);
             //用于接收邮件的邮箱
-            messageHelper.setTo(to);
+            messageHelper.setTo(simpleMailMessage.getFrom());
             //邮件的主题
             messageHelper.setSubject(subject);
             //邮件的正文，第二个boolean类型的参数代表html格式
-            messageHelper.setText(content,true);
+            messageHelper.setText(content, true);
 
             LOGGER.info("----------sendMailHtml-----------------");
+            LOGGER.info("----------mailMessage is------------FROM:{}, Subject:{}, content:{}, AllRecipients:{}", mailMessage.getFrom(), mailMessage.getSubject(), mailMessage.getContent(), JSON.toJSONString(mailMessage.getAllRecipients()));
             //发送
             javaMailSender.send(mailMessage);
 
-        } catch (Exception e) {
-            throw new MessagingException("failed to send mail!", e);
+        } catch (MessagingException | IOException e) {
+            throw new Exception("failed to send mail!", e);
         }
     }
 
@@ -105,7 +120,7 @@ public class EmailServiceImpl implements EmailService {
 
         mail.setContent(content);
 
-        return sendEmail(mail);
+        return sendEmailComplex(mail);
     }
 
     /**
@@ -116,7 +131,7 @@ public class EmailServiceImpl implements EmailService {
      * @date 2018-06-30
      */
     @Override
-    public boolean sendEmail(MailModel mail) throws Exception {
+    public boolean sendEmailComplex(MailModel mail) throws Exception {
         // 建立邮件消息
         MimeMessage message = javaMailSender.createMimeMessage();
 
@@ -229,5 +244,51 @@ public class EmailServiceImpl implements EmailService {
 
     public void setSimpleMailMessage(SimpleMailMessage simpleMailMessage) {
         this.simpleMailMessage = simpleMailMessage;
+    }
+
+    public void sendEmailByOutlook(String to, String subject, String content) throws Exception {
+
+        sender.setUsername("youremail@outlook.com");
+        sender.setPassword("yourpassword");
+        sender.setPort(587);
+
+        Properties props = new Properties();
+        props.setProperty("mail.transport.protocol", "smtp");
+        props.setProperty("mail.smtp.host", "smtp-mail.outlook.com");
+        props.setProperty("mail.smtp.starttls.enable", "true");
+        props.setProperty("mail.smtp.auth", "true");
+        props.setProperty("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
+        props.setProperty("mail.smtp.socketFactory.port", "587");
+        props.setProperty("mail.smtp.socketFactory.fallback", "true");
+        props.setProperty("mail.smtp.auth.ntlm.domain", "THING");
+
+        sender.setJavaMailProperties(props);
+
+        //建立邮件消息,发送简单邮件和html邮件的区别
+        MimeMessage mailMessage = sender.createMimeMessage();
+        MimeMessageHelper messageHelper = new MimeMessageHelper(mailMessage);
+        try {
+            messageHelper.setFrom("smallsoup@outlook.com");
+
+            //用于接收邮件的邮箱
+            messageHelper.setTo(to);
+            //邮件的主题
+
+            messageHelper.setSubject(subject);
+
+            //邮件的正文，第二个boolean类型的参数代表html格式
+
+            messageHelper.setText(content, true);
+
+
+            LOGGER.info("----------sendMailHtml-----------------");
+
+            LOGGER.info("----------mailMessage is------------FROM:{}, Subject:{}, content:{}, AllRecipients:{}", mailMessage.getFrom(), mailMessage.getSubject(), mailMessage.getContent(), JSON.toJSONString(mailMessage.getAllRecipients()));
+
+            //发送
+            sender.send(mailMessage);
+        } catch (MessagingException | IOException e) {
+            throw new Exception("failed to send mail!", e);
+        }
     }
 }

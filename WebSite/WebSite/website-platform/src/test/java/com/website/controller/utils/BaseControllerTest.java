@@ -66,6 +66,5 @@ public class BaseControllerTest {
             Assert.fail("Unsupported method!");
 
         return builder;
-
     }
 }
