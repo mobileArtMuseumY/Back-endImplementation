@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="war" name="reverseEngineer:war">
-    <output-path>$PROJECT_DIR$/../../../../reverseEngineer/target</output-path>
-    <root id="archive" name="reverseEngineer.war">
-      <element id="artifact" artifact-name="reverseEngineer:war exploded" />
-    </root>
-  </artifact>
-</component>
