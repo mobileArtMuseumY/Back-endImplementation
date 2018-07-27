@@ -1,4 +1,4 @@
-package com.sparrow.web;
+package com.sparrow;
 
 /**
  * @Description:
