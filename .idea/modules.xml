@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/artmall.iml" filepath="$PROJECT_DIR$/artmall.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmall-common/artmall-common.iml" filepath="$PROJECT_DIR$/artmall-common/artmall-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmall-domain/artmall-domain.iml" filepath="$PROJECT_DIR$/artmall-domain/artmall-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmall-manager/artmall-manager.iml" filepath="$PROJECT_DIR$/artmall-manager/artmall-manager.iml" />
+      <module fileurl="file://$PROJECT_DIR$/artmall-web/artmall-web.iml" filepath="$PROJECT_DIR$/artmall-web/artmall-web.iml" />
+    </modules>
+  </component>
+</project>

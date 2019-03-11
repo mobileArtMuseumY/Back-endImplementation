@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="artmall-common" />
+        <module name="artmall-domain" />
+        <module name="artmall-manager" />
+        <module name="artmall-web" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="artmall" target="1.8" />
+      <module name="artmall-common" target="1.8" />
+      <module name="artmall-domain" target="1.8" />
+      <module name="artmall-manager" target="1.8" />
+      <module name="artmall-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
