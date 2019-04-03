@@ -8,7 +8,7 @@ package com.artmall.response;
 public class Const {
     public static final String CURRENT_USER = "currentUser";
 
-    public static final String IP_ADDRESS="120.79.239.141:8080";
+    public static final String IP_ADDRESS="";
 
     public enum LoginType {
 
